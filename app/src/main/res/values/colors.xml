@@ -1,0 +1,11 @@
+<resources>
+
+<color name="my_spinner_text_color">#7e0202</color>
+<dimen name="my_spinner_text_size">15dp</dimen>
+
+ <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#585858</color>
+    <color name="green" >#1bb600</color>
+
+</resources>

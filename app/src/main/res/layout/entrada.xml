@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffffff">
+
+    <EditText
+        android:id="@+id/editPass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editUsuario"
+        android:layout_below="@+id/editUsuario"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="number" />
+        <!-- android:inputType="textPassword" /> -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSalir"
+        android:layout_below="@+id/btnSalir"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="178dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </LinearLayout>
+
+   <!--  <Button
+        android:id="@+id/btnUbicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btnSalir"
+        android:layout_weight="0.05"
+        android:onClick="ubica"
+        android:text="    Ubica Posición     "
+        android:background="@drawable/gradient_box"
+        android:textColor="@drawable/color"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editLatitud"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnUbicar"
+        android:layout_below="@+id/btnUbicar"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Latitud" />
+
+    <EditText
+        android:id="@+id/editDireccion"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editLongitud"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:layout_weight="1"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Dirección" />
+
+    <EditText
+        android:id="@+id/editLongitud"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editLatitud"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:layout_weight="1"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Longitud" /> -->
+
+<!--     <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editTecnico"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_weight="0.05"
+        android:background="@drawable/gradient_box"
+        android:onClick="Busca"
+        android:text="Buscar"
+        android:textColor="@drawable/color"
+        android:textSize="16sp" /> -->
+
+<!--     <Spinner
+        android:id="@+id/spinnerTecnico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBuscar"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/imageView1" /> -->
+
+    <Button
+        android:id="@+id/btnE1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editPass"
+        android:layout_alignRight="@+id/editPass"
+        android:layout_below="@+id/editPass"
+        android:layout_marginTop="31dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/gradient_box"
+        android:onClick="Sigue"
+        android:text="Continuar"
+        android:textColor="@drawable/color"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnE1"
+        android:layout_alignRight="@+id/btnE1"
+        android:layout_below="@+id/btnE1"
+        android:layout_marginTop="31dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/gradient_box"
+        android:onClick="salir"
+        android:text="Salir"
+        android:textColor="@drawable/color"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_ee" />
+
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editUsuario"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="number" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','alan','alan');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','arredondo','arredondo');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','bernachi','bernachi');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','daniel','daniel');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','eduardo s','eduardo s');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','enrique','enrique');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','iris','iris');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','lujano','lujano');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','oscar','oscar');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','polanco','polanco');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','saul','saul');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','tabla','tabla');
+INSERT INTO datos (seccion, distrito, municipio, delegacion, equipo, coordinador) VALUES ('1','1','1','CDMX','hugo','hugo');

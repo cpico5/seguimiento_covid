@@ -1,0 +1,1521 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/estadisticas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="Salir"
+    tools:context=".MainActivityP" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/layEconomicos"
+            android:layout_width="match_parent"
+            android:layout_height="1075dp"
+            android:orientation="vertical" >
+
+            <!-- ////////////ESTADISTICA//////////////////////////////////////////////////////// -->
+
+            <LinearLayout
+                android:id="@+id/laySocioE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaE1N2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CARACTERISTICAS SOCIOECONÓMICAS"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ///////////////////////////////// -->
+
+            <LinearLayout
+                android:id="@+id/layEst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaEST"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAEST"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ///////////////////////////////// -->
+
+            <LinearLayout
+                android:id="@+id/layHijos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaHijos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAHIJOS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaHijos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Si"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="No"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layAporta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaAporta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAAPORTA"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaAporta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="No completó primaria"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Primaria o Secundaria"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Preparatoria o carrera técnica"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Licenciatura"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Posgrado"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layOcupacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaOcupacion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAOCUPACION"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaOcupacion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Hogar"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Estudiante"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Profesionista"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Empleado"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Obrero / oficio"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Comerciante"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Jubilado"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Otro"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Desempleado"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ///////////////////////////////// -->
+
+            <LinearLayout
+                android:id="@+id/laycoche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaCoche"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTACOCHE"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaCoche"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Si"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="No"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+            /////////////////////////////////
+            /////////////////////////////////
+
+            <LinearLayout
+                android:id="@+id/layCuantosCoches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaCuantosCoches"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTACUANTOSCOCHES"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaCuantosCoches"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Ninguno"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Uno"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Dos"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Tres"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Cuatro o más"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ///////////////////////////////// -->
+
+            <LinearLayout
+                android:id="@+id/layCuartos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaCuartos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTACUARTOS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaCuartos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="1"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="2"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="3"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="4"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="5"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="6"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="7"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="8"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="9"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="10"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ///////////////////////////////// -->
+
+            <LinearLayout
+                android:id="@+id/layCuartosDormir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaCuartos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTACUARTOSDORMIR"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaCuartosDormir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="1"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="2"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="3"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="4"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="5"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="6"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="7"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="8"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="9"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="10"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ///////////////////////////////// -->
+
+            <LinearLayout
+                android:id="@+id/layFocos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaFocos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAFOCOS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaFocos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="0 a 5"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="6 a 10"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="11 a 15"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="16 o 20"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="21 o más"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ///////////////////////////////// -->
+
+
+            <!-- ///////////////////////////////// -->
+
+            <LinearLayout
+                android:id="@+id/layBanos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaBanos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTABANOS"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaBanos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Ninguno"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Uno"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Dos o Tres"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Cuatro o más"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layRegadera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaRegadera"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAREGADERA"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaRegadera"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/si"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/no"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layInternet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaInternet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAINTERNET"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaInternet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/si"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/no"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layTrabajaron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaTrabajaron"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTATRABAJARON"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaTrabajaron"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Ninguno"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Uno"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Dos"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Tres"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Cuatro o más"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layEstufa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaEstufa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAESTUFA"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaEstufa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/si"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/no"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaEdad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAEDAD"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaEdad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Menor de 18 años"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="18 a 29"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="30 a 39"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="40 a 49"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="50 a 59"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="60 a 69"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="70 o más"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layTipoPiso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaTipoPiso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTA_TIPO_PISO"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaTipoPiso"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Tierra o cemento"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Cualquier otro"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layTipoVivienda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaTipoVivienda"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTA_TIPO_VIVIENDA"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaTipoVivienda"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Casa"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Condominio"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="@string/ns"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layGenero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textPreguntaGenero"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/PREGUNTAGENERO"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#002266"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/rdPreguntaGenero"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <RadioButton
+                            android:id="@+id/radio1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Masculino"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+
+                        <RadioButton
+                            android:id="@+id/radio2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/radiobutton_selector"
+                            android:text="Femenino"
+                            android:textColor="@drawable/radiobutton_color_selector"
+                            android:textSize="16sp"
+                            android:theme="@style/RadioButton" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- //////////////////////////////////////  BOTONES  /////////////// -->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
