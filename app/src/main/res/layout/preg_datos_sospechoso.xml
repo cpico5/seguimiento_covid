@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/estadisticas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="Salir"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/layDatosSospechoso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textSpeetch"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/SPEETCH"
+                        android:textSize="20sp"
+                         android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textPreguntaPaterno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PREGUNTA_PATERNO"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#002266"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editPreguntapaterno"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:ems="10"
+                        android:hint="Paterno"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnPaterno"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:onClick="paterno"
+                        android:text="No contestó" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textPreguntaMaterno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PREGUNTA_MATERNO"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="#002266"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editPreguntaMaterno"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="Materno"
+                android:focusable="false"
+                android:inputType="text"
+                android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/btnMaterno"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:onClick="materno"
+                        android:text="No contestó" />
+
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/textPreguntaNombres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PREGUNTA_NOMBRES"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#002266"
+                android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editPreguntaNombres"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="Nombres"
+                android:focusable="false"
+                android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnNombres"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:onClick="nombres"
+                    android:text="No contestó" />
+
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/textPreguntaTelefonoSospechoso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/PREGUNTA_TELEFONO_SOSPECHA"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#002266"
+                android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editPreguntaTelefonoSospechoso"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:ems="10"
+                android:hint="Teléfono"
+                android:focusable="false"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnTelefonoSospecha"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:onClick="telefono_s"
+                    android:text="No contestó" />
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

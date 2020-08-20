@@ -21,8 +21,8 @@
             android:layout_marginTop="120dp"
             android:background="@drawable/gradient_box"
             android:onClick="subeCenso"
-            android:text="Envia Información"
-            android:textColor="@color/AZUL" />
+            android:text="Participación"
+            android:textColor="@color/BLANCO" />
 
         <Button
             android:id="@+id/button4"
@@ -47,7 +47,7 @@
             android:background="@drawable/gradient_box"
             android:onClick="subeAudios"
             android:text="Envia Audios"
-            android:textColor="@color/AZUL" />
+            android:textColor="@color/BLANCO" />
 
         <Button
             android:id="@+id/btnInicio"
@@ -58,7 +58,7 @@
             android:background="@drawable/gradient_box"
             android:onClick="inicio"
             android:text="Finalizar"
-            android:textColor="@color/AZUL" />
+            android:textColor="@color/BLANCO" />
 
     </RelativeLayout>
 

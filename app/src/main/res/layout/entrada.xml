@@ -1,165 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/RelativeLayout1"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
-    android:background="#ffffffff">
+    android:background="#FFFFFF"
+    android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editPass"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editUsuario"
-        android:layout_below="@+id/editUsuario"
-        android:layout_marginTop="40dp"
-        android:layout_weight="1"
-        android:ems="10"
-        android:hint="Contraseña"
-        android:inputType="number" />
-        <!-- android:inputType="textPassword" /> -->
-
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnSalir"
-        android:layout_below="@+id/btnSalir"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="178dp"
-        android:orientation="vertical" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" >
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="243dp"
+                android:layout_height="77dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/ic_logos_salud"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:id="@+id/OnClickListener"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/app_pc"
+                android:orientation="horizontal" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:animateLayoutChanges="true"
+                android:orientation="horizontal">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/src_anim"
+                    android:layout_width="133dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-20dp"
+                    android:background="@drawable/colors" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-60dp"
+                android:animateLayoutChanges="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#E4E4E4"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editUsuario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#E4E4E4"
+                        android:drawableLeft="@drawable/ic_usuario"
+                        android:fontFamily="sans-serif"
+                        android:hint="USUARIO"
+                        android:inputType="number"
+                        android:textColor="#FF494949"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="#E4E4E4"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="#E4E4E4"
+                        android:drawableLeft="@drawable/ic_pass"
+                        android:fontFamily="sans-serif"
+                        android:hint="CONTRASEÑA"
+                        android:inputType="number"
+                        android:textColor="#555555"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/btnE1"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_below="@+id/editPass"
+                        android:layout_alignLeft="@+id/editPass"
+                        android:layout_alignRight="@+id/editPass"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#3F9602"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="CONTINUAR"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btnSalir"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:layout_below="@+id/btnE1"
+                        android:layout_alignLeft="@+id/btnE1"
+                        android:layout_alignRight="@+id/btnE1"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="#8FCE1A"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:text="SALIR"
+                        android:onClick='salir'
+                        android:textColor="@android:color/background_light"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-120dp"
+                        android:animateLayoutChanges="true"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ProgressBar
+                        android:id="@+id/login_progress"
+                        style="@android:style/Widget.Holo.ProgressBar.Large"
+                        android:layout_width="30px"
+                        android:layout_height="30px"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="150dp"
+                        android:indeterminateTint="#25C585"
+                        android:progressTint="#FCFFFFFF" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
-   <!--  <Button
-        android:id="@+id/btnUbicar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/btnSalir"
-        android:layout_weight="0.05"
-        android:onClick="ubica"
-        android:text="    Ubica Posición     "
-        android:background="@drawable/gradient_box"
-        android:textColor="@drawable/color"
-        android:textSize="16sp" />
-
-    <EditText
-        android:id="@+id/editLatitud"
-        android:layout_width="231dp"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/btnUbicar"
-        android:layout_below="@+id/btnUbicar"
-        android:layout_marginTop="37dp"
-        android:ems="10"
-        android:enabled="false"
-        android:hint="Latitud" />
-
-    <EditText
-        android:id="@+id/editDireccion"
-        android:layout_width="231dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editLongitud"
-        android:layout_toLeftOf="@+id/linearLayout1"
-        android:layout_weight="1"
-        android:ems="10"
-        android:enabled="false"
-        android:hint="Dirección" />
-
-    <EditText
-        android:id="@+id/editLongitud"
-        android:layout_width="231dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editLatitud"
-        android:layout_toLeftOf="@+id/linearLayout1"
-        android:layout_weight="1"
-        android:ems="10"
-        android:enabled="false"
-        android:hint="Longitud" /> -->
-
-<!--     <Button
-        android:id="@+id/btnBuscar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/editTecnico"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/imageView1"
-        android:layout_weight="0.05"
-        android:background="@drawable/gradient_box"
-        android:onClick="Busca"
-        android:text="Buscar"
-        android:textColor="@drawable/color"
-        android:textSize="16sp" /> -->
-
-<!--     <Spinner
-        android:id="@+id/spinnerTecnico"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnBuscar"
-        android:layout_marginTop="32dp"
-        android:layout_toRightOf="@+id/imageView1" /> -->
-
-    <Button
-        android:id="@+id/btnE1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editPass"
-        android:layout_alignRight="@+id/editPass"
-        android:layout_below="@+id/editPass"
-        android:layout_marginTop="31dp"
-        android:layout_weight="0.05"
-        android:background="@drawable/gradient_box"
-        android:onClick="Sigue"
-        android:text="Continuar"
-        android:textColor="@drawable/color"
-        android:textSize="16sp" />
-
-    <Button
-        android:id="@+id/btnSalir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnE1"
-        android:layout_alignRight="@+id/btnE1"
-        android:layout_below="@+id/btnE1"
-        android:layout_marginTop="31dp"
-        android:layout_weight="0.05"
-        android:background="@drawable/gradient_box"
-        android:onClick="salir"
-        android:text="Salir"
-        android:textColor="@drawable/color"
-        android:textSize="16sp" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/logo_ee" />
-
-    <ProgressBar
-        android:id="@+id/login_progress"
-        style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:visibility="gone" />
-
-    <EditText
-        android:id="@+id/editUsuario"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
-        android:layout_weight="1"
-        android:ems="10"
-        android:hint="Usuario"
-        android:inputType="number" />
-
-</RelativeLayout>
+</LinearLayout>

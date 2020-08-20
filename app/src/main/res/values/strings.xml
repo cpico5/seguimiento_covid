@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Telefónica 20200530 v1</string>
+    <string name="app_name">Participacion Ciudadana v1.0.18</string>
+    <string name="app_version">1.0.18</string>
+    <string name="url_aplicacion">https://territorial.cdmx.gob.mx</string>
+    <string name="url_gps">https://territorial.cdmx.gob.mx</string>
+    <string name="project_object">ParticipacionCiudadana</string>
+    <string name="app_project">ParticipacionCiudadana</string>
+
+
+
+    <string name="url_upgrade">https://territorial.cdmx.gob.mx</string>
+    <!-- Login -->
+
+    <string name="urls_gps">https://territorial.cdmx.gob.mx</string>
+
+    <string name="download">Download</string>
+    <string name="write_file">This app needs access to your file storage so that it can write files.</string>
+    <string name="sistema_pruebas"><![CDATA[<b>Sistema de pruebas</b>]]></string>
+
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="zona">zona</string>
@@ -57,40 +74,64 @@
     <string name="Peores">Peores</string>
     <string name="Mpeores">Mucho peores</string>
 
-    <string name="PREGUNTAvive">¿Me podría decir si usted vive en la Ciudad de México?</string>
-    <string name="PREGUNTA0">Solo para clasificación, ¿podría decirme en que Alcaldía?</string>
-    <string name="PREGUNTA1">¿Cómo se entera Usted de las noticias regularmente?</string>
-    <string name="PREGUNTA2">Sólo como información, NO le voy a solicitar datos o sus cuentas ¿Usted tiene cuenta personal en Facebook?</string>
-    <string name="PREGUNTA3">¿Tiene cuenta personal en Twitter?</string>
-    <string name="PREGUNTA4">Hablando ahora de la Ciudad de México y de su gobierno, con lo que Ud. sabe, ¿está de acuerdo o en desacuerdo con el trabajo realizado hasta ahora por la Jefa de Gobierno, Claudia Sheinbaum?</string>
-    <string name="PREGUNTA5">¿Usted utiliza WhatsApp?</string>
-    <string name="PREGUNTAc1">El gobierno de la Ciudad de México esta planteando un regreso a las actividades cotidianas de manera escalonada, usted ¿en qué mes piensa que se debería regresar a las siguientes actividades… (espontánea)</string>
-    <string name="PREGUNTAc1a">Regreso de los niños a las escuelas</string>
-    <string name="PREGUNTAc1b">Restaurantes/ cafeterías y centros comerciales </string>
-    <string name="PREGUNTAc1c">Negocios como estéticas/ papelerías/ negocios locales</string>
-    <string name="PREGUNTAc1d">Cines/ teatros/ museos</string>
-    <string name="PREGUNTAc1e">Eventos deportivos como futbol/ beisbol/ maratones, etc.</string>
-    <string name="PREGUNTAc1f">Festivales de música y eventos masivos</string>
-    <string name="PREGUNTAc1g">Salones de fiestas/ congresos/ reuniones familiares de más de 50 personas</string>
-    <string name="PREGUNTAc1h">Oficinas y centros de trabajo que están trabajando desde casa</string>
-    <string name="PREGUNTAc2">A partir del primero de Julio que frase se acerca más a cómo usted retomará sus actividades…</string>
-    <string name="PREGUNTAc3">¿Cuándo piensa usted retomar las siguientes actividades? (espontánea)</string>
-    <string name="PREGUNTAc3a">Visitar o reunirse con amigos</string>
-    <string name="PREGUNTAc3b">Hacer compras en tiendas departamentales/ y centros comerciales que no sean de alimentos</string>
-    <string name="PREGUNTAc3c">Salir a fiestas familiares y reuniones sociales</string>
-    <string name="PREGUNTAc3d">Ir a su centro de trabajo o estudios de manera regular</string>
-    <string name="PREGUNTAc3e">Ir al cine y espectáculos públicos</string>
-    <string name="PREGUNTAc4">¿Cuándo piensa usted...? (espontánea)</string>
-    <string name="PREGUNTAc4a">Dejar de usar cubrebocas y/o caretas</string>
-    <string name="PREGUNTAc4b">Dejar de aplicar la sana distancia en lugares públicos y de trabajo</string>
-    <string name="PREGUNTAc4c">Saludar de mano o beso</string>
-    <string name="PREGUNTAc5">En la última semana usted qué ha sensación ha tenido más...? </string>
-    <string name="PREGUNTAc5a">Ansiedad</string>
-    <string name="PREGUNTAc5b">Felicidad</string>
-    <string name="PREGUNTAc5c">Alegría</string>
-    <string name="PREGUNTAc5d">Frustración</string>
-    <string name="PREGUNTAc5e">Confianza</string>
-    <string name="PREGUNTAc6">¿Qué tan probable cree que sea que usted se contagie de coronavirus en algún momento de este año?</string>
+<!--    <string name="PREGUNTA1">¿Sabía usted que el usar cubrebocas reduce en 90% la posibilidad de que usted se contagie de COVID-19?</string>-->
+<!--    <string name="PREGUNTA2">¿Sabía usted que el lugar donde más se puede contagiar de COVID-19 es en el transporte público y por eso el uso de cubrebocas allí es indispensable?</string>-->
+<!--    <string name="PREGUNTA3">¿Sabía usted qué si tiene síntomas de COVID 19  deberá quedarse en casa durante 14 días, aislarse  y enviar un SMS  con la palabra COVID19 al 51515 y ahí le proporcionarán indicaciones e información oficial?</string>-->
+
+    <string name="PREGUNTA1">¿Alguna persona en este domicilio ha presentado 2 o más de los siguientes síntomas en los últimos 7 días?\n\n
+        •	Fiebre \n
+        •	Tos seca \n
+        •	Cansancio \n
+        •	Molestias y dolores \n
+        •	Dolor de garganta \n
+        •	Diarrea o Conjuntivitis \n
+        •	Dolor de cabeza \n
+        •	Pérdida del sentido del olfato o del gusto \n
+        •	Erupciones cutáneas \n
+        •	Pérdida del color en los dedos de las manos o de los pies \n
+    </string>
+    <string name="PREGUNTA2">¿Alguna persona en este domicilio ha presentado alguno de los siguientes síntomas en los últimos 7 días?\n\n
+        •	Dificultad para respirar \n
+        •	Sensación de falta de aire \n
+        •	Dolor o presión en el pecho \n
+        •	Incapacidad para hablar o moverse \n
+
+    </string>
+    <string name="PREGUNTA3">¿Tiene alguna de las siguientes condiciones? (Persona de Mayor Riesgo)\n\n
+        •	Mayor de 65 años. \n
+        •	Embarazo \n
+        •	Enfermedades crónica como:\n
+              \u0009- Diabetes\n
+              \u0009- Asma\n
+              \u0009- Hipertensión \n
+        •	Enfermedades Pulmonares \n
+        •	Obesidad o sobrepeso \n
+        •	VIH \n
+        •	Cáncer \n
+        •	Enfermedad autoinmune. \n
+    </string>
+
+    <string name="PREGUNTA_CALLE">calle:</string>
+    <string name="PREGUNTA_EXTERIOR">Número Exterior:</string>
+    <string name="PREGUNTA_INTERIOR">Número Interior:</string>
+    <string name="PREGUNTA_MANZANA">Manzana:</string>
+    <string name="PREGUNTA_LOTE">Lote:</string>
+    <string name="PREGUNTA_OBSERVACIONES">Observaciones:</string>
+    <string name="PREGUNTA_TELEFONO">Teléfono de contacto:</string>
+    <string name="PREGUNTA_URGENCIA">Atención Urgente</string>
+    <string name="PREGUNTA_PATERNO">Paterno:</string>
+    <string name="PREGUNTA_MATERNO">Materno:</string>
+    <string name="PREGUNTA_NOMBRES">Nombres:</string>
+    <string name="PREGUNTA_TELEFONO_SOSPECHA">Telefono Sospecha</string>
+
+    <string name="SPEETCH">
+        De acuerdo con sus respuestas usted tiene un riesgo alto de tener COVID19.\n\n
+        El Gobierno de la Ciudad lo apoya para que se pueda realizar una prueba gratuita en un quiosco médico que se encuentra muy cerca de aquí, en caso de ser positivo a través del programa Hogares Responsables y Protegidos el gobierno lo apoyará con: Un kit médico, Ayuda económica, Ayuda alimentaria, Seguimiento de síntomas a través de un médico de Locatel y Asesoría Laboral; con la finalidad de cuidar su salud y poder quedarse en casa durante 15 días
+
+    </string>
+
+
+
 
     <string name="PREGUNTAATRIBUTOS">De los siguientes atributos personales, ¿cuáles cree usted que sí o que no tiene la Jefa de Gobierno, Claudia Sheinbaum?</string>
     <string name="PREGUNTAEST">Para terminar le voy a realizar algunas preguntas para la estadística</string>
@@ -100,7 +141,7 @@
     <string name="PREGUNTACOCHE">¿Tiene automóvil propio?</string>
     <string name="PREGUNTACUANTOSCOCHES">¿Cuántos coches tienen en su vivienda?</string>
     <string name="PREGUNTACUARTOS">Sin contar baño ni cocina, ¿cuántos cuartos tiene su vivienda?</string>
-    <string name="PREGUNTACUARTOSDORMIR">¿Cuántos cuartos se usan para dormir en su domicilio?</string>
+    <string name="PREGUNTACUARTOSDORMIR">En esta vivienda, ¿cuántos cuartos se usan para dormir, sin contar pasillos ni baños?</string>
     <string name="PREGUNTAFOCOS">¿Cuántos focos tiene su vivienda?</string>
     <string name="PREGUNTABANOS">¿Cuántos baños completos con regadera y W.C. (excusado) hay en esta vivienda?</string>
     <string name="PREGUNTAINTERNET">Sin tomar en cuenta la conexión móvil que pudiera tener desde algún celular ¿este hogar cuenta con internet?</string>

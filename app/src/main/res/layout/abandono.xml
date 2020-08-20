@@ -87,6 +87,7 @@
                             android:text="Filtro"
                             android:textColor="@drawable/radiobutton_color_selector"
                             android:textSize="16sp"
+                            android:visibility="gone"
                             android:theme="@style/RadioButton"/>
                     </RadioGroup>
                 </LinearLayout>

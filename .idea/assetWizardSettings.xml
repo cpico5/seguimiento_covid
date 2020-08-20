@@ -51,6 +51,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="scalingPercent" value="60" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -72,7 +73,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="text" value="0530" />
+                                                <entry key="text" value="Participación" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -83,8 +84,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="36a4ad" />
-                                      <entry key="foregroundAssetType" value="TEXT" />
+                                      <entry key="backgroundColor" value="ffffff" />
+                                      <entry key="foregroundImage" value="H:\ciudadana.png" />
                                     </map>
                                   </option>
                                 </PersistentState>

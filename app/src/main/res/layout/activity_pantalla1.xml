@@ -18,6 +18,41 @@
             android:layout_height="1075dp"
             android:orientation="vertical">
 
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" >
+
+                   <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Punto: "
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/txtSeccion"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="number"
+                            android:maxLength="4"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
             <!-- /////////////////////////////////////// Desde aquí empiezan las preguntas -->
 
             <LinearLayout
@@ -31,79 +66,51 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|end"
-                    android:text="Buenos días/tardes. Mi nombre es: _____________ llamo de la agencia Estudios Estadísticos. En este momento estamos realizando un estudio de opinión, me permite unos minutos por favor, seré breve.  En ningún momento le voy a solicitar datos personales."
+                    android:text="Buenos días, mi nombre es _____________________, vengo de parte de la Doctora Claudia Sheinbaum Jefa de Gobierno de la Ciudad de México a entregarle información importante para enfrentar esta pandemia; ¿me permitiría realizarle 3 preguntas?, solo le tomarán 2 minutos de su tiempo."
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textStyle="bold" />
             </LinearLayout>
+
+
 
             <!-- /////////////////////////////////////// -->
 
-            <include layout="@layout/pregvive"/>
-            <include layout="@layout/preg00"/>
             <include layout="@layout/preg01"/>
-            <include layout="@layout/preg02"/>
+            <include layout="@layout/preg_datos_sospechoso"/>
+            <include layout="@layout/preg_direccion"/>
+            <include layout="@layout/preg02" />
+            <include layout="@layout/preg_datos_sospechoso2"/>
+            <include layout="@layout/preg_direccion2"/>
             <include layout="@layout/preg03"/>
-            <include layout="@layout/preg04"/>
-            <include layout="@layout/preg05"/>
-            <include layout="@layout/pregc1"/>
+            <include layout="@layout/preg_telefono"/>
+            <include layout="@layout/preg_urgente"/>
+            <include layout="@layout/preg_observaciones"/>
+            <include layout="@layout/preg_genero"/>
 
-            <include layout="@layout/pregc1a"/>
-            <include layout="@layout/pregc1b"/>
-            <include layout="@layout/pregc1c"/>
-            <include layout="@layout/pregc1d"/>
-            <include layout="@layout/pregc1e"/>
-            <include layout="@layout/pregc1f"/>
-            <include layout="@layout/pregc1g"/>
-            <include layout="@layout/pregc1h"/>
+<!--            <include layout="@layout/socioeconomicos" />-->
 
-            <include layout="@layout/pregc2"/>
-            <include layout="@layout/pregc3"/>
-
-            <include layout="@layout/pregc3a"/>
-            <include layout="@layout/pregc3b"/>
-            <include layout="@layout/pregc3c"/>
-            <include layout="@layout/pregc3d"/>
-            <include layout="@layout/pregc3e"/>
-
-            <include layout="@layout/pregc4"/>
-
-            <include layout="@layout/pregc4a"/>
-            <include layout="@layout/pregc4b"/>
-            <include layout="@layout/pregc4c"/>
-
-            <include layout="@layout/pregc5"/>
-
-            <include layout="@layout/pregc5a"/>
-            <include layout="@layout/pregc5b"/>
-            <include layout="@layout/pregc5c"/>
-            <include layout="@layout/pregc5d"/>
-            <include layout="@layout/pregc5e"/>
-
-            <include layout="@layout/pregc6"/>
-
-
-            <include layout="@layout/socioeconomicos" />
-
-
-            <LinearLayout
+            <TextView
+                android:id="@+id/textPreguntaSalida"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-
-                <TextView
-                    android:id="@+id/textPreguntaDespedida"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical|end"
-                    android:layout_marginTop="25dp"
-                    android:text="Muchas gracias por su tiempo, le recuerdo mi nombre es ___________________ y hablo de Estudios Estadísticos, que tenga un lindo día."
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginTop="30dp"
+                android:text="Le dejamos este material con información importante para el cuidado de usted y su familia en esta contingencia sanitaria. Es importante que lo lea y lo tenga a la mano. Gracias por su atención, hasta luego."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
 
             <include layout="@layout/abandono" />
+
+
+            <ProgressBar
+                android:id="@+id/login_progressMain"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:textAlignment="center"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone" />
 
 
             <!-- //////////////////////////////////////  BOTONES  /////////////// -->
@@ -147,15 +154,7 @@
                             android:text="Salir"
                             android:textColor="@color/BLANCO" />
 
-                        <ProgressBar
-                            android:id="@+id/login_progressMain"
-                            style="?android:attr/progressBarStyleLarge"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:foregroundGravity="center"
-                            android:textAlignment="center"
-                            android:layout_marginBottom="8dp"
-                            android:visibility="gone" />
+
                     </LinearLayout>
                 </HorizontalScrollView>
             </LinearLayout>
