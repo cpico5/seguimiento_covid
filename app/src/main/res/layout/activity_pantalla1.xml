@@ -66,7 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical|end"
-                    android:text="Buenos días, mi nombre es _____________________, vengo de parte de la Doctora Claudia Sheinbaum Jefa de Gobierno de la Ciudad de México a entregarle información importante para enfrentar esta pandemia; ¿me permitiría realizarle 3 preguntas?, solo le tomarán 2 minutos de su tiempo."
+                    android:text="Buenos días/tardes. Mi nombre es: _____________ y vengo del Gobierno de la Ciudad de México. En este momento estamos corroborando y completando datos de contacto para seguimiento de COVID19, en este domicilio se encuentra (PREGUNTAR POR NOMBRE DE CONTACTO) me permite unos minutos por favor, seré breve. "
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -75,19 +75,82 @@
 
             <!-- /////////////////////////////////////// -->
 
-            <include layout="@layout/preg01"/>
-            <include layout="@layout/preg_datos_sospechoso"/>
-            <include layout="@layout/preg_direccion"/>
-            <include layout="@layout/preg02" />
-            <include layout="@layout/preg_datos_sospechoso2"/>
-            <include layout="@layout/preg_direccion2"/>
-            <include layout="@layout/preg03"/>
-            <include layout="@layout/preg_telefono"/>
-            <include layout="@layout/preg_urgente"/>
-            <include layout="@layout/preg_observaciones"/>
-            <include layout="@layout/preg_genero"/>
+
 
 <!--            <include layout="@layout/socioeconomicos" />-->
+
+
+
+            <include layout="@layout/pregA"/>
+            <include layout="@layout/pregB"/>
+            <include layout="@layout/preg01"/>
+            <include layout="@layout/preg02"/>
+            <include layout="@layout/preg03"/>
+            <include layout="@layout/preg04"/>
+            <include layout="@layout/preg05"/>
+            <include layout="@layout/preg06"/>
+            <include layout="@layout/preg6a"/>
+            <include layout="@layout/preg6b"/>
+            <include layout="@layout/preg6c"/>
+            <include layout="@layout/preg6d"/>
+            <include layout="@layout/preg6e"/>
+            <include layout="@layout/preg6f"/>
+            <include layout="@layout/preg6g"/>
+            <include layout="@layout/preg6h"/>
+            <include layout="@layout/preg6i"/>
+            <include layout="@layout/preg6j"/>
+            <include layout="@layout/preg6k"/>
+            <include layout="@layout/preg07"/>
+            <include layout="@layout/preg08"/>
+            <include layout="@layout/preg8a"/>
+            <include layout="@layout/preg8b"/>
+            <include layout="@layout/preg8c"/>
+            <include layout="@layout/preg8d"/>
+            <include layout="@layout/preg8e"/>
+            <include layout="@layout/preg8f"/>
+            <include layout="@layout/preg09"/>
+            <include layout="@layout/preg10"/>
+            <include layout="@layout/preg11"/>
+            <include layout="@layout/preg12"/>
+            <include layout="@layout/preg13"/>
+            <include layout="@layout/preg13a"/>
+            <include layout="@layout/preg13b"/>
+            <include layout="@layout/preg13c"/>
+            <include layout="@layout/preg13d"/>
+            <include layout="@layout/preg13e"/>
+            <include layout="@layout/preg14"/>
+            <include layout="@layout/preg15"/>
+            <include layout="@layout/preg16"/>
+            <include layout="@layout/preg16a"/>
+            <include layout="@layout/preg16b"/>
+            <include layout="@layout/preg16c"/>
+            <include layout="@layout/preg16d"/>
+            <include layout="@layout/preg16e"/>
+            <include layout="@layout/preg16f"/>
+            <include layout="@layout/preg16g"/>
+            <include layout="@layout/preg16h"/>
+            <include layout="@layout/preg16i"/>
+            <include layout="@layout/preg16j"/>
+            <include layout="@layout/preg16k"/>
+            <include layout="@layout/preg17"/>
+            <include layout="@layout/preg18"/>
+            <include layout="@layout/preg18a"/>
+            <include layout="@layout/preg18b"/>
+            <include layout="@layout/preg18c"/>
+            <include layout="@layout/preg18d"/>
+            <include layout="@layout/preg18e"/>
+            <include layout="@layout/preg18f"/>
+            <include layout="@layout/preg19"/>
+            <include layout="@layout/preg19a"/>
+            <include layout="@layout/preg19b"/>
+            <include layout="@layout/preg19c"/>
+            <include layout="@layout/preg19d"/>
+            <include layout="@layout/preg19e"/>
+            <include layout="@layout/preg20"/>
+            <include layout="@layout/preg21"/>
+            <include layout="@layout/preg22"/>
+            <include layout="@layout/preg23"/>
+            <include layout="@layout/preg24"/>
 
             <TextView
                 android:id="@+id/textPreguntaSalida"
@@ -95,9 +158,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|end"
                 android:layout_marginTop="30dp"
-                android:text="Le dejamos este material con información importante para el cuidado de usted y su familia en esta contingencia sanitaria. Es importante que lo lea y lo tenga a la mano. Gracias por su atención, hasta luego."
+                android:text="AGRADACEMOS MUCHO SU COLABORACIÓN RECUERDE QUE ¡SI TE CUIDAS TÚ, NOS CUIDAMOS TODOS!"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textStyle="bold" />
+
 
             <include layout="@layout/abandono" />
 

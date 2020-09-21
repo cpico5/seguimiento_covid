@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Participacion Ciudadana v1.0.18</string>
-    <string name="app_version">1.0.18</string>
+    <string name="app_name">Seguimiento Covid v1.0.1</string>
+    <string name="app_version">1.0.1</string>
     <string name="url_aplicacion">https://territorial.cdmx.gob.mx</string>
     <string name="url_gps">https://territorial.cdmx.gob.mx</string>
     <string name="project_object">ParticipacionCiudadana</string>
@@ -74,63 +74,144 @@
     <string name="Peores">Peores</string>
     <string name="Mpeores">Mucho peores</string>
 
-<!--    <string name="PREGUNTA1">¿Sabía usted que el usar cubrebocas reduce en 90% la posibilidad de que usted se contagie de COVID-19?</string>-->
-<!--    <string name="PREGUNTA2">¿Sabía usted que el lugar donde más se puede contagiar de COVID-19 es en el transporte público y por eso el uso de cubrebocas allí es indispensable?</string>-->
-<!--    <string name="PREGUNTA3">¿Sabía usted qué si tiene síntomas de COVID 19  deberá quedarse en casa durante 14 días, aislarse  y enviar un SMS  con la palabra COVID19 al 51515 y ahí le proporcionarán indicaciones e información oficial?</string>-->
-
-    <string name="PREGUNTA1">¿Alguna persona en este domicilio ha presentado 2 o más de los siguientes síntomas en los últimos 7 días?\n\n
-        •	Fiebre \n
-        •	Tos seca \n
-        •	Cansancio \n
-        •	Molestias y dolores \n
-        •	Dolor de garganta \n
-        •	Diarrea o Conjuntivitis \n
-        •	Dolor de cabeza \n
-        •	Pérdida del sentido del olfato o del gusto \n
-        •	Erupciones cutáneas \n
-        •	Pérdida del color en los dedos de las manos o de los pies \n
-    </string>
-    <string name="PREGUNTA2">¿Alguna persona en este domicilio ha presentado alguno de los siguientes síntomas en los últimos 7 días?\n\n
-        •	Dificultad para respirar \n
-        •	Sensación de falta de aire \n
-        •	Dolor o presión en el pecho \n
-        •	Incapacidad para hablar o moverse \n
-
-    </string>
-    <string name="PREGUNTA3">¿Tiene alguna de las siguientes condiciones? (Persona de Mayor Riesgo)\n\n
-        •	Mayor de 65 años. \n
-        •	Embarazo \n
-        •	Enfermedades crónica como:\n
-              \u0009- Diabetes\n
-              \u0009- Asma\n
-              \u0009- Hipertensión \n
-        •	Enfermedades Pulmonares \n
-        •	Obesidad o sobrepeso \n
-        •	VIH \n
-        •	Cáncer \n
-        •	Enfermedad autoinmune. \n
-    </string>
-
-    <string name="PREGUNTA_CALLE">calle:</string>
-    <string name="PREGUNTA_EXTERIOR">Número Exterior:</string>
-    <string name="PREGUNTA_INTERIOR">Número Interior:</string>
-    <string name="PREGUNTA_MANZANA">Manzana:</string>
-    <string name="PREGUNTA_LOTE">Lote:</string>
-    <string name="PREGUNTA_OBSERVACIONES">Observaciones:</string>
-    <string name="PREGUNTA_TELEFONO">Teléfono de contacto:</string>
-    <string name="PREGUNTA_URGENCIA">Atención Urgente</string>
-    <string name="PREGUNTA_PATERNO">Paterno:</string>
-    <string name="PREGUNTA_MATERNO">Materno:</string>
-    <string name="PREGUNTA_NOMBRES">Nombres:</string>
-    <string name="PREGUNTA_TELEFONO_SOSPECHA">Telefono Sospecha</string>
-
-    <string name="SPEETCH">
-        De acuerdo con sus respuestas usted tiene un riesgo alto de tener COVID19.\n\n
-        El Gobierno de la Ciudad lo apoya para que se pueda realizar una prueba gratuita en un quiosco médico que se encuentra muy cerca de aquí, en caso de ser positivo a través del programa Hogares Responsables y Protegidos el gobierno lo apoyará con: Un kit médico, Ayuda económica, Ayuda alimentaria, Seguimiento de síntomas a través de un médico de Locatel y Asesoría Laboral; con la finalidad de cuidar su salud y poder quedarse en casa durante 15 días
-
-    </string>
-
-
+    <string name="PREGUNTAA">En este domicilio se encuentra (PREGUNTAR POR NOMBRE DE CONTACTO)</string>
+    <string name="PREGUNTAB">¿Puedo hablar con (PREGUNTAR POR NOMBRE DE CONTACTO?</string>
+    <string name="PREGUNTA1">Gracias por su tiempo para verificar  ¿su nombre(s) es… (INTRODUCIR NOMBRE(S) DE PILA)?</string>
+    <string name="PREGUNTA2"> ¿Su primer apellido es.. (INTRODUCIR PRIMER APELLIDO)?</string>
+    <string name="PREGUNTA3"> ¿Su segundo apellido es... (INTRODUCIR PRIMER APELLIDO)?</string>
+    <string name="PREGUNTA4"> ¿Cual es su edad? </string>
+    <string name="PREGUNTA5"> Genero (Anotar sin preguntar)</string>
+    <string name="PREGUNTA6">¿Tiene alguna de las siguientes condiciones?</string>
+    <string name="PREGUNTA6a">Obesidad</string>
+    <string name="PREGUNTA6b">Hipertensión</string>
+    <string name="PREGUNTA6c">Diabetes</string>
+    <string name="PREGUNTA6d">Tabaquismo</string>
+    <string name="PREGUNTA6e">Asma</string>
+    <string name="PREGUNTA6f">Enfermedad Cardiaca</string>
+    <string name="PREGUNTA6g">Inmunosupresión</string>
+    <string name="PREGUNTA6h">Insuficiencia renal crónica</string>
+    <string name="PREGUNTA6i">EPOC</string>
+    <string name="PREGUNTA6j">VIH</string>
+    <string name="PREGUNTA6k">Cáncer</string>
+    <string name="PREGUNTA7">¿Cuál es su teléfono celular?</string>
+    <string name="PREGUNTA8">Verificar dirección</string>
+    <string name="PREGUNTA8a">Calle</string>
+    <string name="PREGUNTA8b">No exterior</string>
+    <string name="PREGUNTA8c">Número interior</string>
+    <string name="PREGUNTA8d">Colonia</string>
+    <string name="PREGUNTA8e">CP</string>
+    <string name="PREGUNTA8f">Alcaldía</string>
+    <string name="PREGUNTA9">¿Comparte vivienda con alguien?</string>
+    <string name="PREGUNTA10">¿Con cuántas personas?</string>
+    <string name="PREGUNTA11"> ¿Ha salido a trabajar en los últimos días? </string>
+    <string name="PREGUNTA12">¿Cuál es su trabajo?</string>
+    <string name="PREGUNTA13">¿En ... ?</string>
+    <string name="PREGUNTA13a">Qué Calle está su trabajo?</string>
+    <string name="PREGUNTA13b">Cuál es el No exterior de su trabajo?</string>
+    <string name="PREGUNTA13c">Cuál es el número interior de su trabajo?</string>
+    <string name="PREGUNTA13d">En qué colonia está su trabajo</string>
+    <string name="PREGUNTA13e">En qué alcaldía trabaja</string>
+    <string name="PREGUNTA14"> ¿Alguna persona de su trabajo tiene o tuvo COVID-19? </string>
+    <string name="PREGUNTA15">¿Tuvo contacto con esa persona en los últimos 14 días? </string>
+    <string name="PREGUNTA16">¿Cómo se transporta al trabajo?</string>
+    <string name="PREGUNTA16a">Metro</string>
+    <string name="PREGUNTA16b">Metrobús</string>
+    <string name="PREGUNTA16c">Trolebús</string>
+    <string name="PREGUNTA16d">Tren ligero</string>
+    <string name="PREGUNTA16e">Combi</string>
+    <string name="PREGUNTA16f">Microbús</string>
+    <string name="PREGUNTA16g">Camión</string>
+    <string name="PREGUNTA16h">Vehículo propio</string>
+    <string name="PREGUNTA16i">Bicicleta</string>
+    <string name="PREGUNTA16j">A pie</string>
+    <string name="PREGUNTA16k">Ninguno</string>
+    <string name="PREGUNTA17">¿Qué ruta o estaciones utiliza para transportarse? (espontáneo)</string>
+    <string name="PREGUNTA18">¿Cuál de los siguientes lugares a acudido en los últimos 14 días…?</string>
+    <string name="PREGUNTA18a">Supermercado</string>
+    <string name="PREGUNTA18b">Mercado</string>
+    <string name="PREGUNTA18c">Tianguis</string>
+    <string name="PREGUNTA18d">Central de Abastos</string>
+    <string name="PREGUNTA18e">Centro comercial</string>
+    <string name="PREGUNTA18f">Centro Histórico</string>
+    <string name="PREGUNTA19">Datos de compras</string>
+    <string name="PREGUNTA19a">¿Cuál es el nombre del lugar al que acudió?</string>
+    <string name="PREGUNTA19b">¿En qué calle se encuentra el lugar al que acudió?</string>
+    <string name="PREGUNTA19c">¿Cual es el número exterior del lugar?</string>
+    <string name="PREGUNTA19d">¿En qué colonia se encuentra el lugar?</string>
+    <string name="PREGUNTA19e">¿En qué alcaldía se encuentra el lugar?</string>
+    <string name="PREGUNTA20">¿Ha asistido a alguna fiesta o evento en donde hayan más de 5 personas?</string>
+    <string name="PREGUNTA21">¿Tuvo contacto con alguna persona en los últimos 14 días además de las personas con quienes vive?</string>
+    <string name="PREGUNTA22">¿Cuál es el nombre completo de la persona?</string>
+    <string name="PREGUNTA23">¿Cuál es su relación con esta persona que tuvo contacto?</string>
+    <string name="PREGUNTA24">¿Cuál es su teléfono celular?</string>
+    <string name="PREGUNTAC">SITUACION DE LA PERSONA ADICIONAL</string>
+    <string name="PREGUNTAc_1"> ¿Cuál es su nombre(s)?</string>
+    <string name="PREGUNTAc_2"> ¿Cuál es su primer apellido?</string>
+    <string name="PREGUNTAc_3"> ¿Cuál es su segundo apellido?</string>
+    <string name="PREGUNTAc_4"> ¿Cual es su edad? </string>
+    <string name="PREGUNTAc_5">Género (ANOTAR SIN PREGUNTAR)</string>
+    <string name="PREGUNTAc_6">¿Tiene alguna de las siguientes condiciones?</string>
+    <string name="PREGUNTAc_6a">Obesidad</string>
+    <string name="PREGUNTAc_6b">Hipertensión</string>
+    <string name="PREGUNTAc_6c">Diabetes</string>
+    <string name="PREGUNTAc_6d">Tabaquismo</string>
+    <string name="PREGUNTAc_6e">Asma</string>
+    <string name="PREGUNTAc_6f">Enfermedad Cardiaca</string>
+    <string name="PREGUNTAc_6g">Inmunosupresión</string>
+    <string name="PREGUNTAc_6h">Insuficiencia renal crónica</string>
+    <string name="PREGUNTAc_6i">EPOC</string>
+    <string name="PREGUNTAc_6j">VIH</string>
+    <string name="PREGUNTAc_6k">Cáncer</string>
+    <string name="PREGUNTAc_7">¿Cuál es su teléfono celular?</string>
+    <string name="PREGUNTAc_8">Verificar dirección</string>
+    <string name="PREGUNTAc_8a">Calle</string>
+    <string name="PREGUNTAc_8b">No exterior</string>
+    <string name="PREGUNTAc_8c">Número interior</string>
+    <string name="PREGUNTAc_8d">Colonia</string>
+    <string name="PREGUNTAc_8e">CP</string>
+    <string name="PREGUNTAc_8f">Alcaldía</string>
+    <string name="PREGUNTAc_9">¿Cuál es su relación con… (INTRODUCIR NOMBRE DE PERSONA DE CONTACTO)?</string>
+    <string name="PREGUNTAc_10"> ¿Ha salido a trabajar en los últimos días? </string>
+    <string name="PREGUNTAc_11">¿Cuál es su trabajo?</string>
+    <string name="PREGUNTAc_12">¿En ... ?</string>
+    <string name="PREGUNTAc_12a">Qué Calle está su trabajo?</string>
+    <string name="PREGUNTAc_12b">Cuál es el No exterior de su trabajo?</string>
+    <string name="PREGUNTAc_12c">Cuál es el número interior de su trabajo?</string>
+    <string name="PREGUNTAc_12d">En qué colonia está su trabajo</string>
+    <string name="PREGUNTAc_12e">En qué alcaldía trabaja</string>
+    <string name="PREGUNTAc_13"> ¿Alguna persona de su trabajo tiene o tuvo COVID-19? </string>
+    <string name="PREGUNTAc_14">¿Tuvo contacto con esa persona en los últimos 14 días? </string>
+    <string name="PREGUNTAc_15">¿Cómo se transporta al trabajo?</string>
+    <string name="PREGUNTAc_15a">Metro</string>
+    <string name="PREGUNTAc_15b">Metrobús</string>
+    <string name="PREGUNTAc_15c">Trolebús</string>
+    <string name="PREGUNTAc_15d">Tren ligero</string>
+    <string name="PREGUNTAc_15e">Combi</string>
+    <string name="PREGUNTAc_15f">Microbús</string>
+    <string name="PREGUNTAc_15g">Camión</string>
+    <string name="PREGUNTAc_15h">Vehículo propio</string>
+    <string name="PREGUNTAc_15i">Bicicleta</string>
+    <string name="PREGUNTAc_15j">A pie</string>
+    <string name="PREGUNTAc_15k">Ninguno</string>
+    <string name="PREGUNTAc_16">¿Qué ruta o estaciones utiliza para transportarse? (espontáneo)</string>
+    <string name="PREGUNTAc_17">¿Cuál de los siguientes lugares a acudido en los últimos 14 días…?</string>
+    <string name="PREGUNTAc_17a">Supermercado</string>
+    <string name="PREGUNTAc_17b">Mercado</string>
+    <string name="PREGUNTAc_17c">Tianguis</string>
+    <string name="PREGUNTAc_17d">Central de Abastos</string>
+    <string name="PREGUNTAc_17e">Centro comercial</string>
+    <string name="PREGUNTAc_17f">Centro Histórico</string>
+    <string name="PREGUNTAc_18">Datos de compras</string>
+    <string name="PREGUNTAc_18a">¿Cuál es el nombre del lugar al que acudió?</string>
+    <string name="PREGUNTAc_18b">¿En qué calle se encuentra el lugar al que acudió?</string>
+    <string name="PREGUNTAc_18c">¿Cual es el número exterior del lugar?</string>
+    <string name="PREGUNTAc_18d">¿En qué colonia se encuentra el lugar?</string>
+    <string name="PREGUNTAc_18e">¿En qué alcaldía se encuentra el lugar?</string>
+    <string name="PREGUNTAc_19">¿Ha asistido a alguna fiesta o evento en donde hayan más de 5 personas?</string>
+    <string name="PREGUNTAc_20">¿Tuvo contacto con alguna persona en los últimos 14 días además de las personas con quienes vive?</string>
+    <string name="PREGUNTAc_21">¿Cuál es el nombre completo de la persona?</string>
+    <string name="PREGUNTAc_22">¿Cuál es su relación con esta persona que tuvo contacto?</string>
+    <string name="PREGUNTAc_23">¿Cuál es su teléfono celular?</string>
 
 
     <string name="PREGUNTAATRIBUTOS">De los siguientes atributos personales, ¿cuáles cree usted que sí o que no tiene la Jefa de Gobierno, Claudia Sheinbaum?</string>
