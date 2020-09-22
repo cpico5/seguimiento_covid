@@ -558,6 +558,29 @@ public String hora() {
 
     }
 
+    public void dialogoPersonaResponsable() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Pedir conteste un adulto responsable").setTitle("Importante").setCancelable(false)
+                .setNegativeButton("SALIR", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+
+                        detenerGrabacion();
+
+                        valores();
+
+                        dialogo();
+                    }
+                }).setPositiveButton("CONTINUAR", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+
+
+            }
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
+
+    }
+
 public void dialogoParoAudio() {
     timer.cancel();
     final AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -995,6 +1018,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 opc = "Menor de edad";
+                dialogoPersonaResponsable();
                 layc_1 .setVisibility(View.VISIBLE);	rdPreguntac_1.clearCheck();	opc_1="sin datos";
                 layc_2 .setVisibility(View.VISIBLE);	rdPreguntac_2.clearCheck();	opc_2="sin datos";
                 layc_3 .setVisibility(View.VISIBLE);	rdPreguntac_3.clearCheck();	opc_3="sin datos";

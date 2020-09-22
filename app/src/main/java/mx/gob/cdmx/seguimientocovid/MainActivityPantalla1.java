@@ -456,36 +456,36 @@ public String hora() {
     return formattedDate5;
 }
 
-public void dialogo() {
-    AlertDialog.Builder builder = new AlertDialog.Builder(this);
-    builder.setMessage("Desea continuar Encuestando..?").setTitle("IMPORTANTE").setCancelable(false)
-    .setNegativeButton("SALIR", new DialogInterface.OnClickListener() {
-        public void onClick(DialogInterface dialog, int id) {
+    public void dialogo() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Desea continuar Encuestando..?").setTitle("IMPORTANTE").setCancelable(false)
+                .setNegativeButton("SALIR", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
 
-            detenerGrabacion();
+                        detenerGrabacion();
 
-            Intent i = new Intent(MainActivityPantalla1.this, Entrada.class);
-            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(i);
-System.exit(0); // metodo que se debe implementar
-}
-}).setPositiveButton("CONTINUAR", new DialogInterface.OnClickListener() {
-    public void onClick(DialogInterface dialog, int id) {
+                        Intent i = new Intent(MainActivityPantalla1.this, Entrada.class);
+                        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                        startActivity(i);
+                        System.exit(0); // metodo que se debe implementar
+                    }
+                }).setPositiveButton("CONTINUAR", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
 
-            detenerGrabacion();
+                detenerGrabacion();
 
-        Intent i = new Intent(MainActivityPantalla1.this, MainActivity.class);
-        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        i.putExtra("Nombre", cachaNombre());
-        i.putExtra(USUARIO,usuario);
-        startActivity(i);
-System.exit(0); // metodo que se debe implementar
-}
-});
-AlertDialog alert = builder.create();
-alert.show();
+                Intent i = new Intent(MainActivityPantalla1.this, MainActivity.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                i.putExtra("Nombre", cachaNombre());
+                i.putExtra(USUARIO, usuario);
+                startActivity(i);
+                System.exit(0); // metodo que se debe implementar
+            }
+        });
+        AlertDialog alert = builder.create();
+        alert.show();
 
-}
+    }
 
     public void dialogoAdicionales() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -1063,6 +1063,75 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio5) {
                 opA = "SI vive ahí y no esta";
+                layB .setVisibility(View.GONE);	rdPreguntaB.clearCheck();	opB="No aplica";
+                lay1 .setVisibility(View.GONE);	rdPregunta1.clearCheck();	op1="No aplica";
+                lay2 .setVisibility(View.GONE);	rdPregunta2.clearCheck();	op2="No aplica";
+                lay3 .setVisibility(View.GONE);	rdPregunta3.clearCheck();	op3="No aplica";
+                lay4 .setVisibility(View.GONE);	rdPregunta4.clearCheck();	op4="No aplica";
+                lay5 .setVisibility(View.GONE);	rdPregunta5.clearCheck();	op5="No aplica";
+                lay6 .setVisibility(View.GONE);	rdPregunta6.clearCheck();	op6="No aplica";
+                lay6a .setVisibility(View.GONE);	rdPregunta6a.clearCheck();	op6a="No aplica";
+                lay6b .setVisibility(View.GONE);	rdPregunta6b.clearCheck();	op6b="No aplica";
+                lay6c .setVisibility(View.GONE);	rdPregunta6c.clearCheck();	op6c="No aplica";
+                lay6d .setVisibility(View.GONE);	rdPregunta6d.clearCheck();	op6d="No aplica";
+                lay6e .setVisibility(View.GONE);	rdPregunta6e.clearCheck();	op6e="No aplica";
+                lay6f .setVisibility(View.GONE);	rdPregunta6f.clearCheck();	op6f="No aplica";
+                lay6g .setVisibility(View.GONE);	rdPregunta6g.clearCheck();	op6g="No aplica";
+                lay6h .setVisibility(View.GONE);	rdPregunta6h.clearCheck();	op6h="No aplica";
+                lay6i .setVisibility(View.GONE);	rdPregunta6i.clearCheck();	op6i="No aplica";
+                lay6j .setVisibility(View.GONE);	rdPregunta6j.clearCheck();	op6j="No aplica";
+                lay6k .setVisibility(View.GONE);	rdPregunta6k.clearCheck();	op6k="No aplica";
+                lay7 .setVisibility(View.GONE);	rdPregunta7.clearCheck();	op7="No aplica";
+                lay8 .setVisibility(View.GONE);	rdPregunta8.clearCheck();	op8="No aplica";
+                lay8a .setVisibility(View.GONE);	rdPregunta8a.clearCheck();	op8a="No aplica";
+                lay8b .setVisibility(View.GONE);	rdPregunta8b.clearCheck();	op8b="No aplica";
+                lay8c .setVisibility(View.GONE);	rdPregunta8c.clearCheck();	op8c="No aplica";
+                lay8d .setVisibility(View.GONE);	rdPregunta8d.clearCheck();	op8d="No aplica";
+                lay8e .setVisibility(View.GONE);	rdPregunta8e.clearCheck();	op8e="No aplica";
+                lay8f .setVisibility(View.GONE);	rdPregunta8f.clearCheck();	op8f="No aplica";
+                lay9 .setVisibility(View.GONE);	rdPregunta9.clearCheck();	op9="No aplica";
+                lay10 .setVisibility(View.GONE);	rdPregunta10.clearCheck();	op10="No aplica";
+                lay11 .setVisibility(View.GONE);	rdPregunta11.clearCheck();	op11="No aplica";
+                lay12 .setVisibility(View.GONE);	rdPregunta12.clearCheck();	op12="No aplica";
+                lay13 .setVisibility(View.GONE);	rdPregunta13.clearCheck();	op13="No aplica";
+                lay13a .setVisibility(View.GONE);	rdPregunta13a.clearCheck();	op13a="No aplica";
+                lay13b .setVisibility(View.GONE);	rdPregunta13b.clearCheck();	op13b="No aplica";
+                lay13c .setVisibility(View.GONE);	rdPregunta13c.clearCheck();	op13c="No aplica";
+                lay13d .setVisibility(View.GONE);	rdPregunta13d.clearCheck();	op13d="No aplica";
+                lay13e .setVisibility(View.GONE);	rdPregunta13e.clearCheck();	op13e="No aplica";
+                lay14 .setVisibility(View.GONE);	rdPregunta14.clearCheck();	op14="No aplica";
+                lay15 .setVisibility(View.GONE);	rdPregunta15.clearCheck();	op15="No aplica";
+                lay16 .setVisibility(View.GONE);	rdPregunta16.clearCheck();	op16="No aplica";
+                lay16a .setVisibility(View.GONE);	rdPregunta16a.clearCheck();	op16a="No aplica";
+                lay16b .setVisibility(View.GONE);	rdPregunta16b.clearCheck();	op16b="No aplica";
+                lay16c .setVisibility(View.GONE);	rdPregunta16c.clearCheck();	op16c="No aplica";
+                lay16d .setVisibility(View.GONE);	rdPregunta16d.clearCheck();	op16d="No aplica";
+                lay16e .setVisibility(View.GONE);	rdPregunta16e.clearCheck();	op16e="No aplica";
+                lay16f .setVisibility(View.GONE);	rdPregunta16f.clearCheck();	op16f="No aplica";
+                lay16g .setVisibility(View.GONE);	rdPregunta16g.clearCheck();	op16g="No aplica";
+                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay18 .setVisibility(View.GONE);	rdPregunta18.clearCheck();	op18="No aplica";
+                lay18a .setVisibility(View.GONE);	rdPregunta18a.clearCheck();	op18a="No aplica";
+                lay18b .setVisibility(View.GONE);	rdPregunta18b.clearCheck();	op18b="No aplica";
+                lay18c .setVisibility(View.GONE);	rdPregunta18c.clearCheck();	op18c="No aplica";
+                lay18d .setVisibility(View.GONE);	rdPregunta18d.clearCheck();	op18d="No aplica";
+                lay18e .setVisibility(View.GONE);	rdPregunta18e.clearCheck();	op18e="No aplica";
+                lay18f .setVisibility(View.GONE);	rdPregunta18f.clearCheck();	op18f="No aplica";
+                lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="No aplica";
+                lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="No aplica";
+                lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="No aplica";
+                lay19c .setVisibility(View.GONE);	rdPregunta19c.clearCheck();	op19c="No aplica";
+                lay19d .setVisibility(View.GONE);	rdPregunta19d.clearCheck();	op19d="No aplica";
+                lay19e .setVisibility(View.GONE);	rdPregunta19e.clearCheck();	op19e="No aplica";
+                lay20 .setVisibility(View.GONE);	rdPregunta20.clearCheck();	op20="No aplica";
+                lay21 .setVisibility(View.GONE);	rdPregunta21.clearCheck();	op21="No aplica";
+                lay22 .setVisibility(View.GONE);	rdPregunta22.clearCheck();	op22="No aplica";
+                lay23 .setVisibility(View.GONE);	rdPregunta23.clearCheck();	op23="No aplica";
+                lay24 .setVisibility(View.GONE);	rdPregunta24.clearCheck();	op24="No aplica";
             }
             else if (checkedId == R.id.radio6) {
                 opA = "No vive ahí";
@@ -4622,7 +4691,7 @@ startActivity(intent);
 finish();*/
 
                         Log.i(TAG, "cqs -----------> con cuantos vive " + strText10);
-                        if(strText10.equals("0")||strText10.equals("No sabe / No contestó")||strText10.equals("sin datos")||strText10.equals("")){
+                        if(strText10.equals("0")||strText10.equals("No sabe / No contestó")||strText10.equals("sin datos")||strText10.equals("")||strText10.equals("No abren/ no hay nadie")){
                             dialogo();
                         }else{
                             dialogoAdicionales();
@@ -4664,7 +4733,7 @@ public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Thr
     btnGuardar.setEnabled(true);
 
     Log.i(TAG, "cqs -----------> con cuantos vive: " + strText10);
-    if(strText10.equals("0")||strText10.equals("No sabe / No contestó")||strText10.equals("sin datos")||strText10.equals("")){
+    if(strText10.equals("0")||strText10.equals("No sabe / No contestó")||strText10.equals("sin datos")||strText10.equals("")||strText10.equals("No abren/ no hay nadie")){
         dialogo();
     }else{
         dialogoAdicionales();
