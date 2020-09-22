@@ -78,7 +78,7 @@
     <string name="PREGUNTAB">¿Puedo hablar con (PREGUNTAR POR NOMBRE DE CONTACTO?</string>
     <string name="PREGUNTA1">Gracias por su tiempo para verificar  ¿su nombre(s) es… (INTRODUCIR NOMBRE(S) DE PILA)?</string>
     <string name="PREGUNTA2"> ¿Su primer apellido es.. (INTRODUCIR PRIMER APELLIDO)?</string>
-    <string name="PREGUNTA3"> ¿Su segundo apellido es... (INTRODUCIR PRIMER APELLIDO)?</string>
+    <string name="PREGUNTA3"> ¿Su segundo apellido es... (INTRODUCIR SEGUNDO APELLIDO)?</string>
     <string name="PREGUNTA4"> ¿Cual es su edad? </string>
     <string name="PREGUNTA5"> Genero (Anotar sin preguntar)</string>
     <string name="PREGUNTA6">¿Tiene alguna de las siguientes condiciones?</string>

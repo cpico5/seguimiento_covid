@@ -40,7 +40,7 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
     static String prefix = ID;
 
     // private static final String DATABASE_NAME = Environment.getExternalStorageDirectory() +"/Mis_archivos/" +nombreE+"_"+prefix+"";
-    private static final int DATABASE_VERSION = 17;
+    private static final int DATABASE_VERSION = 19;
 
 
     public UsuariosSQLiteHelper(Context context, String name, CursorFactory factory, int version, String DATABASE_NAME) {
@@ -71,10 +71,9 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
         public static String COLUMNA_SECCION = "seccion";
         public static String COLUMNA_latitud = "latitud";
         public static String COLUMNA_longitud = "longitud";
-        public static String COLUMNA_alcaldia = "alcaldia";
         //INICIAN PREGUNTAS
-        public static String COLUMNA_pregunta_A="pregunta_A";
-        public static String COLUMNA_pregunta_B="pregunta_B";
+        public static String COLUMNA_pregunta_A="pregunta_a";
+        public static String COLUMNA_pregunta_B="pregunta_b";
         public static String COLUMNA_pregunta_1="pregunta_1";
         public static String COLUMNA_pregunta_2="pregunta_2";
         public static String COLUMNA_pregunta_3="pregunta_3";
@@ -169,7 +168,6 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
             + TablaContactos.COLUMNA_SECCION + " INTEGER not null, "
             + TablaContactos.COLUMNA_latitud + " text, "
             + TablaContactos.COLUMNA_longitud + " text, "
-            + TablaContactos.COLUMNA_alcaldia + " text, "
 
             + TablaContactos.COLUMNA_pregunta_A +  " text, "
             + TablaContactos.COLUMNA_pregunta_B +  " text, "
@@ -254,6 +252,7 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
 
     public static class TablaAdicionales {
         public static String TABLA_Adicionales = "adicionales";
+        public static String COLUMNA_id_contacto = "id_contacto";
         public static String COLUMNA_CONSECUTIVO_DIARIO = "consecutivo_diario";
         public static String COLUMNA_EQUIPO = "equipo";
         public static String COLUMNA_USUARIO = "usuario";
@@ -264,12 +263,79 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
         public static String COLUMNA_SECCION = "seccion";
         public static String COLUMNA_latitud = "latitud";
         public static String COLUMNA_longitud = "longitud";
-        public static String COLUMNA_alcaldia = "alcaldia";
         //INICIAN PREGUNTAS
-        public static String COLUMNA_pregunta_1 = "pregunta_1";
-        public static String COLUMNA_pregunta_2 = "pregunta_2";
-        public static String COLUMNA_pregunta_3 = "pregunta_3";
-        public static String COLUMNA_genero = "genero";
+        public static String COLUMNA_pregunta_c="pregunta_c";
+        public static String COLUMNA_pregunta_c_1="pregunta_c_1";
+        public static String COLUMNA_pregunta_c_2="pregunta_c_2";
+        public static String COLUMNA_pregunta_c_3="pregunta_c_3";
+        public static String COLUMNA_pregunta_c_4="pregunta_c_4";
+        public static String COLUMNA_pregunta_c_5="pregunta_c_5";
+        public static String COLUMNA_pregunta_c_6="pregunta_c_6";
+        public static String COLUMNA_pregunta_c_6a="pregunta_c_6a";
+        public static String COLUMNA_pregunta_c_6b="pregunta_c_6b";
+        public static String COLUMNA_pregunta_c_6c="pregunta_c_6c";
+        public static String COLUMNA_pregunta_c_6d="pregunta_c_6d";
+        public static String COLUMNA_pregunta_c_6e="pregunta_c_6e";
+        public static String COLUMNA_pregunta_c_6f="pregunta_c_6f";
+        public static String COLUMNA_pregunta_c_6g="pregunta_c_6g";
+        public static String COLUMNA_pregunta_c_6h="pregunta_c_6h";
+        public static String COLUMNA_pregunta_c_6i="pregunta_c_6i";
+        public static String COLUMNA_pregunta_c_6j="pregunta_c_6j";
+        public static String COLUMNA_pregunta_c_6k="pregunta_c_6k";
+        public static String COLUMNA_pregunta_c_7="pregunta_c_7";
+        public static String COLUMNA_pregunta_c_8="pregunta_c_8";
+        public static String COLUMNA_pregunta_c_8a="pregunta_c_8a";
+        public static String COLUMNA_pregunta_c_8b="pregunta_c_8b";
+        public static String COLUMNA_pregunta_c_8c="pregunta_c_8c";
+        public static String COLUMNA_pregunta_c_8d="pregunta_c_8d";
+        public static String COLUMNA_pregunta_c_8e="pregunta_c_8e";
+        public static String COLUMNA_pregunta_c_8f="pregunta_c_8f";
+        public static String COLUMNA_pregunta_c_9="pregunta_c_9";
+        public static String COLUMNA_pregunta_c_10="pregunta_c_10";
+        public static String COLUMNA_pregunta_c_11="pregunta_c_11";
+        public static String COLUMNA_pregunta_c_12="pregunta_c_12";
+        public static String COLUMNA_pregunta_c_12a="pregunta_c_12a";
+        public static String COLUMNA_pregunta_c_12b="pregunta_c_12b";
+        public static String COLUMNA_pregunta_c_12c="pregunta_c_12c";
+        public static String COLUMNA_pregunta_c_12d="pregunta_c_12d";
+        public static String COLUMNA_pregunta_c_12e="pregunta_c_12e";
+        public static String COLUMNA_pregunta_c_13="pregunta_c_13";
+        public static String COLUMNA_pregunta_c_14="pregunta_c_14";
+        public static String COLUMNA_pregunta_c_15="pregunta_c_15";
+        public static String COLUMNA_pregunta_c_15a="pregunta_c_15a";
+        public static String COLUMNA_pregunta_c_15b="pregunta_c_15b";
+        public static String COLUMNA_pregunta_c_15c="pregunta_c_15c";
+        public static String COLUMNA_pregunta_c_15d="pregunta_c_15d";
+        public static String COLUMNA_pregunta_c_15e="pregunta_c_15e";
+        public static String COLUMNA_pregunta_c_15f="pregunta_c_15f";
+        public static String COLUMNA_pregunta_c_15g="pregunta_c_15g";
+        public static String COLUMNA_pregunta_c_15h="pregunta_c_15h";
+        public static String COLUMNA_pregunta_c_15i="pregunta_c_15i";
+        public static String COLUMNA_pregunta_c_15j="pregunta_c_15j";
+        public static String COLUMNA_pregunta_c_15k="pregunta_c_15k";
+        public static String COLUMNA_pregunta_c_16a="pregunta_c_16a";
+        public static String COLUMNA_pregunta_c_16b="pregunta_c_16b";
+        public static String COLUMNA_pregunta_c_16c="pregunta_c_16c";
+        public static String COLUMNA_pregunta_c_16d="pregunta_c_16d";
+        public static String COLUMNA_pregunta_c_17="pregunta_c_17";
+        public static String COLUMNA_pregunta_c_17a="pregunta_c_17a";
+        public static String COLUMNA_pregunta_c_17b="pregunta_c_17b";
+        public static String COLUMNA_pregunta_c_17c="pregunta_c_17c";
+        public static String COLUMNA_pregunta_c_17d="pregunta_c_17d";
+        public static String COLUMNA_pregunta_c_17e="pregunta_c_17e";
+        public static String COLUMNA_pregunta_c_17f="pregunta_c_17f";
+        public static String COLUMNA_pregunta_c_18="pregunta_c_18";
+        public static String COLUMNA_pregunta_c_18a="pregunta_c_18a";
+        public static String COLUMNA_pregunta_c_18b="pregunta_c_18b";
+        public static String COLUMNA_pregunta_c_18c="pregunta_c_18c";
+        public static String COLUMNA_pregunta_c_18d="pregunta_c_18d";
+        public static String COLUMNA_pregunta_c_18e="pregunta_c_18e";
+        public static String COLUMNA_pregunta_c_19="pregunta_c_19";
+        public static String COLUMNA_pregunta_c_20="pregunta_c_20";
+        public static String COLUMNA_pregunta_c_21="pregunta_c_21";
+        public static String COLUMNA_pregunta_c_22="pregunta_c_22";
+        public static String COLUMNA_pregunta_c_23="pregunta_c_23";
+
 
         public static String COLUMNA_abandono="abandono";
         // FINALIZAN PREGUNTAS
@@ -282,6 +348,7 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
     private static final String DATABASE_Adicionales = "create table "
             + TablaAdicionales.TABLA_Adicionales + "("
             + "id integer primary key autoincrement,"
+            + TablaAdicionales.COLUMNA_id_contacto + " text, "
             + TablaAdicionales.COLUMNA_CONSECUTIVO_DIARIO + " text not null, "
             + TablaAdicionales.COLUMNA_EQUIPO + " text not null, "
             + TablaAdicionales.COLUMNA_USUARIO + " text not null, "
@@ -292,17 +359,79 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
             + TablaAdicionales.COLUMNA_SECCION + " INTEGER not null, "
             + TablaAdicionales.COLUMNA_latitud + " text, "
             + TablaAdicionales.COLUMNA_longitud + " text, "
-            + TablaAdicionales.COLUMNA_alcaldia + " text, "
 
-            + TablaAdicionales.COLUMNA_pregunta_1 + " text, "
-            + TablaAdicionales.COLUMNA_pregunta_2 + " text, "
-            + TablaAdicionales.COLUMNA_pregunta_3 + " text, "
-            + TablaAdicionales.COLUMNA_genero + " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_1 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_2 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_3 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_4 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_5 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6a +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6b +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6d +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6e +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6f +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6g +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6h +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6i +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6j +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_6k +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_7 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8a +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8b +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8d +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8e +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8f +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_9 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_10 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_11 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_12 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_12a +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_12b +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_12c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_12d +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_12e +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_13 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_14 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15a +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15b +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15d +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15e +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15f +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15g +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15h +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15i +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15j +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_15k +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_16a +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_16b +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_16c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_16d +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_17 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_17a +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_17b +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_17c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_17d +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_17e +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_17f +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18a +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18b +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18d +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18e +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_19 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_20 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_21 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_22 +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_23 +  " text, "
 
-            + TablaAdicionales.COLUMNA_abandono + " text, "
-            + TablaAdicionales.COLUMNA_TIEMPO + " text, "
-            + TablaAdicionales.COLUMNA_TIPO_CAPTURA + " text, "
-            + TablaAdicionales.COLUMNA_enviado + " text, "
 
             + TablaAdicionales.COLUMNA_abandono +  " text, "
             + TablaAdicionales.COLUMNA_TIEMPO + " text, "

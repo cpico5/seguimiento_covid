@@ -205,7 +205,7 @@ public class Entrada extends Activity {
         db = usdbh.getReadableDatabase();
 
 
-        String selectQuery = "SELECT count(*) FROM encuestas where fecha='" + formattedDateFecha + "'";
+        String selectQuery = "SELECT count(*) FROM contactos where fecha='" + formattedDateFecha + "'";
 
         Log.i(TAG, "Query maximo"+selectQuery);
 
@@ -337,78 +337,78 @@ public class Entrada extends Activity {
         db = usdbh.getReadableDatabase();
 
 
-        String SQLlote = "ALTER TABLE  encuestas ADD COLUMN lote";
-        String SQLnum_interior = "ALTER TABLE  encuestas ADD COLUMN num_interior";
-        String SQLmanzana = "ALTER TABLE  encuestas ADD COLUMN manzana";
-        String SQLdireccion_gps = "ALTER TABLE  encuestas ADD COLUMN direccion_gps";
-        String SQLcalle = "ALTER TABLE  encuestas ADD COLUMN calle";
-        String SQLnum_exterior = "ALTER TABLE  encuestas ADD COLUMN num_exterior";
-        String SQLtelefono_contacto = "ALTER TABLE  encuestas ADD COLUMN telefono_contacto";
-        String SQLatencion_urgente = "ALTER TABLE  encuestas ADD COLUMN atencion_urgente";
-        String SQLpaterno = "ALTER TABLE  encuestas ADD COLUMN paterno";
-        String SQLnombres = "ALTER TABLE  encuestas ADD COLUMN nombres";
-        String SQLmaterno = "ALTER TABLE  encuestas ADD COLUMN materno";
-        String SQLtelefono_sospecha = "ALTER TABLE  encuestas ADD COLUMN telefono_sospecha";
-
-        try {
-            db.execSQL(SQLlote);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "lote");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna lote"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLnum_interior);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "num_interior");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna num_interior"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLmanzana);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "manzana");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna manzana"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLdireccion_gps);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "direccion_gps");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna direccion_gps"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLcalle);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "calle");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna calle"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLnum_exterior);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "num_exterior");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna num_exterior"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLtelefono_contacto);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "telefono_contacto");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna telefono_contacto"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLatencion_urgente);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "atencion_urgente");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna atencion_urgente"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLpaterno);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "paterno");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna paterno"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLnombres);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "nombres");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna nombres"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLmaterno);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "materno");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna materno"+ stackTrace); }
-
-        try {
-            db.execSQL(SQLtelefono_sospecha);
-            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "telefono_sospecha");
-        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna telefono_sospecha"+ stackTrace); }
+//        String SQLlote = "ALTER TABLE  encuestas ADD COLUMN lote";
+//        String SQLnum_interior = "ALTER TABLE  encuestas ADD COLUMN num_interior";
+//        String SQLmanzana = "ALTER TABLE  encuestas ADD COLUMN manzana";
+//        String SQLdireccion_gps = "ALTER TABLE  encuestas ADD COLUMN direccion_gps";
+//        String SQLcalle = "ALTER TABLE  encuestas ADD COLUMN calle";
+//        String SQLnum_exterior = "ALTER TABLE  encuestas ADD COLUMN num_exterior";
+//        String SQLtelefono_contacto = "ALTER TABLE  encuestas ADD COLUMN telefono_contacto";
+//        String SQLatencion_urgente = "ALTER TABLE  encuestas ADD COLUMN atencion_urgente";
+//        String SQLpaterno = "ALTER TABLE  encuestas ADD COLUMN paterno";
+//        String SQLnombres = "ALTER TABLE  encuestas ADD COLUMN nombres";
+//        String SQLmaterno = "ALTER TABLE  encuestas ADD COLUMN materno";
+//        String SQLtelefono_sospecha = "ALTER TABLE  encuestas ADD COLUMN telefono_sospecha";
+//
+//        try {
+//            db.execSQL(SQLlote);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "lote");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna lote"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLnum_interior);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "num_interior");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna num_interior"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLmanzana);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "manzana");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna manzana"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLdireccion_gps);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "direccion_gps");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna direccion_gps"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLcalle);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "calle");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna calle"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLnum_exterior);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "num_exterior");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna num_exterior"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLtelefono_contacto);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "telefono_contacto");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna telefono_contacto"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLatencion_urgente);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "atencion_urgente");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna atencion_urgente"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLpaterno);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "paterno");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna paterno"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLnombres);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "nombres");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna nombres"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLmaterno);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "materno");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna materno"+ stackTrace); }
+//
+//        try {
+//            db.execSQL(SQLtelefono_sospecha);
+//            Log.i("cqs --->> Crea columnas","Se crea la columna: "+ "telefono_sospecha");
+//        }catch (Exception e){String stackTrace = Log.getStackTraceString(e);Log.i("cqs --->> Crea columnas","Error al crear la columna telefono_sospecha"+ stackTrace); }
 
 
         // Abrimos la base de datos 'DBUsuarios' en modo escritura

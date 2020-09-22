@@ -741,7 +741,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
     public void cargaEncuestador() {
 
         db = usdbh.getWritableDatabase();
-        String selectQuery1 = " SELECT usuario, count(*) as total from encuestas where fecha='" + formattedDate3
+        String selectQuery1 = " SELECT usuario, count(*) as total from contactos where fecha='" + formattedDate3
                 + "' group by usuario";
         Cursor c = db.rawQuery(selectQuery1, null);
 
@@ -765,7 +765,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
         String cuantasSecciones_base;
 
         db = usdbh.getWritableDatabase();
-        String selectQuery1 = "select seccion, count(*) as total from encuestas where seccion='" + seccion
+        String selectQuery1 = "select seccion, count(*) as total from contactos where seccion='" + seccion
                 + "' and fecha='" + formattedDate3 + "' and tipo_captura='NORMAL' group by seccion";
         // String selectQuery1 = "select seccion, count(*) as total from
         // locatario where seccion='"+seccion+"' group by seccion"; //total de
@@ -794,7 +794,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
         seccion = autoCompleteTextView.getText().toString();
         String cuantasSecciones_base;
         db = usdbh.getWritableDatabase();
-        String selectQuery1 = "select seccion, count(*) as total from encuestas where seccion='" + seccion
+        String selectQuery1 = "select seccion, count(*) as total from contactos where seccion='" + seccion
                 + "' and fecha='" + formattedDate3 + "' and (tipo_captura='ABANDONO' or tipo_captura='ABANDONO TEMOR A CONTAGIO')  group by seccion";
         Cursor c = db.rawQuery(selectQuery1, null);
         if (c.getCount() > 0) {
@@ -818,7 +818,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
         // String selectQuery1 = "select seccion, count(*) as total from
         // encuestas where seccion='"+seccion+"' and fecha='"+formattedDate1+"'
         // group by seccion";
-        String selectQuery1 = "select socioeconomico_12, count(*) as total from encuestas where seccion='" + seccion
+        String selectQuery1 = "select socioeconomico_12, count(*) as total from contactos where seccion='" + seccion
                 + "' and fecha='" + formattedDate3 + "'  and socioeconomico_12='MASCULINO' and tipo_captura='NORMAL' group by socioeconomico_12"; // total
         // de
         // encuestas
@@ -851,7 +851,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
         // String selectQuery1 = "select seccion, count(*) as total from
         // encuestas where seccion='"+seccion+"' and fecha='"+formattedDate1+"'
         // group by seccion";
-        String selectQuery1 = "select socioeconomico_12, count(*) as total from encuestas where seccion='" + seccion
+        String selectQuery1 = "select socioeconomico_12, count(*) as total from contactos where seccion='" + seccion
                 + "' and fecha='" + formattedDate3 + "'  and socioeconomico_12='FEMENINO' and tipo_captura='NORMAL' group by socioeconomico_12"; // total
         // de
         // encuestas
@@ -879,7 +879,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
         seccion = autoCompleteTextView.getText().toString();
         String cuantasSecciones_base;
         db = usdbh.getWritableDatabase();
-        String selectQuery1 = "select seccion, count(*) as total from encuestas where fecha='" + formattedDate3 + "' and (tipo_captura='RECHAZO' or tipo_captura='RECHAZO TEMOR A CONTAGIO')  group by seccion";
+        String selectQuery1 = "select seccion, count(*) as total from contactos where fecha='" + formattedDate3 + "' and (tipo_captura='RECHAZO' or tipo_captura='RECHAZO TEMOR A CONTAGIO')  group by seccion";
         Cursor c = db.rawQuery(selectQuery1, null);
         if (c.getCount() > 0) {
             // Recorremos el cursor hasta que no haya más registros
@@ -897,7 +897,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
         seccion = autoCompleteTextView.getText().toString();
         String cuantasSecciones_base;
         db = usdbh.getWritableDatabase();
-        String selectQuery1 = "select seccion, count(*) as total from encuestas where seccion='" + seccion + "' and fecha='" + formattedDate3 + "' and (tipo_captura='RECHAZO' or tipo_captura='RECHAZO TEMOR A CONTAGIO') group by seccion";
+        String selectQuery1 = "select seccion, count(*) as total from contactos where seccion='" + seccion + "' and fecha='" + formattedDate3 + "' and (tipo_captura='RECHAZO' or tipo_captura='RECHAZO TEMOR A CONTAGIO') group by seccion";
         Cursor c = db.rawQuery(selectQuery1, null);
         if (c.getCount() > 0) {
             // Recorremos el cursor hasta que no haya más registros
@@ -915,7 +915,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
         seccion = autoCompleteTextView.getText().toString();
         String cuantasSecciones_base;
         db = usdbh.getWritableDatabase();
-        String selectQuery1 = "select seccion, count(*) as total from encuestas where seccion='" + seccion + "' and fecha='" + formattedDate3 + "' and (tipo_captura='RECHAZO TEMOR A CONTAGIO') group by seccion";
+        String selectQuery1 = "select seccion, count(*) as total from contactos where seccion='" + seccion + "' and fecha='" + formattedDate3 + "' and (tipo_captura='RECHAZO TEMOR A CONTAGIO') group by seccion";
         Cursor c = db.rawQuery(selectQuery1, null);
         if (c.getCount() > 0) {
             // Recorremos el cursor hasta que no haya más registros
@@ -1291,7 +1291,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
 
         db = usdbh.getReadableDatabase();
 
-        String selectQuery = "SELECT count(*) FROM encuestas where fecha='" + formattedDate3 + "'";
+        String selectQuery = "SELECT count(*) FROM contactos where fecha='" + formattedDate3 + "'";
 
         Cursor cursor = db.rawQuery(selectQuery, null);
 
@@ -1410,7 +1410,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 values.put("seccion", strSecc);
                 values.put("latitud", strLatitud);
                 values.put("longitud", strLongitud);
-                values.put("alcaldia", laAlcaldia);
 
                 values.put("genero", "Masculino");
                 values.put("observaciones", "sin datos");
@@ -1424,10 +1423,10 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 if (!verificaConexion(this)) {
                     Toast.makeText(getBaseContext(),"Sin conexion",Toast.LENGTH_LONG).show();
                     values.put("enviado", "0");
-                    db.insert("encuestas", null, values);
+                    db.insert("contactos", null, values);
                 }else{
                     values.put("enviado", "1");
-                    consecutivoObtenido = db.insert("encuestas", null, values);
+                    consecutivoObtenido = db.insert("contactos", null, values);
                 }
             }
 //			db.close();
@@ -1537,10 +1536,10 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 if (!verificaConexion(this)) {
                     Toast.makeText(getBaseContext(),"Sin conexion",Toast.LENGTH_LONG).show();
                     values.put("enviado", "0");
-                    db.insert("encuestas", null, values);
+                    db.insert("contactos", null, values);
                 }else{
                     values.put("enviado", "1");
-                    consecutivoObtenido = db.insert("encuestas", null, values);
+                    consecutivoObtenido = db.insert("contactos", null, values);
                 }
             }
 //			db.close();
@@ -1633,7 +1632,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 values.put("seccion", strSecc);
                 values.put("latitud", strLatitud);
                 values.put("longitud", strLongitud);
-                values.put("alcaldia", laAlcaldia);
 
 
                 values.put("genero", "Masculino");
@@ -1648,10 +1646,10 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 if (!verificaConexion(this)) {
                     Toast.makeText(getBaseContext(),"Sin conexión",Toast.LENGTH_LONG).show();
                     values.put("enviado", "0");
-                    db.insert("encuestas", null, values);
+                    db.insert("contactos", null, values);
                 }else{
                     values.put("enviado", "1");
-                    consecutivoObtenido = db.insert("encuestas", null, values);
+                    consecutivoObtenido = db.insert("contactos", null, values);
                 }
             }
 //			db.close();
@@ -1745,7 +1743,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 values.put("seccion", strSecc);
                 values.put("latitud", strLatitud);
                 values.put("longitud", strLongitud);
-                values.put("alcaldia", laAlcaldia);
 
 
                 values.put("genero", "Femenino");
@@ -1760,10 +1757,10 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 if (!verificaConexion(this)) {
                     Toast.makeText(getBaseContext(),"Sin conexión",Toast.LENGTH_LONG).show();
                     values.put("enviado", "0");
-                    db.insert("encuestas", null, values);
+                    db.insert("contactos", null, values);
                 }else{
                     values.put("enviado", "1");
-                    consecutivoObtenido = db.insert("encuestas", null, values);
+                    consecutivoObtenido = db.insert("contactos", null, values);
                 }
 
 
@@ -1859,7 +1856,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 values.put("seccion", strSecc);
                 values.put("latitud", strLatitud);
                 values.put("longitud", strLongitud);
-                values.put("alcaldia", laAlcaldia);
 
 
                 values.put("genero", "Masculino");
@@ -1874,10 +1870,10 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 if (!verificaConexion(this)) {
                     Toast.makeText(getBaseContext(),"Sin conexión",Toast.LENGTH_LONG).show();
                     values.put("enviado", "0");
-                    db.insert("encuestas", null, values);
+                    db.insert("contactos", null, values);
                 }else{
                     values.put("enviado", "1");
-                    consecutivoObtenido = db.insert("encuestas", null, values);
+                    consecutivoObtenido = db.insert("contactos", null, values);
                 }
             }
 //			db.close();
@@ -1970,7 +1966,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 values.put("seccion", strSecc);
                 values.put("latitud", strLatitud);
                 values.put("longitud", strLongitud);
-                values.put("alcaldia", laAlcaldia);
 
 
                 values.put("genero", "Masculino");
@@ -1985,10 +1980,10 @@ public class MainActivity extends Activity implements OnItemSelectedListener, Ad
                 if (!verificaConexion(this)) {
                     Toast.makeText(getBaseContext(),"Sin conexión",Toast.LENGTH_LONG).show();
                     values.put("enviado", "0");
-                    db.insert("encuestas", null, values);
+                    db.insert("contactos", null, values);
                 }else{
                     values.put("enviado", "1");
-                    consecutivoObtenido = db.insert("encuestas", null, values);
+                    consecutivoObtenido = db.insert("contactos", null, values);
                 }
             }
 //			db.close();
