@@ -164,7 +164,7 @@
         android:layout_marginBottom="30dp"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="Otro"
+        android:hint="Nombre completo"
         android:inputType="text"
         android:focusable="false"
         android:focusableInTouchMode="false"

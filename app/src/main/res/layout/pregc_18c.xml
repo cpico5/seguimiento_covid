@@ -143,6 +143,19 @@
           android:text=""
           android:visibility="gone"
           />
+
+          <EditText
+              android:id="@+id/editPreguntac_18c"
+              android:layout_width="320dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:layout_marginBottom="30dp"
+              android:ems="10"
+              android:focusable="false"
+              android:focusableInTouchMode="false"
+              android:hint="Exterior acudio"
+              android:inputType="text"
+              android:textSize="16sp" />
           
           <RadioButton
           android:id="@+id/radio0"
@@ -156,20 +169,9 @@
             android:theme="@style/RadioButton"
             android:text="No sabe / No contestó"
             />
-            
-        <EditText
-        android:id="@+id/editPreguntac_18c"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="30dp"
-        android:ems="10"
-        android:hint="Otro"
-        android:inputType="text"
-        android:focusable="false"
-        android:focusableInTouchMode="false"
-        android:textSize="16sp" />
-        
+
+
+
       </RadioGroup>
       </LinearLayout>
       </LinearLayout>
