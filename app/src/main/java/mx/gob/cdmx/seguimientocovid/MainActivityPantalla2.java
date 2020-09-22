@@ -1,21 +1,5 @@
 package mx.gob.cdmx.seguimientocovid;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.lang.reflect.Method;
-import java.lang.reflect.Type;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-import java.util.Timer;
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.SuppressLint;
@@ -73,6 +57,22 @@ import com.loopj.android.http.RequestParams;
 
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Type;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+import java.util.Set;
+import java.util.Timer;
+
 import cz.msebera.android.httpclient.Header;
 import mx.gob.cdmx.seguimientocovid.model.DatoContent;
 import mx.gob.cdmx.seguimientocovid.model.Usuario;
@@ -83,7 +83,7 @@ import static mx.gob.cdmx.seguimientocovid.Nombre.USUARIO;
 import static mx.gob.cdmx.seguimientocovid.Nombre.customURL;
 import static mx.gob.cdmx.seguimientocovid.Nombre.encuesta;
 
-public class MainActivityPantalla1 extends Activity {
+public class MainActivityPantalla2 extends Activity {
 
     private static final String LOG_TAG = "Grabadora";
     private static final String TAG = "Pantalla1";
@@ -131,7 +131,7 @@ public class MainActivityPantalla1 extends Activity {
     double latitude;
     double longitude;
 
-    Random random = new java.util.Random();
+    Random random = new Random();
     public int rand;
 
     public RadioGroup rdPreguntaOcupacion, rdPreguntaFocos,   rdPreguntaCoche,rdPreguntaCuantosCoches,rdPreguntaCuartos, rdPreguntaCuartosDormir,
@@ -389,22 +389,35 @@ public class MainActivityPantalla1 extends Activity {
     static String ID = getHostName(null);
     static String prefix = ID;
 
+
     public String cachaNombre() {
         Bundle datos = this.getIntent().getExtras();
         String Nombre = datos.getString("Nombre");
         return Nombre;
     }
 
-    public String cachaTelefono() {
+    public String cachaConsecutivoDiario() {
         Bundle datos = this.getIntent().getExtras();
-        String telefono = datos.getString("telefono");
-        return telefono;
+        String consecutivo_diario = datos.getString("consecutivo_diario");
+        return consecutivo_diario;
+    }
+
+    public String cachaEquipo() {
+        Bundle datos = this.getIntent().getExtras();
+        String equipo = datos.getString("equipo");
+        return equipo;
+    }
+
+    public String cachaUsuario() {
+        Bundle datos = this.getIntent().getExtras();
+        String usuario = datos.getString("usuario");
+        return usuario;
     }
 
     public String cachaSeccion() {
         Bundle datos = this.getIntent().getExtras();
-        String Seccion = datos.getString("Seccion");
-        return Seccion;
+        String seccion = datos.getString("seccion");
+        return seccion;
     }
 
     public String cachaAlcaldia() {
@@ -412,16 +425,18 @@ public class MainActivityPantalla1 extends Activity {
         String alcaldia = datos.getString("alcaldia");
         return alcaldia;
     }
+
+
+    public String cachaTelefono() {
+        Bundle datos = this.getIntent().getExtras();
+        String telefono = datos.getString("telefono");
+        return telefono;
+    }
+
     public String cachaDelegacion() {
         Bundle datos = this.getIntent().getExtras();
         String delegacion = datos.getString("delegacion");
         return delegacion;
-    }
-
-    public String cachaEquipo() {
-        Bundle datos = this.getIntent().getExtras();
-        String equipo = datos.getString("equipo");
-        return equipo;
     }
 
     @SuppressLint("MissingPermission")
@@ -462,7 +477,7 @@ public void dialogo() {
 
             detenerGrabacion();
 
-            Intent i = new Intent(MainActivityPantalla1.this, Entrada.class);
+            Intent i = new Intent(MainActivityPantalla2.this, Entrada.class);
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(i);
 System.exit(0); // metodo que se debe implementar
@@ -472,7 +487,7 @@ System.exit(0); // metodo que se debe implementar
 
             detenerGrabacion();
 
-        Intent i = new Intent(MainActivityPantalla1.this, MainActivity.class);
+        Intent i = new Intent(MainActivityPantalla2.this, MainActivity.class);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         i.putExtra("Nombre", cachaNombre());
         i.putExtra(USUARIO,usuario);
@@ -485,73 +500,10 @@ alert.show();
 
 }
 
-    public void dialogoAdicionales() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Desea continuar Encuestando..?").setTitle("IMPORTANTE").setCancelable(false)
-            .setPositiveButton("CONTINUAR", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-
-                detenerGrabacion();
-
-                // NORMAL
-                Nombre nom = new Nombre();
-                String nombreE = nom.nombreEncuesta();
-
-                GPSTracker gps = new GPSTracker(MainActivityPantalla1.this);
-//        latitude = gps.getLatitude();
-//        longitude = gps.getLongitude();
-
-                latitude = Double.valueOf(sacaLatitud());
-                longitude = Double.valueOf(sacaLongitud());
-
-                if (latitude == 0.0) {
-                    if (sacaLatitud() != null) {
-                        latitude = Double.valueOf(sacaLatitud());
-                    } else {
-                        latitude = 0.0;
-                    }
-                }
-
-                if (longitude == 0.0) {
-                    if (sacaLongitud() != null) {
-                        longitude = Double.valueOf(sacaLongitud());
-                    } else {
-                        longitude = 0.0;
-                    }
-                }
-
-                String strSecc = txtSeccion.getText().toString();
-                String strLatitud = String.valueOf(latitude);
-                String strLongitud = String.valueOf(longitude);
-
-                Intent i = new Intent(MainActivityPantalla1.this, MainActivityPantalla2.class);
-                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                i.putExtra("Nombre", cachaNombre());
-                i.putExtra("consecutivo_diario", elMaximo);
-                i.putExtra("equipo", cachaEquipo().toUpperCase());
-                i.putExtra("usuario", cachaNombre().toUpperCase());
-                i.putExtra("nombre_encuesta", nombreE.toUpperCase());
-                i.putExtra("fecha", formattedDate1);
-                i.putExtra("hora", formattedDate5);
-                i.putExtra("imei", sacaImei());
-                i.putExtra("seccion", strSecc);
-                i.putExtra("latitud", strLatitud);
-                i.putExtra("longitud", strLongitud);
-                i.putExtra("alcaldia", cachaAlcaldia());
-                i.putExtra(USUARIO,usuario);
-                startActivity(i);
-                System.exit(0); // metodo que se debe implementar
-            }
-        });
-        AlertDialog alert = builder.create();
-        alert.show();
-
-    }
-
 public void dialogoParoAudio() {
     timer.cancel();
     final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-    MainActivityPantalla1.this.runOnUiThread(new Runnable() {
+    MainActivityPantalla2.this.runOnUiThread(new Runnable() {
         public void run() {
             builder.setMessage("¿Se detendrá la grabación y \n se reiniciará la encuesta..?")
             .setTitle("AVISO...!!!").setCancelable(false)
@@ -560,7 +512,7 @@ public void dialogoParoAudio() {
 
                     detenerGrabacion();
 
-                    Intent i = new Intent(MainActivityPantalla1.this, Entrada.class);
+                    Intent i = new Intent(MainActivityPantalla2.this, Entrada.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
 System.exit(0); // metodo que se debe
@@ -579,7 +531,7 @@ public void dialogoCierraEncuesta() {
     timer.cancel();
 
     final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-    MainActivityPantalla1.this.runOnUiThread(new Runnable() {
+    MainActivityPantalla2.this.runOnUiThread(new Runnable() {
         public void run() {
             builder.setMessage("Excediste el tiempo máximo para realizar la encuesta \n"
                 + "¡¡¡ Se detendrá la grabación y se reiniciará la Aplicación..!!!").setTitle("AVISO...!!!")
@@ -588,7 +540,7 @@ public void dialogoCierraEncuesta() {
 
                     detenerGrabacion();
 
-                    Intent i = new Intent(MainActivityPantalla1.this, Entrada.class);
+                    Intent i = new Intent(MainActivityPantalla2.this, Entrada.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(i);
 System.exit(0); // metodo que se debe
@@ -705,12 +657,12 @@ if (savedInstanceState != null) {
 }
 
 // Carga las pantallas aleatoriamente
-random = new java.util.Random();
+random = new Random();
 //
 
 
 // Crea Log cuando falla la app
-Thread.setDefaultUncaughtExceptionHandler(new UnCaughtException(MainActivityPantalla1.this,this));
+Thread.setDefaultUncaughtExceptionHandler(new UnCaughtException(MainActivityPantalla2.this,this));
 
 
 cachaNombre(); // llamado al metodo para obtener el numero del
@@ -3431,7 +3383,7 @@ public void valores() {
         ContentValues values = new ContentValues();
         if (db != null) {
 
-            values.put("consecutivo_diario", elMaximo);
+            values.put("consecutivo_diario", cachaConsecutivoDiario());
             values.put("equipo", cachaEquipo().toUpperCase());
             values.put("usuario", cachaNombre().toUpperCase());
             values.put("nombre_encuesta", nombreE.toUpperCase());
@@ -3711,14 +3663,14 @@ finish();*/
 
 
 } else {
-    Toast.makeText(MainActivityPantalla1.this, "Error al subir los datos", Toast.LENGTH_SHORT).show();
+    Toast.makeText(MainActivityPantalla2.this, "Error al subir los datos", Toast.LENGTH_SHORT).show();
 }
 }
 
 } catch (Exception e) {
     showProgress(false);
     Log.e(TAG, e.getMessage());
-    Toast.makeText(MainActivityPantalla1.this, "Error al subir los datos", Toast.LENGTH_SHORT).show();
+    Toast.makeText(MainActivityPantalla2.this, "Error al subir los datos", Toast.LENGTH_SHORT).show();
 }
 }
 
@@ -3741,7 +3693,7 @@ public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Thr
 
     }
 
-    Toast.makeText(MainActivityPantalla1.this, "Error de conexion, Se guarda en la base interna", Toast.LENGTH_SHORT).show();
+    Toast.makeText(MainActivityPantalla2.this, "Error de conexion, Se guarda en la base interna", Toast.LENGTH_SHORT).show();
     btnGuardar.setEnabled(true);
 
     dialogo();
@@ -4002,7 +3954,7 @@ public void CargaSpinnerEscala() {
     adaptador.setDropDownViewResource(R.layout.multiline_spinner_dropdown_item);
     spinnerCalifica.setAdapter(adaptador);
     spinnerCalifica.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-        public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+        public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
         }
 
         public void onNothingSelected(AdapterView<?> parent) {
@@ -4029,7 +3981,7 @@ public void CargaSpinnerSemana() {
     adaptador.setDropDownViewResource(R.layout.multiline_spinner_dropdown_item);
     spinnerSemana.setAdapter(adaptador);
     spinnerSemana.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-        public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+        public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
 
 //				rdPregunta10.clearCheck();
 //				editPregunta10.setText("");
@@ -4055,7 +4007,7 @@ public void CargaSpinnerAlcaldia13e() {
     adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
     spinner13e.setAdapter(adaptador);
     spinner13e.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-        public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+        public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
         }
 
         public void onNothingSelected(AdapterView<?> parent) {
@@ -4076,7 +4028,7 @@ public void CargaSpinnerAlcaldia13e() {
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner19e.setAdapter(adaptador);
         spinner19e.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+            public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
             }
 
             public void onNothingSelected(AdapterView<?> parent) {
