@@ -3525,10 +3525,10 @@ public void valores() {
             if (!verificaConexion(this)) {
                 Toast.makeText(getBaseContext(),"Sin conexión",Toast.LENGTH_LONG).show();
                 values.put("enviado", "0");
-                db.insert("encuestas", null, values);
+                db.insert("contactos", null, values);
             }else{
                 values.put("enviado", "1");
-                consecutivoObtenido = db.insert("encuestas", null, values);
+                consecutivoObtenido = db.insert("contactos", null, values);
             }
         }
         db.close();
@@ -3640,6 +3640,14 @@ private void guardaEncuestaWS(ContentValues values){
 
     showProgress(true);
 
+    final String strText10;
+    if(editPregunta10.getText().toString().trim().length()==0){
+        strText10=op10;
+    }else{
+        strText10=editPregunta10.getText().toString().trim();
+        rdPregunta10.clearCheck();
+    }
+
 //RECORRE CONTENTVALUES
     DatoContent datoContent = new DatoContent();
     List<DatoContent> listaContenido = new ArrayList();
@@ -3707,7 +3715,12 @@ intent.putExtra("Nombre", encuestaQuien);
 startActivity(intent);
 finish();*/
 
-                        dialogo();
+
+                        if(strText10.equals("0")||strText10.equals("No sabe / No contestó")){
+                            dialogo();
+                        }else{
+                            dialogoAdicionales();
+                        }
 
 
 } else {
@@ -3744,7 +3757,12 @@ public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Thr
     Toast.makeText(MainActivityPantalla1.this, "Error de conexion, Se guarda en la base interna", Toast.LENGTH_SHORT).show();
     btnGuardar.setEnabled(true);
 
-    dialogo();
+    if(strText10.equals("0")||strText10.equals("No sabe / No contestó")){
+        dialogo();
+    }else{
+        dialogoAdicionales();
+    }
+
 
 }
 });
