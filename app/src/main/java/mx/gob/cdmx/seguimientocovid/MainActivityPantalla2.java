@@ -2512,48 +2512,18 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15a = "SI";
-                layc_15b .setVisibility(View.VISIBLE);	rdPreguntac_15b.clearCheck();	opc_15b="No aplica";
-                layc_15c .setVisibility(View.VISIBLE);	rdPreguntac_15c.clearCheck();	opc_15c="No aplica";
-                layc_15d .setVisibility(View.VISIBLE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.VISIBLE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.VISIBLE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.VISIBLE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.VISIBLE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.VISIBLE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
                 layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
 
             }
             else if (checkedId == R.id.radio4) {
                 opc_15a = "NO";
-                layc_15b .setVisibility(View.GONE);	rdPreguntac_15b.clearCheck();	opc_15b="No aplica";
-                layc_15c .setVisibility(View.GONE);	rdPreguntac_15c.clearCheck();	opc_15c="No aplica";
-                layc_15d .setVisibility(View.GONE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.GONE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
 
 
             }
             else if (checkedId == R.id.radio0) {
                 opc_15a = "No sabe / No contestó";
-                layc_15b .setVisibility(View.GONE);	rdPreguntac_15b.clearCheck();	opc_15b="No aplica";
-                layc_15c .setVisibility(View.GONE);	rdPreguntac_15c.clearCheck();	opc_15c="No aplica";
-                layc_15d .setVisibility(View.GONE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.GONE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
 
             }
         }
@@ -2571,42 +2541,15 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15b = "SI";
-                layc_15c .setVisibility(View.VISIBLE);	rdPreguntac_15c.clearCheck();	opc_15c="No aplica";
-                layc_15d .setVisibility(View.VISIBLE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.VISIBLE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.VISIBLE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.VISIBLE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.VISIBLE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.VISIBLE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
                 layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio4) {
                 opc_15b = "NO";
-                layc_15c .setVisibility(View.GONE);	rdPreguntac_15c.clearCheck();	opc_15c="No aplica";
-                layc_15d .setVisibility(View.GONE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.GONE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 opc_15b = "No sabe / No contestó";
-                layc_15c .setVisibility(View.GONE);	rdPreguntac_15c.clearCheck();	opc_15c="No aplica";
-                layc_15d .setVisibility(View.GONE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.GONE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
         }
     });
@@ -2622,39 +2565,15 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15c = "SI";
-                layc_15d .setVisibility(View.VISIBLE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.VISIBLE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.VISIBLE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.VISIBLE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.VISIBLE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.VISIBLE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
                 layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio4) {
                 opc_15c = "NO";
-                layc_15d .setVisibility(View.GONE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.GONE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 opc_15c = "No sabe / No contestó";
-                layc_15d .setVisibility(View.GONE);	rdPreguntac_15d.clearCheck();	opc_15d="No aplica";
-                layc_15e .setVisibility(View.GONE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
         }
     });
@@ -2670,36 +2589,15 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15d = "SI";
-                layc_15e .setVisibility(View.VISIBLE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.VISIBLE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.VISIBLE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.VISIBLE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.VISIBLE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
                 layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio4) {
                 opc_15d = "NO";
-                layc_15e .setVisibility(View.GONE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 opc_15d = "No sabe / No contestó";
-                layc_15e .setVisibility(View.GONE);	rdPreguntac_15e.clearCheck();	opc_15e="No aplica";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
         }
     });
@@ -2715,33 +2613,14 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15e = "SI";
-                layc_15f .setVisibility(View.VISIBLE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.VISIBLE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.VISIBLE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.VISIBLE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
                 layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio4) {
                 opc_15e = "NO";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio0) {
-                opc_15e = "No sabe / No contestó";
-                layc_15f .setVisibility(View.GONE);	rdPreguntac_15f.clearCheck();	opc_15f="No aplica";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
         }
     });
@@ -2757,30 +2636,15 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15f = "SI";
-                layc_15g .setVisibility(View.VISIBLE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.VISIBLE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.VISIBLE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
                 layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio4) {
                 opc_15f = "NO";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 opc_15f = "No sabe / No contestó";
-                layc_15g .setVisibility(View.GONE);	rdPreguntac_15g.clearCheck();	opc_15g="No aplica";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
         }
     });
@@ -2796,27 +2660,15 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15g = "SI";
-                layc_15h .setVisibility(View.VISIBLE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.VISIBLE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
                 layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio4) {
                 opc_15g = "NO";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 opc_15g = "No sabe / No contestó";
-                layc_15h .setVisibility(View.GONE);	rdPreguntac_15h.clearCheck();	opc_15h="No aplica";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
             }
         }
     });
@@ -2832,24 +2684,30 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15h = "SI";
-                layc_15i .setVisibility(View.VISIBLE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
             else if (checkedId == R.id.radio4) {
                 opc_15h = "NO";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
             else if (checkedId == R.id.radio0) {
                 opc_15h = "No sabe / No contestó";
-                layc_15i .setVisibility(View.GONE);	rdPreguntac_15i.clearCheck();	opc_15i="No aplica";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
         }
     });
@@ -2865,21 +2723,31 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15i = "SI";
-                layc_15j .setVisibility(View.VISIBLE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
             else if (checkedId == R.id.radio4) {
                 opc_15i = "NO";
-                layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
             else if (checkedId == R.id.radio0) {
                 opc_15i = "No sabe / No contestó";
                 layc_15j .setVisibility(View.GONE);	rdPreguntac_15j.clearCheck();	opc_15j="No aplica";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
         }
     });
@@ -2895,18 +2763,30 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15j = "SI";
-                layc_15k .setVisibility(View.VISIBLE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
             else if (checkedId == R.id.radio4) {
                 opc_15j = "NO";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
             else if (checkedId == R.id.radio0) {
                 opc_15j = "No sabe / No contestó";
-                layc_15k .setVisibility(View.GONE);	rdPreguntac_15k.clearCheck();	opc_15k="No aplica";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
         }
     });
@@ -2922,15 +2802,30 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_15k = "SI";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
             else if (checkedId == R.id.radio4) {
                 opc_15k = "NO";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
             else if (checkedId == R.id.radio0) {
                 opc_15k = "No sabe / No contestó";
-                layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                if(opc_15a.equals("SI")||opc_15b.equals("SI")||opc_15c.equals("SI")||opc_15d.equals("SI")||opc_15e.equals("SI")||opc_15f.equals("SI")||opc_15g.equals("SI")){
+                    layc_16 .setVisibility(View.VISIBLE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                }else{
+                    layc_16 .setVisibility(View.GONE);	rdPreguntac_16.clearCheck();	opc_16="No aplica";
+                    layc_17 .setVisibility(View.VISIBLE);	rdPreguntac_17.clearCheck();	opc_17="No aplica";
+                }
             }
         }
     });
@@ -3078,11 +2973,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_17a = "SI";
-                layc_17b .setVisibility(View.GONE);	rdPreguntac_17b.clearCheck();	opc_17b="No aplica";
-                layc_17c .setVisibility(View.GONE);	rdPreguntac_17c.clearCheck();	opc_17c="No aplica";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
+
 
                 layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
                 layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
@@ -3094,11 +2985,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 opc_17a = "NO";
-                layc_17b .setVisibility(View.GONE);	rdPreguntac_17b.clearCheck();	opc_17b="No aplica";
-                layc_17c .setVisibility(View.GONE);	rdPreguntac_17c.clearCheck();	opc_17c="No aplica";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
+
                 layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
                 layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
                 layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
@@ -3109,11 +2996,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio0) {
                 opc_17a = "No sabe / No contestó";
-                layc_17b .setVisibility(View.GONE);	rdPreguntac_17b.clearCheck();	opc_17b="No aplica";
-                layc_17c .setVisibility(View.GONE);	rdPreguntac_17c.clearCheck();	opc_17c="No aplica";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
+
                 layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
                 layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
                 layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
@@ -3136,10 +3019,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_17b = "SI";
-                layc_17c .setVisibility(View.GONE);	rdPreguntac_17c.clearCheck();	opc_17c="No aplica";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
+
 
                 layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
                 layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
@@ -3150,29 +3030,69 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 opc_17b = "NO";
-                layc_17c .setVisibility(View.GONE);	rdPreguntac_17c.clearCheck();	opc_17c="No aplica";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
-            }
+
+                if(opc_17a.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
+                }
             else if (checkedId == R.id.radio0) {
                 opc_17b = "No sabe / No contestó";
-                layc_17c .setVisibility(View.GONE);	rdPreguntac_17c.clearCheck();	opc_17c="No aplica";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+
+                if(opc_17a.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
         }
     });
@@ -3188,9 +3108,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_17c = "SI";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
+
 
                 layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
                 layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
@@ -3201,27 +3119,69 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 opc_17c = "NO";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+
+                if(opc_17a.equals("SI")||opc_17b.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
             else if (checkedId == R.id.radio0) {
                 opc_17c = "No sabe / No contestó";
-                layc_17d .setVisibility(View.GONE);	rdPreguntac_17d.clearCheck();	opc_17d="No aplica";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+
+                if(opc_17a.equals("SI")||opc_17b.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
         }
     });
@@ -3237,8 +3197,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_17d = "SI";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
+
 
                 layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
                 layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
@@ -3249,25 +3208,69 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 opc_17d = "NO";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+
+                if(opc_17a.equals("SI")||opc_17b.equals("SI")||opc_17c.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
             else if (checkedId == R.id.radio0) {
                 opc_17d = "No sabe / No contestó";
-                layc_17e .setVisibility(View.GONE);	rdPreguntac_17e.clearCheck();	opc_17e="No aplica";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+
+                if(opc_17a.equals("SI")||opc_17b.equals("SI")||opc_17c.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
         }
     });
@@ -3283,7 +3286,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 opc_17e = "SI";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
+
 
                 layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
                 layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
@@ -3294,23 +3297,69 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 opc_17e = "NO";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+
+                if(opc_17a.equals("SI")||opc_17b.equals("SI")||opc_17c.equals("SI")||opc_17d.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
             else if (checkedId == R.id.radio0) {
                 opc_17e = "No sabe / No contestó";
-                layc_17f .setVisibility(View.GONE);	rdPreguntac_17f.clearCheck();	opc_17f="No aplica";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+
+                if(opc_17a.equals("SI")||opc_17b.equals("SI")||opc_17c.equals("SI")||opc_17d.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
         }
     });
@@ -3335,21 +3384,67 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 opc_17f = "NO";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                if(opc_17a.equals("SI")||opc_17b.equals("SI")||opc_17c.equals("SI")||opc_17d.equals("SI")||opc_17e.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
             else if (checkedId == R.id.radio0) {
                 opc_17f = "No sabe / No contestó";
-                layc_18 .setVisibility(View.GONE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
-                layc_18a .setVisibility(View.GONE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
-                layc_18b .setVisibility(View.GONE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
-                layc_18c .setVisibility(View.GONE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
-                layc_18d .setVisibility(View.GONE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
-                layc_18e .setVisibility(View.GONE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                if(opc_17a.equals("SI")||opc_17b.equals("SI")||opc_17c.equals("SI")||opc_17d.equals("SI")||opc_17e.equals("SI")){
+
+                    layc_18 .setVisibility(View.VISIBLE);	rdPreguntac_18.clearCheck();	opc_18="sin datos";
+                    layc_18a .setVisibility(View.VISIBLE);	rdPreguntac_18a.clearCheck();	opc_18a="sin datos";
+                    layc_18b .setVisibility(View.VISIBLE);	rdPreguntac_18b.clearCheck();	opc_18b="sin datos";
+                    layc_18c .setVisibility(View.VISIBLE);	rdPreguntac_18c.clearCheck();	opc_18c="sin datos";
+                    layc_18d .setVisibility(View.VISIBLE);	rdPreguntac_18d.clearCheck();	opc_18d="sin datos";
+                    layc_18e .setVisibility(View.VISIBLE);	rdPreguntac_18e.clearCheck();	opc_18e="sin datos";
+                }else {
+
+                    layc_18.setVisibility(View.GONE);
+                    rdPreguntac_18.clearCheck();
+                    opc_18 = "sin datos";
+                    layc_18a.setVisibility(View.GONE);
+                    rdPreguntac_18a.clearCheck();
+                    opc_18a = "sin datos";
+                    layc_18b.setVisibility(View.GONE);
+                    rdPreguntac_18b.clearCheck();
+                    opc_18b = "sin datos";
+                    layc_18c.setVisibility(View.GONE);
+                    rdPreguntac_18c.clearCheck();
+                    opc_18c = "sin datos";
+                    layc_18d.setVisibility(View.GONE);
+                    rdPreguntac_18d.clearCheck();
+                    opc_18d = "sin datos";
+                    layc_18e.setVisibility(View.GONE);
+                    rdPreguntac_18e.clearCheck();
+                    opc_18e = "sin datos";
+                }
             }
         }
     });
