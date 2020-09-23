@@ -83,7 +83,9 @@
 
             <include layout="@layout/preg_a"/>
             <include layout="@layout/preg_b"/>
-            <include layout="@layout/preg01"/>
+
+            <include layout="@layout/preg01" />
+
             <include layout="@layout/preg02"/>
             <include layout="@layout/preg03"/>
             <include layout="@layout/preg04"/>
@@ -105,6 +107,8 @@
             <include layout="@layout/preg8a"/>
             <include layout="@layout/preg8b"/>
             <include layout="@layout/preg8c"/>
+            <include layout="@layout/preg8cm"/>
+            <include layout="@layout/preg8cl"/>
             <include layout="@layout/preg8d"/>
             <include layout="@layout/preg8e"/>
             <include layout="@layout/preg8f"/>

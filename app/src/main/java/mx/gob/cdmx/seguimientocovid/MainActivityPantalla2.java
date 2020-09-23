@@ -230,6 +230,8 @@ public class MainActivityPantalla2 extends Activity {
     public String opc_8a="sin datos";	public RadioGroup rdPreguntac_8a;	public EditText editPreguntac_8a;	public String capturac_8a;	LinearLayout layc_8a;
     public String opc_8b="sin datos";	public RadioGroup rdPreguntac_8b;	public EditText editPreguntac_8b;	public String capturac_8b;	LinearLayout layc_8b;
     public String opc_8c="sin datos";	public RadioGroup rdPreguntac_8c;	public EditText editPreguntac_8c;	public String capturac_8c;	LinearLayout layc_8c;
+    public String opc_8cm="sin datos";	public RadioGroup rdPreguntac_8cm;	public EditText editPreguntac_8cm;	public String capturac_8cm;	LinearLayout layc_8cm;
+    public String opc_8cl="sin datos";	public RadioGroup rdPreguntac_8cl;	public EditText editPreguntac_8cl;	public String capturac_8cl;	LinearLayout layc_8cl;
     public String opc_8d="sin datos";	public RadioGroup rdPreguntac_8d;	public EditText editPreguntac_8d;	public String capturac_8d;	LinearLayout layc_8d;
     public String opc_8e="sin datos";	public RadioGroup rdPreguntac_8e;	public EditText editPreguntac_8e;	public String capturac_8e;	LinearLayout layc_8e;
     public String opc_8f="sin datos";	public RadioGroup rdPreguntac_8f;	public EditText editPreguntac_8f;	public String capturac_8f;	LinearLayout layc_8f;
@@ -813,6 +815,8 @@ mProgressView = findViewById(R.id.login_progressMain);
     rdPreguntac_8a = (RadioGroup)findViewById(R.id.rdPreguntac_8a);	capturac_8a =res.getString(R.string.PREGUNTAc_8a);	layc_8a = (LinearLayout) findViewById(R.id.layc_8a);
     rdPreguntac_8b = (RadioGroup)findViewById(R.id.rdPreguntac_8b);	capturac_8b =res.getString(R.string.PREGUNTAc_8b);	layc_8b = (LinearLayout) findViewById(R.id.layc_8b);
     rdPreguntac_8c = (RadioGroup)findViewById(R.id.rdPreguntac_8c);	capturac_8c =res.getString(R.string.PREGUNTAc_8c);	layc_8c = (LinearLayout) findViewById(R.id.layc_8c);
+    rdPreguntac_8cm = (RadioGroup)findViewById(R.id.rdPreguntac_8cm);	capturac_8cm =res.getString(R.string.PREGUNTAc_8cm);	layc_8cm = (LinearLayout) findViewById(R.id.layc_8cm);
+    rdPreguntac_8cl = (RadioGroup)findViewById(R.id.rdPreguntac_8cl);	capturac_8cl =res.getString(R.string.PREGUNTAc_8cl);	layc_8cl = (LinearLayout) findViewById(R.id.layc_8cl);
     rdPreguntac_8d = (RadioGroup)findViewById(R.id.rdPreguntac_8d);	capturac_8d =res.getString(R.string.PREGUNTAc_8d);	layc_8d = (LinearLayout) findViewById(R.id.layc_8d);
     rdPreguntac_8e = (RadioGroup)findViewById(R.id.rdPreguntac_8e);	capturac_8e =res.getString(R.string.PREGUNTAc_8e);	layc_8e = (LinearLayout) findViewById(R.id.layc_8e);
     rdPreguntac_8f = (RadioGroup)findViewById(R.id.rdPreguntac_8f);	capturac_8f =res.getString(R.string.PREGUNTAc_8f);	layc_8f = (LinearLayout) findViewById(R.id.layc_8f);
@@ -867,6 +871,8 @@ mProgressView = findViewById(R.id.login_progressMain);
     editPreguntac_8a= (EditText)findViewById(R.id.editPreguntac_8a);
     editPreguntac_8b= (EditText)findViewById(R.id.editPreguntac_8b);
     editPreguntac_8c= (EditText)findViewById(R.id.editPreguntac_8c);
+    editPreguntac_8cm= (EditText)findViewById(R.id.editPreguntac_8cm);
+    editPreguntac_8cl= (EditText)findViewById(R.id.editPreguntac_8cl);
     editPreguntac_8d= (EditText)findViewById(R.id.editPreguntac_8d);
     editPreguntac_8e= (EditText)findViewById(R.id.editPreguntac_8e);
 //    editPreguntac_8f= (EditText)findViewById(R.id.editPreguntac_8f);
@@ -893,6 +899,7 @@ mProgressView = findViewById(R.id.login_progressMain);
     spinnerc_12e= (Spinner)findViewById(R.id.spinnerc_12e);
     spinnerc_18e= (Spinner)findViewById(R.id.spinnerc_18e);
 
+    CargaSpinnerAlcaldiac_8f();
     CargaSpinnerAlcaldiac_12e();
     CargaSpinnerAlcaldiac_18e();
 
@@ -971,6 +978,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 layc_8a .setVisibility(View.VISIBLE);	rdPreguntac_8a.clearCheck();	opc_8a="sin datos";
                 layc_8b .setVisibility(View.VISIBLE);	rdPreguntac_8b.clearCheck();	opc_8b="sin datos";
                 layc_8c .setVisibility(View.VISIBLE);	rdPreguntac_8c.clearCheck();	opc_8c="sin datos";
+                layc_8cm .setVisibility(View.VISIBLE);	rdPreguntac_8cm.clearCheck();	opc_8cm="sin datos";
+                layc_8cl .setVisibility(View.VISIBLE);	rdPreguntac_8cl.clearCheck();	opc_8cl="sin datos";
                 layc_8d .setVisibility(View.VISIBLE);	rdPreguntac_8d.clearCheck();	opc_8d="sin datos";
                 layc_8e .setVisibility(View.VISIBLE);	rdPreguntac_8e.clearCheck();	opc_8e="sin datos";
                 layc_8f .setVisibility(View.VISIBLE);	rdPreguntac_8f.clearCheck();	opc_8f="sin datos";
@@ -1043,6 +1052,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 layc_8a .setVisibility(View.VISIBLE);	rdPreguntac_8a.clearCheck();	opc_8a="sin datos";
                 layc_8b .setVisibility(View.VISIBLE);	rdPreguntac_8b.clearCheck();	opc_8b="sin datos";
                 layc_8c .setVisibility(View.VISIBLE);	rdPreguntac_8c.clearCheck();	opc_8c="sin datos";
+                layc_8cm .setVisibility(View.VISIBLE);	rdPreguntac_8cm.clearCheck();	opc_8cm="sin datos";
+                layc_8cl .setVisibility(View.VISIBLE);	rdPreguntac_8cl.clearCheck();	opc_8cl="sin datos";
                 layc_8d .setVisibility(View.VISIBLE);	rdPreguntac_8d.clearCheck();	opc_8d="sin datos";
                 layc_8e .setVisibility(View.VISIBLE);	rdPreguntac_8e.clearCheck();	opc_8e="sin datos";
                 layc_8f .setVisibility(View.VISIBLE);	rdPreguntac_8f.clearCheck();	opc_8f="sin datos";
@@ -1113,6 +1124,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 layc_8a .setVisibility(View.GONE);	rdPreguntac_8a.clearCheck();	opc_8a="No aplica";
                 layc_8b .setVisibility(View.GONE);	rdPreguntac_8b.clearCheck();	opc_8b="No aplica";
                 layc_8c .setVisibility(View.GONE);	rdPreguntac_8c.clearCheck();	opc_8c="No aplica";
+                layc_8cm .setVisibility(View.GONE);	rdPreguntac_8cm.clearCheck();	opc_8cm="No aplica";
+                layc_8cl .setVisibility(View.GONE);	rdPreguntac_8cl.clearCheck();	opc_8cl="No aplica";
                 layc_8d .setVisibility(View.GONE);	rdPreguntac_8d.clearCheck();	opc_8d="No aplica";
                 layc_8e .setVisibility(View.GONE);	rdPreguntac_8e.clearCheck();	opc_8e="No aplica";
                 layc_8f .setVisibility(View.GONE);	rdPreguntac_8f.clearCheck();	opc_8f="No aplica";
@@ -1184,6 +1197,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 layc_8a .setVisibility(View.GONE);	rdPreguntac_8a.clearCheck();	opc_8a="No aplica";
                 layc_8b .setVisibility(View.GONE);	rdPreguntac_8b.clearCheck();	opc_8b="No aplica";
                 layc_8c .setVisibility(View.GONE);	rdPreguntac_8c.clearCheck();	opc_8c="No aplica";
+                layc_8cm .setVisibility(View.GONE);	rdPreguntac_8cm.clearCheck();	opc_8cm="No aplica";
+                layc_8cl .setVisibility(View.GONE);	rdPreguntac_8cl.clearCheck();	opc_8cl="No aplica";
                 layc_8d .setVisibility(View.GONE);	rdPreguntac_8d.clearCheck();	opc_8d="No aplica";
                 layc_8e .setVisibility(View.GONE);	rdPreguntac_8e.clearCheck();	opc_8e="No aplica";
                 layc_8f .setVisibility(View.GONE);	rdPreguntac_8f.clearCheck();	opc_8f="No aplica";
@@ -1841,6 +1856,96 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
         }
     });
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    rdPreguntac_8cm.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+            if (checkedId == R.id.radio1) {
+                opc_8cm = "1";
+                editPreguntac_8cm.setText("");
+            }
+            else if (checkedId == R.id.radio2) {
+                opc_8cm = "c_8cm";
+                editPreguntac_8cm.setText("");
+            }
+            else if (checkedId == R.id.radio3) {
+                opc_8cm = "Si es";
+                editPreguntac_8cm.setText("");
+            }
+            else if (checkedId == R.id.radio0) {
+                opc_8cm = "No sabe / No contestó";
+                editPreguntac_8cm.setText("");
+            }
+        }
+    });
+    editPreguntac_8cm.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+    editPreguntac_8cm.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPreguntac_8cm.clearCheck();
+            }
+        }
+    });
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    rdPreguntac_8cl.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+            if (checkedId == R.id.radio1) {
+                opc_8cl = "1";
+                editPreguntac_8cl.setText("");
+            }
+            else if (checkedId == R.id.radio2) {
+                opc_8cl = "c_8cl";
+                editPreguntac_8cl.setText("");
+            }
+            else if (checkedId == R.id.radio3) {
+                opc_8cl = "Si es";
+                editPreguntac_8cl.setText("");
+            }
+            else if (checkedId == R.id.radio0) {
+                opc_8cl = "No sabe / No contestó";
+                editPreguntac_8cl.setText("");
+            }
+        }
+    });
+    editPreguntac_8cl.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+    editPreguntac_8cl.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPreguntac_8cl.clearCheck();
+            }
+        }
+    });
+
+
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     rdPreguntac_8d.setOnCheckedChangeListener(new OnCheckedChangeListener() {
@@ -3778,6 +3883,22 @@ public void valores() {
         rdPreguntac_8c.clearCheck();
     }
 
+    String strTextc_8cm;
+    if(editPreguntac_8cm.getText().toString().trim().length()==0){
+        strTextc_8cm=opc_8cm;
+    }else{
+        strTextc_8cm=editPreguntac_8cm.getText().toString().trim();
+        rdPreguntac_8cm.clearCheck();
+    }
+
+    String strTextc_8cl;
+    if(editPreguntac_8cl.getText().toString().trim().length()==0){
+        strTextc_8cl=opc_8cl;
+    }else{
+        strTextc_8cl=editPreguntac_8cl.getText().toString().trim();
+        rdPreguntac_8cl.clearCheck();
+    }
+
     String strTextc_8d;
     if(editPreguntac_8d.getText().toString().trim().length()==0){
         strTextc_8d=opc_8d;
@@ -3978,6 +4099,8 @@ public void valores() {
     String strc_8a = strTextc_8a;
     String strc_8b = strTextc_8b;
     String strc_8c = strTextc_8c;
+    String strc_8cm = strTextc_8cm;
+    String strc_8cl = strTextc_8cl;
     String strc_8d = strTextc_8d;
     String strc_8e = strTextc_8e;
     String strc_8f = strTextc_8f;
@@ -4166,6 +4289,8 @@ public void valores() {
             values.put("pregunta_c_8a",strc_8a);
             values.put("pregunta_c_8b",strc_8b);
             values.put("pregunta_c_8c",strc_8c);
+            values.put("pregunta_c_8cm",strc_8cm);
+            values.put("pregunta_c_8cl",strc_8cl);
             values.put("pregunta_c_8d",strc_8d);
             values.put("pregunta_c_8e",strc_8e);
             values.put("pregunta_c_8f",strc_8f);
@@ -4270,6 +4395,8 @@ public void valores() {
         System.out.println("pregunta_c_8a  " +   strc_8a);
         System.out.println("pregunta_c_8b  " +   strc_8b);
         System.out.println("pregunta_c_8c  " +   strc_8c);
+        System.out.println("pregunta_c_8cm  " +   strc_8cm);
+        System.out.println("pregunta_c_8cl  " +   strc_8cl);
         System.out.println("pregunta_c_8d  " +   strc_8d);
         System.out.println("pregunta_c_8e  " +   strc_8e);
         System.out.println("pregunta_c_8f  " +   strc_8f);
@@ -4489,6 +4616,8 @@ public void guardar(View v) {
             else if (layc_8a.getVisibility() == View.VISIBLE && opc_8a.matches("sin datos") && editPreguntac_8a.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8a,Toast.LENGTH_LONG).show();}
             else if (layc_8b.getVisibility() == View.VISIBLE && opc_8b.matches("sin datos") && editPreguntac_8b.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8b,Toast.LENGTH_LONG).show();}
             else if (layc_8c.getVisibility() == View.VISIBLE && opc_8c.matches("sin datos") && editPreguntac_8c.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8c,Toast.LENGTH_LONG).show();}
+            else if (layc_8cm.getVisibility() == View.VISIBLE && opc_8cm.matches("sin datos") && editPreguntac_8cm.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8cm,Toast.LENGTH_LONG).show();}
+            else if (layc_8cl.getVisibility() == View.VISIBLE && opc_8cl.matches("sin datos") && editPreguntac_8cl.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8cl,Toast.LENGTH_LONG).show();}
             else if (layc_8d.getVisibility() == View.VISIBLE && opc_8d.matches("sin datos") && editPreguntac_8d.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8d,Toast.LENGTH_LONG).show();}
             else if (layc_8e.getVisibility() == View.VISIBLE && opc_8e.matches("sin datos") && editPreguntac_8e.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8e,Toast.LENGTH_LONG).show();}
             else if (layc_8f.getVisibility() == View.VISIBLE && opc_8f.matches("sin datos") && spinnerc_8f.getSelectedItem().toString().equals("Selecciona")  ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8f,Toast.LENGTH_LONG).show();}
@@ -4777,7 +4906,7 @@ public void CargaSpinnerSemana() {
         final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
                 "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
                 "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
-                "XOCHIMILCO", "No sabe / No contestó"};
+                "XOCHIMILCO"};
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerc_8f.setAdapter(adaptador);
@@ -4798,7 +4927,7 @@ public void CargaSpinnerAlcaldiac_12e() {
     final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
     "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
     "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
-    "XOCHIMILCO", "No sabe / No contestó"};
+    "XOCHIMILCO"};
     ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
     adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
     spinnerc_12e.setAdapter(adaptador);
@@ -4819,7 +4948,7 @@ public void CargaSpinnerAlcaldiac_12e() {
         final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
                 "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
                 "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
-                "XOCHIMILCO", "No sabe / No contestó"};
+                "XOCHIMILCO"};
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerc_18e.setAdapter(adaptador);

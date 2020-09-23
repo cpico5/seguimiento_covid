@@ -101,6 +101,8 @@
             <include layout="@layout/pregc_8a"/>
             <include layout="@layout/pregc_8b"/>
             <include layout="@layout/pregc_8c"/>
+            <include layout="@layout/pregc_8cm"/>
+            <include layout="@layout/pregc_8cl"/>
             <include layout="@layout/pregc_8d"/>
             <include layout="@layout/pregc_8e"/>
             <include layout="@layout/pregc_8f"/>

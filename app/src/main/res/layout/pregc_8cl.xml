@@ -14,7 +14,7 @@
       android:layout_alignParentTop="true" >
 
       <LinearLayout
-      android:id="@+id/layc_8c"
+      android:id="@+id/layc_8cl"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="50dp"
@@ -26,16 +26,16 @@
       android:orientation="vertical" >
       
       <TextView
-      android:id="@+id/textPreguntac_8c"
+      android:id="@+id/textPreguntac_8cl"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/PREGUNTAc_8c"
+      android:text="@string/PREGUNTAc_8cl"
       android:textAppearance="?android:attr/textAppearanceLarge"
       android:textColor="#002266"
       android:textStyle="bold" />
       
       <RadioGroup
-      android:id="@+id/rdPreguntac_8c"
+      android:id="@+id/rdPreguntac_8cl"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:orientation="vertical" >
@@ -144,13 +144,13 @@
           />
 
           <EditText
-              android:id="@+id/editPreguntac_8c"
+              android:id="@+id/editPreguntac_8cl"
               android:layout_width="320dp"
               android:layout_height="wrap_content"
               android:layout_marginBottom="30dp"
               android:layout_marginTop="30dp"
               android:ems="10"
-              android:hint="Interior"
+              android:hint="Lote"
               android:inputType="text"
               android:focusable="false"
               android:focusableInTouchMode="false"

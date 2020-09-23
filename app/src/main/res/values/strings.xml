@@ -98,6 +98,8 @@
     <string name="PREGUNTA8a">Calle</string>
     <string name="PREGUNTA8b">No exterior</string>
     <string name="PREGUNTA8c">Número interior</string>
+    <string name="PREGUNTA8cm">Manzana</string>
+    <string name="PREGUNTA8cl">Lote</string>
     <string name="PREGUNTA8d">Colonia</string>
     <string name="PREGUNTA8e">CP</string>
     <string name="PREGUNTA8f">Alcaldía</string>
@@ -167,6 +169,8 @@
     <string name="PREGUNTAc_8a">Calle</string>
     <string name="PREGUNTAc_8b">No exterior</string>
     <string name="PREGUNTAc_8c">Número interior</string>
+    <string name="PREGUNTAc_8cm">Manzana</string>
+    <string name="PREGUNTAc_8cl">Lote</string>
     <string name="PREGUNTAc_8d">Colonia</string>
     <string name="PREGUNTAc_8e">CP</string>
     <string name="PREGUNTAc_8f">Alcaldía</string>

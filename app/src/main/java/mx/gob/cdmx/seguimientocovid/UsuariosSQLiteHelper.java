@@ -40,7 +40,7 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
     static String prefix = ID;
 
     // private static final String DATABASE_NAME = Environment.getExternalStorageDirectory() +"/Mis_archivos/" +nombreE+"_"+prefix+"";
-    private static final int DATABASE_VERSION = 19;
+    private static final int DATABASE_VERSION = 20;
 
 
     public UsuariosSQLiteHelper(Context context, String name, CursorFactory factory, int version, String DATABASE_NAME) {
@@ -96,6 +96,8 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
         public static String COLUMNA_pregunta_8a="pregunta_8a";
         public static String COLUMNA_pregunta_8b="pregunta_8b";
         public static String COLUMNA_pregunta_8c="pregunta_8c";
+        public static String COLUMNA_pregunta_8cm="pregunta_8cm";
+        public static String COLUMNA_pregunta_8cl="pregunta_8cl";
         public static String COLUMNA_pregunta_8d="pregunta_8d";
         public static String COLUMNA_pregunta_8e="pregunta_8e";
         public static String COLUMNA_pregunta_8f="pregunta_8f";
@@ -193,6 +195,8 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
             + TablaContactos.COLUMNA_pregunta_8a +  " text, "
             + TablaContactos.COLUMNA_pregunta_8b +  " text, "
             + TablaContactos.COLUMNA_pregunta_8c +  " text, "
+            + TablaContactos.COLUMNA_pregunta_8cm +  " text, "
+            + TablaContactos.COLUMNA_pregunta_8cl +  " text, "
             + TablaContactos.COLUMNA_pregunta_8d +  " text, "
             + TablaContactos.COLUMNA_pregunta_8e +  " text, "
             + TablaContactos.COLUMNA_pregunta_8f +  " text, "
@@ -287,6 +291,8 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
         public static String COLUMNA_pregunta_c_8a="pregunta_c_8a";
         public static String COLUMNA_pregunta_c_8b="pregunta_c_8b";
         public static String COLUMNA_pregunta_c_8c="pregunta_c_8c";
+        public static String COLUMNA_pregunta_c_8cm="pregunta_c_8cm";
+        public static String COLUMNA_pregunta_c_8cl="pregunta_c_8cl";
         public static String COLUMNA_pregunta_c_8d="pregunta_c_8d";
         public static String COLUMNA_pregunta_c_8e="pregunta_c_8e";
         public static String COLUMNA_pregunta_c_8f="pregunta_c_8f";
@@ -383,6 +389,8 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
             + TablaAdicionales.COLUMNA_pregunta_c_8a +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_8b +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_8c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8cm +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_8cl +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_8d +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_8e +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_8f +  " text, "

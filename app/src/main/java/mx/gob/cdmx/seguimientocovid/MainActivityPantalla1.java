@@ -232,6 +232,8 @@ public class MainActivityPantalla1 extends Activity {
     public String op8a="sin datos";	public RadioGroup rdPregunta8a;	public EditText editPregunta8a;	public String captura8a;	LinearLayout lay8a;
     public String op8b="sin datos";	public RadioGroup rdPregunta8b;	public EditText editPregunta8b;	public String captura8b;	LinearLayout lay8b;
     public String op8c="sin datos";	public RadioGroup rdPregunta8c;	public EditText editPregunta8c;	public String captura8c;	LinearLayout lay8c;
+    public String op8cm="sin datos";	public RadioGroup rdPregunta8cm;	public EditText editPregunta8cm;	public String captura8cm;	LinearLayout lay8cm;
+    public String op8cl="sin datos";	public RadioGroup rdPregunta8cl;	public EditText editPregunta8cl;	public String captura8cl;	LinearLayout lay8cl;
     public String op8d="sin datos";	public RadioGroup rdPregunta8d;	public EditText editPregunta8d;	public String captura8d;	LinearLayout lay8d;
     public String op8e="sin datos";	public RadioGroup rdPregunta8e;	public EditText editPregunta8e;	public String captura8e;	LinearLayout lay8e;
     public String op8f="sin datos";	public RadioGroup rdPregunta8f;	public EditText editPregunta8f;	public String captura8f;	LinearLayout lay8f;
@@ -269,6 +271,8 @@ public class MainActivityPantalla1 extends Activity {
     public String op18a="sin datos";	public RadioGroup rdPregunta18a;	public EditText editPregunta18a;	public String captura18a;	LinearLayout lay18a;
     public String op18b="sin datos";	public RadioGroup rdPregunta18b;	public EditText editPregunta18b;	public String captura18b;	LinearLayout lay18b;
     public String op18c="sin datos";	public RadioGroup rdPregunta18c;	public EditText editPregunta18c;	public String captura18c;	LinearLayout lay18c;
+    public String op18cm="sin datos";	public RadioGroup rdPregunta18cm;	public EditText editPregunta18cm;	public String captura18cm;	LinearLayout lay18cm;
+    public String op18cl="sin datos";	public RadioGroup rdPregunta18cl;	public EditText editPregunta18cl;	public String captura18cl;	LinearLayout lay18cl;
     public String op18d="sin datos";	public RadioGroup rdPregunta18d;	public EditText editPregunta18d;	public String captura18d;	LinearLayout lay18d;
     public String op18e="sin datos";	public RadioGroup rdPregunta18e;	public EditText editPregunta18e;	public String captura18e;	LinearLayout lay18e;
     public String op18f="sin datos";	public RadioGroup rdPregunta18f;	public EditText editPregunta18f;	public String captura18f;	LinearLayout lay18f;
@@ -783,6 +787,8 @@ mProgressView = findViewById(R.id.login_progressMain);
     rdPregunta8a = (RadioGroup)findViewById(R.id.rdPregunta8a);	captura8a =res.getString(R.string.PREGUNTA8a);	lay8a = (LinearLayout) findViewById(R.id.lay8a);
     rdPregunta8b = (RadioGroup)findViewById(R.id.rdPregunta8b);	captura8b =res.getString(R.string.PREGUNTA8b);	lay8b = (LinearLayout) findViewById(R.id.lay8b);
     rdPregunta8c = (RadioGroup)findViewById(R.id.rdPregunta8c);	captura8c =res.getString(R.string.PREGUNTA8c);	lay8c = (LinearLayout) findViewById(R.id.lay8c);
+    rdPregunta8cm = (RadioGroup)findViewById(R.id.rdPregunta8cm);	captura8cm =res.getString(R.string.PREGUNTA8cm);	lay8cm = (LinearLayout) findViewById(R.id.lay8cm);
+    rdPregunta8cl = (RadioGroup)findViewById(R.id.rdPregunta8cl);	captura8cl =res.getString(R.string.PREGUNTA8cl);	lay8cl = (LinearLayout) findViewById(R.id.lay8cl);
     rdPregunta8d = (RadioGroup)findViewById(R.id.rdPregunta8d);	captura8d =res.getString(R.string.PREGUNTA8d);	lay8d = (LinearLayout) findViewById(R.id.lay8d);
     rdPregunta8e = (RadioGroup)findViewById(R.id.rdPregunta8e);	captura8e =res.getString(R.string.PREGUNTA8e);	lay8e = (LinearLayout) findViewById(R.id.lay8e);
     rdPregunta8f = (RadioGroup)findViewById(R.id.rdPregunta8f);	captura8f =res.getString(R.string.PREGUNTA8f);	lay8f = (LinearLayout) findViewById(R.id.lay8f);
@@ -838,6 +844,8 @@ mProgressView = findViewById(R.id.login_progressMain);
     editPregunta8a= (EditText)findViewById(R.id.editPregunta8a);
     editPregunta8b= (EditText)findViewById(R.id.editPregunta8b);
     editPregunta8c= (EditText)findViewById(R.id.editPregunta8c);
+    editPregunta8cm= (EditText)findViewById(R.id.editPregunta8cm);
+    editPregunta8cl= (EditText)findViewById(R.id.editPregunta8cl);
     editPregunta8d= (EditText)findViewById(R.id.editPregunta8d);
     editPregunta8e= (EditText)findViewById(R.id.editPregunta8e);
 //    editPregunta8f= (EditText)findViewById(R.id.editPregunta8f);
@@ -864,6 +872,7 @@ mProgressView = findViewById(R.id.login_progressMain);
     spinner19e= (Spinner)findViewById(R.id.spinner19e);
 
 
+    CargaSpinnerAlcaldia8f();
     CargaSpinnerAlcaldia13e();
     CargaSpinnerAlcaldia19e();
 
@@ -942,6 +951,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay8a .setVisibility(View.GONE);	rdPregunta8a.clearCheck();	op8a="No aplica";
                 lay8b .setVisibility(View.GONE);	rdPregunta8b.clearCheck();	op8b="No aplica";
                 lay8c .setVisibility(View.GONE);	rdPregunta8c.clearCheck();	op8c="No aplica";
+                lay8cm .setVisibility(View.GONE);	rdPregunta8cm.clearCheck();	op8cm="No aplica";
+                lay8cl .setVisibility(View.GONE);	rdPregunta8cl.clearCheck();	op8cl="No aplica";
                 lay8d .setVisibility(View.GONE);	rdPregunta8d.clearCheck();	op8d="No aplica";
                 lay8e .setVisibility(View.GONE);	rdPregunta8e.clearCheck();	op8e="No aplica";
                 lay8f .setVisibility(View.GONE);	rdPregunta8f.clearCheck();	op8f="No aplica";
@@ -1016,6 +1027,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay8a .setVisibility(View.VISIBLE);	rdPregunta8a.clearCheck();	op8a="sin datos";
                 lay8b .setVisibility(View.VISIBLE);	rdPregunta8b.clearCheck();	op8b="sin datos";
                 lay8c .setVisibility(View.VISIBLE);	rdPregunta8c.clearCheck();	op8c="sin datos";
+                lay8cm .setVisibility(View.VISIBLE);	rdPregunta8cm.clearCheck();	op8cm="sin datos";
+                lay8cl .setVisibility(View.VISIBLE);	rdPregunta8cl.clearCheck();	op8cl="sin datos";
                 lay8d .setVisibility(View.VISIBLE);	rdPregunta8d.clearCheck();	op8d="sin datos";
                 lay8e .setVisibility(View.VISIBLE);	rdPregunta8e.clearCheck();	op8e="sin datos";
                 lay8f .setVisibility(View.VISIBLE);	rdPregunta8f.clearCheck();	op8f="sin datos";
@@ -1089,6 +1102,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay8a .setVisibility(View.GONE);	rdPregunta8a.clearCheck();	op8a="No aplica";
                 lay8b .setVisibility(View.GONE);	rdPregunta8b.clearCheck();	op8b="No aplica";
                 lay8c .setVisibility(View.GONE);	rdPregunta8c.clearCheck();	op8c="No aplica";
+                lay8cm .setVisibility(View.GONE);	rdPregunta8cm.clearCheck();	op8cm="No aplica";
+                lay8cl .setVisibility(View.GONE);	rdPregunta8cl.clearCheck();	op8cl="No aplica";
                 lay8d .setVisibility(View.GONE);	rdPregunta8d.clearCheck();	op8d="No aplica";
                 lay8e .setVisibility(View.GONE);	rdPregunta8e.clearCheck();	op8e="No aplica";
                 lay8f .setVisibility(View.GONE);	rdPregunta8f.clearCheck();	op8f="No aplica";
@@ -1161,6 +1176,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay8a .setVisibility(View.GONE);	rdPregunta8a.clearCheck();	op8a="No aplica";
                 lay8b .setVisibility(View.GONE);	rdPregunta8b.clearCheck();	op8b="No aplica";
                 lay8c .setVisibility(View.GONE);	rdPregunta8c.clearCheck();	op8c="No aplica";
+                lay8cm .setVisibility(View.GONE);	rdPregunta8cm.clearCheck();	op8cm="No aplica";
+                lay8cl .setVisibility(View.GONE);	rdPregunta8cl.clearCheck();	op8cl="No aplica";
                 lay8d .setVisibility(View.GONE);	rdPregunta8d.clearCheck();	op8d="No aplica";
                 lay8e .setVisibility(View.GONE);	rdPregunta8e.clearCheck();	op8e="No aplica";
                 lay8f .setVisibility(View.GONE);	rdPregunta8f.clearCheck();	op8f="No aplica";
@@ -1233,6 +1250,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay8a .setVisibility(View.GONE);	rdPregunta8a.clearCheck();	op8a="No aplica";
                 lay8b .setVisibility(View.GONE);	rdPregunta8b.clearCheck();	op8b="No aplica";
                 lay8c .setVisibility(View.GONE);	rdPregunta8c.clearCheck();	op8c="No aplica";
+                lay8cm .setVisibility(View.GONE);	rdPregunta8cm.clearCheck();	op8cm="No aplica";
+                lay8cl .setVisibility(View.GONE);	rdPregunta8cl.clearCheck();	op8cl="No aplica";
                 lay8d .setVisibility(View.GONE);	rdPregunta8d.clearCheck();	op8d="No aplica";
                 lay8e .setVisibility(View.GONE);	rdPregunta8e.clearCheck();	op8e="No aplica";
                 lay8f .setVisibility(View.GONE);	rdPregunta8f.clearCheck();	op8f="No aplica";
@@ -1317,6 +1336,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay8a .setVisibility(View.VISIBLE);	rdPregunta8a.clearCheck();	op8a="sin datos";
                 lay8b .setVisibility(View.VISIBLE);	rdPregunta8b.clearCheck();	op8b="sin datos";
                 lay8c .setVisibility(View.VISIBLE);	rdPregunta8c.clearCheck();	op8c="sin datos";
+                lay8cm .setVisibility(View.VISIBLE);	rdPregunta8cm.clearCheck();	op8cm="sin datos";
+                lay8cl .setVisibility(View.VISIBLE);	rdPregunta8cl.clearCheck();	op8cl="sin datos";
                 lay8d .setVisibility(View.VISIBLE);	rdPregunta8d.clearCheck();	op8d="sin datos";
                 lay8e .setVisibility(View.VISIBLE);	rdPregunta8e.clearCheck();	op8e="sin datos";
                 lay8f .setVisibility(View.VISIBLE);	rdPregunta8f.clearCheck();	op8f="sin datos";
@@ -1390,6 +1411,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay8a .setVisibility(View.GONE);	rdPregunta8a.clearCheck();	op8a="No aplica";
                 lay8b .setVisibility(View.GONE);	rdPregunta8b.clearCheck();	op8b="No aplica";
                 lay8c .setVisibility(View.GONE);	rdPregunta8c.clearCheck();	op8c="No aplica";
+                lay8cm .setVisibility(View.GONE);	rdPregunta8cm.clearCheck();	op8cm="No aplica";
+                lay8cl .setVisibility(View.GONE);	rdPregunta8cl.clearCheck();	op8cl="No aplica";
                 lay8d .setVisibility(View.GONE);	rdPregunta8d.clearCheck();	op8d="No aplica";
                 lay8e .setVisibility(View.GONE);	rdPregunta8e.clearCheck();	op8e="No aplica";
                 lay8f .setVisibility(View.GONE);	rdPregunta8f.clearCheck();	op8f="No aplica";
@@ -1461,6 +1484,8 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay8a .setVisibility(View.GONE);	rdPregunta8a.clearCheck();	op8a="No aplica";
                 lay8b .setVisibility(View.GONE);	rdPregunta8b.clearCheck();	op8b="No aplica";
                 lay8c .setVisibility(View.GONE);	rdPregunta8c.clearCheck();	op8c="No aplica";
+                lay8cm .setVisibility(View.GONE);	rdPregunta8cm.clearCheck();	op8cm="No aplica";
+                lay8cl .setVisibility(View.GONE);	rdPregunta8cl.clearCheck();	op8cl="No aplica";
                 lay8d .setVisibility(View.GONE);	rdPregunta8d.clearCheck();	op8d="No aplica";
                 lay8e .setVisibility(View.GONE);	rdPregunta8e.clearCheck();	op8e="No aplica";
                 lay8f .setVisibility(View.GONE);	rdPregunta8f.clearCheck();	op8f="No aplica";
@@ -2131,6 +2156,94 @@ mProgressView = findViewById(R.id.login_progressMain);
         public void onTextChanged(CharSequence s, int start,int before, int count) {
             if(s.length() != 0){
                 rdPregunta8c.clearCheck();
+            }
+        }
+    });
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    rdPregunta8cm.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+            if (checkedId == R.id.radio1) {
+                op8cm = "1";
+                editPregunta8cm.setText("");
+            }
+            else if (checkedId == R.id.radio2) {
+                op8cm = "8cm";
+                editPregunta8cm.setText("");
+            }
+            else if (checkedId == R.id.radio3) {
+                op8cm = "Si es";
+                editPregunta8cm.setText("");
+            }
+            else if (checkedId == R.id.radio0) {
+                op8cm = "No sabe / No contestó";
+                editPregunta8cm.setText("");
+            }
+        }
+    });
+    editPregunta8cm.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+    editPregunta8cm.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta8cm.clearCheck();
+            }
+        }
+    });
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    rdPregunta8cl.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+            if (checkedId == R.id.radio1) {
+                op8cl = "1";
+                editPregunta8cl.setText("");
+            }
+            else if (checkedId == R.id.radio2) {
+                op8cl = "8cl";
+                editPregunta8cl.setText("");
+            }
+            else if (checkedId == R.id.radio3) {
+                op8cl = "Si es";
+                editPregunta8cl.setText("");
+            }
+            else if (checkedId == R.id.radio0) {
+                op8cl = "No sabe / No contestó";
+                editPregunta8cl.setText("");
+            }
+        }
+    });
+    editPregunta8cl.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+    editPregunta8cl.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta8cl.clearCheck();
             }
         }
     });
@@ -4049,6 +4162,22 @@ public void valores() {
         rdPregunta8c.clearCheck();
     }
 
+    String strText8cm;
+    if(editPregunta8cm.getText().toString().trim().length()==0){
+        strText8cm=op8cm;
+    }else{
+        strText8cm=editPregunta8cm.getText().toString().trim();
+        rdPregunta8cm.clearCheck();
+    }
+
+    String strText8cl;
+    if(editPregunta8cl.getText().toString().trim().length()==0){
+        strText8cl=op8cl;
+    }else{
+        strText8cl=editPregunta8cl.getText().toString().trim();
+        rdPregunta8cl.clearCheck();
+    }
+
     String strText8d;
     if(editPregunta8d.getText().toString().trim().length()==0){
         strText8d=op8d;
@@ -4251,6 +4380,8 @@ public void valores() {
     String str8a = strText8a;
     String str8b = strText8b;
     String str8c = strText8c;
+    String str8cm = strText8cm;
+    String str8cl = strText8cl;
     String str8d = strText8d;
     String str8e = strText8e;
     String str8f = strText8f;
@@ -4437,6 +4568,8 @@ public void valores() {
             values.put("pregunta_8a",str8a);
             values.put("pregunta_8b",str8b);
             values.put("pregunta_8c",str8c);
+            values.put("pregunta_8cm",str8cm);
+            values.put("pregunta_8cl",str8cl);
             values.put("pregunta_8d",str8d);
             values.put("pregunta_8e",str8e);
             values.put("pregunta_8f",str8f);
@@ -4542,6 +4675,8 @@ public void valores() {
         System.out.println("pregunta_8a  " +   str8a);
         System.out.println("pregunta_8b  " +   str8b);
         System.out.println("pregunta_8c  " +   str8c);
+        System.out.println("pregunta_8cm  " +   str8cm);
+        System.out.println("pregunta_8cl  " +   str8cl);
         System.out.println("pregunta_8d  " +   str8d);
         System.out.println("pregunta_8e  " +   str8e);
         System.out.println("pregunta_8f  " +   str8f);
@@ -4780,6 +4915,8 @@ public void guardar(View v) {
             else if (lay8a.getVisibility() == View.VISIBLE && op8a.matches("sin datos") && editPregunta8a.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8a,Toast.LENGTH_LONG).show();}
             else if (lay8b.getVisibility() == View.VISIBLE && op8b.matches("sin datos") && editPregunta8b.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8b,Toast.LENGTH_LONG).show();}
             else if (lay8c.getVisibility() == View.VISIBLE && op8c.matches("sin datos") && editPregunta8c.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8c,Toast.LENGTH_LONG).show();}
+            else if (lay8cm.getVisibility() == View.VISIBLE && op8cm.matches("sin datos") && editPregunta8cm.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8cm,Toast.LENGTH_LONG).show();}
+            else if (lay8cl.getVisibility() == View.VISIBLE && op8cl.matches("sin datos") && editPregunta8cl.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8cl,Toast.LENGTH_LONG).show();}
             else if (lay8d.getVisibility() == View.VISIBLE && op8d.matches("sin datos") && editPregunta8d.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8d,Toast.LENGTH_LONG).show();}
             else if (lay8e.getVisibility() == View.VISIBLE && op8e.matches("sin datos") && editPregunta8e.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8e,Toast.LENGTH_LONG).show();}
             else if (lay8f.getVisibility() == View.VISIBLE && op8f.matches("sin datos") && spinner8f.getSelectedItem().toString().equals("Selecciona")  ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8f,Toast.LENGTH_LONG).show();}
@@ -5038,7 +5175,7 @@ public void CargaSpinnerAlcaldia8f() {
     final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
             "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
             "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
-            "XOCHIMILCO", "No sabe / No contestó"};
+            "XOCHIMILCO"};
     ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
     adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
     spinner8f.setAdapter(adaptador);
@@ -5059,7 +5196,7 @@ public void CargaSpinnerAlcaldia13e() {
     final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
     "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
     "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
-    "XOCHIMILCO", "No sabe / No contestó"};
+    "XOCHIMILCO"};
     ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
     adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
     spinner13e.setAdapter(adaptador);
@@ -5080,7 +5217,7 @@ public void CargaSpinnerAlcaldia13e() {
         final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
                 "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
                 "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
-                "XOCHIMILCO", "No sabe / No contestó"};
+                "XOCHIMILCO"};
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
         adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner19e.setAdapter(adaptador);
