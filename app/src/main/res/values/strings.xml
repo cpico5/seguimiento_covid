@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Seguimiento Covid v1.0.1</string>
-    <string name="app_version">1.0.1</string>
+    <string name="app_name">Seguimiento Covid v1.0.2</string>
+    <string name="app_version">1.0.2</string>
     <string name="url_aplicacion">https://territorial.cdmx.gob.mx</string>
     <string name="url_gps">https://territorial.cdmx.gob.mx</string>
-    <string name="project_object">ParticipacionCiudadana</string>
-    <string name="app_project">ParticipacionCiudadana</string>
+    <string name="project_object">SeguimientoCovid</string>
+    <string name="app_project">SeguimientoCovid</string>
 
 
 
