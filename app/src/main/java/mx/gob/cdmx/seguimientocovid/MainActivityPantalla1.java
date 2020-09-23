@@ -2801,13 +2801,13 @@ mProgressView = findViewById(R.id.login_progressMain);
             else if (checkedId == R.id.radio4) {
                 op16a = "NO";
 
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
 
 
             }
             else if (checkedId == R.id.radio0) {
                 op16a = "No sabe / No contestó";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
 
             }
         }
@@ -2829,11 +2829,11 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 op16b = "NO";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 op16b = "No sabe / No contestó";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
         }
     });
@@ -2853,11 +2853,11 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 op16c = "NO";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 op16c = "No sabe / No contestó";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
         }
     });
@@ -2877,11 +2877,11 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 op16d = "NO";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 op16d = "No sabe / No contestó";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
         }
     });
@@ -2901,11 +2901,11 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 op16e = "NO";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 op16e = "No sabe / No contestó";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
         }
     });
@@ -2925,11 +2925,11 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 op16f = "NO";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 op16f = "No sabe / No contestó";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
         }
     });
@@ -2949,11 +2949,11 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 op16g = "NO";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio0) {
                 op16g = "No sabe / No contestó";
-                lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
         }
     });
@@ -5018,7 +5018,7 @@ public void guardar(View v) {
             else if (lay6i.getVisibility() == View.VISIBLE && op6i.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura6i,Toast.LENGTH_LONG).show();}
             else if (lay6j.getVisibility() == View.VISIBLE && op6j.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura6j,Toast.LENGTH_LONG).show();}
             else if (lay6k.getVisibility() == View.VISIBLE && op6k.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura6k,Toast.LENGTH_LONG).show();}
-            else if (lay7.getVisibility() == View.VISIBLE && op7.matches("sin datos") && editPregunta7.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura7,Toast.LENGTH_LONG).show();}
+            else if (lay7.getVisibility() == View.VISIBLE && op7.matches("sin datos") && editPregunta7.getText().toString().trim().length() <10 ){Toast.makeText(getBaseContext(),"El teléfono debe ser a 10 dígitos",Toast.LENGTH_LONG).show();}
 //            else if (lay8.getVisibility() == View.VISIBLE && op8.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8,Toast.LENGTH_LONG).show();}
             else if (lay8a.getVisibility() == View.VISIBLE && op8a.matches("sin datos") && editPregunta8a.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8a,Toast.LENGTH_LONG).show();}
             else if (lay8b.getVisibility() == View.VISIBLE && op8b.matches("sin datos") && editPregunta8b.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8b,Toast.LENGTH_LONG).show();}
@@ -5026,7 +5026,7 @@ public void guardar(View v) {
             else if (lay8cm.getVisibility() == View.VISIBLE && op8cm.matches("sin datos") && editPregunta8cm.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8cm,Toast.LENGTH_LONG).show();}
             else if (lay8cl.getVisibility() == View.VISIBLE && op8cl.matches("sin datos") && editPregunta8cl.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8cl,Toast.LENGTH_LONG).show();}
             else if (lay8d.getVisibility() == View.VISIBLE && op8d.matches("sin datos") && editPregunta8d.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8d,Toast.LENGTH_LONG).show();}
-            else if (lay8e.getVisibility() == View.VISIBLE && op8e.matches("sin datos") && editPregunta8e.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8e,Toast.LENGTH_LONG).show();}
+            else if (lay8e.getVisibility() == View.VISIBLE && op8e.matches("sin datos") && editPregunta8e.getText().toString().trim().length() < 5 ){Toast.makeText(getBaseContext(),"El código postal debe ser a 5 dígitos",Toast.LENGTH_LONG).show();}
             else if (lay8f.getVisibility() == View.VISIBLE && op8f.matches("sin datos") && spinner8f.getSelectedItem().toString().equals("Selecciona")  ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8f,Toast.LENGTH_LONG).show();}
             else if (lay9.getVisibility() == View.VISIBLE && op9.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura9,Toast.LENGTH_LONG).show();}
             else if (lay10.getVisibility() == View.VISIBLE && op10.matches("sin datos") && editPregunta10.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura10,Toast.LENGTH_LONG).show();}
@@ -5075,7 +5075,7 @@ public void guardar(View v) {
             else if (lay21.getVisibility() == View.VISIBLE && op21.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura21,Toast.LENGTH_LONG).show();}
             else if (lay22.getVisibility() == View.VISIBLE && op22.matches("sin datos") && editPregunta22.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura22,Toast.LENGTH_LONG).show();}
             else if (lay23.getVisibility() == View.VISIBLE && op23.matches("sin datos") && editPregunta23.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura23,Toast.LENGTH_LONG).show();}
-            else if (lay24.getVisibility() == View.VISIBLE && op24.matches("sin datos") && editPregunta24.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura24,Toast.LENGTH_LONG).show();}
+            else if (lay24.getVisibility() == View.VISIBLE && op24.matches("sin datos") && editPregunta24.getText().toString().trim().length() <10 ){Toast.makeText(getBaseContext(),"El teléfono debe ser a 10 dígitos",Toast.LENGTH_LONG).show();}
 
  else {
 

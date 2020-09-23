@@ -4706,7 +4706,7 @@ public void guardar(View v) {
             else if (layc_6i.getVisibility() == View.VISIBLE && opc_6i.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_6i,Toast.LENGTH_LONG).show();}
             else if (layc_6j.getVisibility() == View.VISIBLE && opc_6j.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_6j,Toast.LENGTH_LONG).show();}
             else if (layc_6k.getVisibility() == View.VISIBLE && opc_6k.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_6k,Toast.LENGTH_LONG).show();}
-            else if (layc_7.getVisibility() == View.VISIBLE && opc_7.matches("sin datos") && editPreguntac_7.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_7,Toast.LENGTH_LONG).show();}
+            else if (layc_7.getVisibility() == View.VISIBLE && opc_7.matches("sin datos") && editPreguntac_7.getText().toString().trim().length() <10 ){Toast.makeText(getBaseContext(),"El teléfono debe ser a 10 dígitos",Toast.LENGTH_LONG).show();}
 //            else if (layc_8.getVisibility() == View.VISIBLE && opc_8.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8,Toast.LENGTH_LONG).show();}
             else if (layc_8a.getVisibility() == View.VISIBLE && opc_8a.matches("sin datos") && editPreguntac_8a.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8a,Toast.LENGTH_LONG).show();}
             else if (layc_8b.getVisibility() == View.VISIBLE && opc_8b.matches("sin datos") && editPreguntac_8b.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8b,Toast.LENGTH_LONG).show();}
@@ -4714,7 +4714,7 @@ public void guardar(View v) {
             else if (layc_8cm.getVisibility() == View.VISIBLE && opc_8cm.matches("sin datos") && editPreguntac_8cm.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8cm,Toast.LENGTH_LONG).show();}
             else if (layc_8cl.getVisibility() == View.VISIBLE && opc_8cl.matches("sin datos") && editPreguntac_8cl.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8cl,Toast.LENGTH_LONG).show();}
             else if (layc_8d.getVisibility() == View.VISIBLE && opc_8d.matches("sin datos") && editPreguntac_8d.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8d,Toast.LENGTH_LONG).show();}
-            else if (layc_8e.getVisibility() == View.VISIBLE && opc_8e.matches("sin datos") && editPreguntac_8e.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8e,Toast.LENGTH_LONG).show();}
+            else if (layc_8e.getVisibility() == View.VISIBLE && opc_8e.matches("sin datos") && editPreguntac_8e.getText().toString().trim().length() < 5 ){Toast.makeText(getBaseContext(),"El teléfono debe ser a 10 dígitos",Toast.LENGTH_LONG).show();}
             else if (layc_8f.getVisibility() == View.VISIBLE && opc_8f.matches("sin datos") && spinnerc_8f.getSelectedItem().toString().equals("Selecciona")  ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_8f,Toast.LENGTH_LONG).show();}
             else if (layc_9.getVisibility() == View.VISIBLE && opc_9.matches("sin datos") && editPreguntac_9.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_9,Toast.LENGTH_LONG).show();}
             else if (layc_10.getVisibility() == View.VISIBLE && opc_10.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_10,Toast.LENGTH_LONG).show();}
@@ -4762,7 +4762,7 @@ public void guardar(View v) {
             else if (layc_20.getVisibility() == View.VISIBLE && opc_20.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_20,Toast.LENGTH_LONG).show();}
             else if (layc_21.getVisibility() == View.VISIBLE && opc_21.matches("sin datos") && editPreguntac_21.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_21,Toast.LENGTH_LONG).show();}
             else if (layc_22.getVisibility() == View.VISIBLE && opc_22.matches("sin datos") && editPreguntac_22.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_22,Toast.LENGTH_LONG).show();}
-            else if (layc_23.getVisibility() == View.VISIBLE && opc_23.matches("sin datos") && editPreguntac_23.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  capturac_23,Toast.LENGTH_LONG).show();}
+            else if (layc_23.getVisibility() == View.VISIBLE && opc_23.matches("sin datos") && editPreguntac_23.getText().toString().trim().length() <10 ){Toast.makeText(getBaseContext(),"El teléfono debe ser a 10 dígitos",Toast.LENGTH_LONG).show();}
 
  else {
 
