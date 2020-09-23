@@ -143,18 +143,15 @@
           android:visibility="gone"
           />
 
-          <EditText
-              android:id="@+id/editPreguntac_8f"
-              android:layout_width="320dp"
+          <Spinner
+              android:id="@+id/spinnerc_8f"
+              android:layout_width="259dp"
               android:layout_height="wrap_content"
-              android:layout_marginBottom="30dp"
+              android:hint="Selecciona"
               android:layout_marginTop="30dp"
-              android:ems="10"
-              android:hint="Alcaldia"
-              android:inputType="text"
-              android:focusable="false"
-              android:focusableInTouchMode="false"
-              android:textSize="16sp" />
+              android:spinnerMode="dialog"
+              android:singleLine="false"
+              android:layout_marginLeft="10dp" />
           
           <RadioButton
           android:id="@+id/radio0"

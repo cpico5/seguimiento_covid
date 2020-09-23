@@ -163,6 +163,7 @@ public class MainActivityPantalla1 extends Activity {
     private SQLiteDatabase db2;
 
     private Spinner spinnerDelegaciones;
+    private Spinner spinner8f;
     private Spinner spinner13e;
     private Spinner spinner19e;
     private Spinner spinnerMeses;
@@ -839,7 +840,7 @@ mProgressView = findViewById(R.id.login_progressMain);
     editPregunta8c= (EditText)findViewById(R.id.editPregunta8c);
     editPregunta8d= (EditText)findViewById(R.id.editPregunta8d);
     editPregunta8e= (EditText)findViewById(R.id.editPregunta8e);
-    editPregunta8f= (EditText)findViewById(R.id.editPregunta8f);
+//    editPregunta8f= (EditText)findViewById(R.id.editPregunta8f);
     editPregunta10= (EditText)findViewById(R.id.editPregunta10);
     editPregunta12= (EditText)findViewById(R.id.editPregunta12);
     editPregunta13a= (EditText)findViewById(R.id.editPregunta13a);
@@ -858,8 +859,10 @@ mProgressView = findViewById(R.id.login_progressMain);
     editPregunta23= (EditText)findViewById(R.id.editPregunta23);
     editPregunta24= (EditText)findViewById(R.id.editPregunta24);
 
+    spinner8f= (Spinner)findViewById(R.id.spinner8f);
     spinner13e= (Spinner)findViewById(R.id.spinner13e);
     spinner19e= (Spinner)findViewById(R.id.spinner19e);
+
 
     CargaSpinnerAlcaldia13e();
     CargaSpinnerAlcaldia19e();
@@ -2226,40 +2229,19 @@ mProgressView = findViewById(R.id.login_progressMain);
         public void onCheckedChanged(RadioGroup group, int checkedId) {
             if (checkedId == R.id.radio1) {
                 op8f = "1";
-                editPregunta8f.setText("");
+                spinner8f.setSelection(0);
             }
             else if (checkedId == R.id.radio2) {
                 op8f = "8f";
-                editPregunta8f.setText("");
+                spinner8f.setSelection(0);
             }
             else if (checkedId == R.id.radio3) {
                 op8f = "Si es";
-                editPregunta8f.setText("");
+                spinner8f.setSelection(0);
             }
             else if (checkedId == R.id.radio0) {
                 op8f = "No sabe / No contestó";
-                editPregunta8f.setText("");
-            }
-        }
-    });
-    editPregunta8f.setOnTouchListener(new View.OnTouchListener() {
-        @Override
-        public boolean onTouch(View v, MotionEvent event) {
-            v.setFocusable(true);
-            v.setFocusableInTouchMode(true);
-            return false;
-        }
-    });
-    editPregunta8f.addTextChangedListener(new TextWatcher() {
-        @Override
-        public void afterTextChanged(Editable s) {}
-        @Override
-        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
-        }
-        @Override
-        public void onTextChanged(CharSequence s, int start,int before, int count) {
-            if(s.length() != 0){
-                rdPregunta8f.clearCheck();
+                spinner8f.setSelection(0);
             }
         }
     });
@@ -2699,16 +2681,16 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16a = "SI";
-                lay16b .setVisibility(View.GONE);	rdPregunta16b.clearCheck();	op16b="No aplica";
-                lay16c .setVisibility(View.GONE);	rdPregunta16c.clearCheck();	op16c="No aplica";
-                lay16d .setVisibility(View.GONE);	rdPregunta16d.clearCheck();	op16d="No aplica";
-                lay16e .setVisibility(View.GONE);	rdPregunta16e.clearCheck();	op16e="No aplica";
-                lay16f .setVisibility(View.GONE);	rdPregunta16f.clearCheck();	op16f="No aplica";
-                lay16g .setVisibility(View.GONE);	rdPregunta16g.clearCheck();	op16g="No aplica";
-                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
-                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16b .setVisibility(View.VISIBLE);	rdPregunta16b.clearCheck();	op16b="No aplica";
+                lay16c .setVisibility(View.VISIBLE);	rdPregunta16c.clearCheck();	op16c="No aplica";
+                lay16d .setVisibility(View.VISIBLE);	rdPregunta16d.clearCheck();	op16d="No aplica";
+                lay16e .setVisibility(View.VISIBLE);	rdPregunta16e.clearCheck();	op16e="No aplica";
+                lay16f .setVisibility(View.VISIBLE);	rdPregunta16f.clearCheck();	op16f="No aplica";
+                lay16g .setVisibility(View.VISIBLE);	rdPregunta16g.clearCheck();	op16g="No aplica";
+                lay16h .setVisibility(View.VISIBLE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.VISIBLE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
 
             }
@@ -2758,15 +2740,15 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16b = "SI";
-                lay16c .setVisibility(View.GONE);	rdPregunta16c.clearCheck();	op16c="No aplica";
-                lay16d .setVisibility(View.GONE);	rdPregunta16d.clearCheck();	op16d="No aplica";
-                lay16e .setVisibility(View.GONE);	rdPregunta16e.clearCheck();	op16e="No aplica";
-                lay16f .setVisibility(View.GONE);	rdPregunta16f.clearCheck();	op16f="No aplica";
-                lay16g .setVisibility(View.GONE);	rdPregunta16g.clearCheck();	op16g="No aplica";
-                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
-                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16c .setVisibility(View.VISIBLE);	rdPregunta16c.clearCheck();	op16c="No aplica";
+                lay16d .setVisibility(View.VISIBLE);	rdPregunta16d.clearCheck();	op16d="No aplica";
+                lay16e .setVisibility(View.VISIBLE);	rdPregunta16e.clearCheck();	op16e="No aplica";
+                lay16f .setVisibility(View.VISIBLE);	rdPregunta16f.clearCheck();	op16f="No aplica";
+                lay16g .setVisibility(View.VISIBLE);	rdPregunta16g.clearCheck();	op16g="No aplica";
+                lay16h .setVisibility(View.VISIBLE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.VISIBLE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -2809,14 +2791,14 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16c = "SI";
-                lay16d .setVisibility(View.GONE);	rdPregunta16d.clearCheck();	op16d="No aplica";
-                lay16e .setVisibility(View.GONE);	rdPregunta16e.clearCheck();	op16e="No aplica";
-                lay16f .setVisibility(View.GONE);	rdPregunta16f.clearCheck();	op16f="No aplica";
-                lay16g .setVisibility(View.GONE);	rdPregunta16g.clearCheck();	op16g="No aplica";
-                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
-                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16d .setVisibility(View.VISIBLE);	rdPregunta16d.clearCheck();	op16d="No aplica";
+                lay16e .setVisibility(View.VISIBLE);	rdPregunta16e.clearCheck();	op16e="No aplica";
+                lay16f .setVisibility(View.VISIBLE);	rdPregunta16f.clearCheck();	op16f="No aplica";
+                lay16g .setVisibility(View.VISIBLE);	rdPregunta16g.clearCheck();	op16g="No aplica";
+                lay16h .setVisibility(View.VISIBLE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.VISIBLE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -2857,13 +2839,13 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16d = "SI";
-                lay16e .setVisibility(View.GONE);	rdPregunta16e.clearCheck();	op16e="No aplica";
-                lay16f .setVisibility(View.GONE);	rdPregunta16f.clearCheck();	op16f="No aplica";
-                lay16g .setVisibility(View.GONE);	rdPregunta16g.clearCheck();	op16g="No aplica";
-                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
-                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16e .setVisibility(View.VISIBLE);	rdPregunta16e.clearCheck();	op16e="No aplica";
+                lay16f .setVisibility(View.VISIBLE);	rdPregunta16f.clearCheck();	op16f="No aplica";
+                lay16g .setVisibility(View.VISIBLE);	rdPregunta16g.clearCheck();	op16g="No aplica";
+                lay16h .setVisibility(View.VISIBLE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.VISIBLE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -2902,12 +2884,12 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16e = "SI";
-                lay16f .setVisibility(View.GONE);	rdPregunta16f.clearCheck();	op16f="No aplica";
-                lay16g .setVisibility(View.GONE);	rdPregunta16g.clearCheck();	op16g="No aplica";
-                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
-                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16f .setVisibility(View.VISIBLE);	rdPregunta16f.clearCheck();	op16f="No aplica";
+                lay16g .setVisibility(View.VISIBLE);	rdPregunta16g.clearCheck();	op16g="No aplica";
+                lay16h .setVisibility(View.VISIBLE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.VISIBLE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -2944,11 +2926,11 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16f = "SI";
-                lay16g .setVisibility(View.GONE);	rdPregunta16g.clearCheck();	op16g="No aplica";
-                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
-                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16g .setVisibility(View.VISIBLE);	rdPregunta16g.clearCheck();	op16g="No aplica";
+                lay16h .setVisibility(View.VISIBLE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.VISIBLE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -2983,10 +2965,10 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16g = "SI";
-                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
-                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16h .setVisibility(View.VISIBLE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.VISIBLE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -3019,9 +3001,9 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16h = "SI";
-                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16i .setVisibility(View.VISIBLE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -3052,8 +3034,8 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16i = "SI";
-                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16j .setVisibility(View.VISIBLE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -3082,7 +3064,7 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op16j = "SI";
-                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay16k .setVisibility(View.VISIBLE);	rdPregunta16k.clearCheck();	op16k="No aplica";
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
             else if (checkedId == R.id.radio4) {
@@ -3764,12 +3746,23 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio3) {
                 op21 = "SI";
+                lay22 .setVisibility(View.VISIBLE);	rdPregunta22.clearCheck();	op22="sin datos";
+                lay23 .setVisibility(View.VISIBLE);	rdPregunta23.clearCheck();	op23="sin datos";
+                lay24 .setVisibility(View.VISIBLE);	rdPregunta24.clearCheck();	op24="sin datos";
+
             }
             else if (checkedId == R.id.radio4) {
                 op21 = "NO";
+                lay22 .setVisibility(View.GONE);	rdPregunta22.clearCheck();	op22="sin datos";
+                lay23 .setVisibility(View.GONE);	rdPregunta23.clearCheck();	op23="sin datos";
+                lay24 .setVisibility(View.GONE);	rdPregunta24.clearCheck();	op24="sin datos";
+
             }
             else if (checkedId == R.id.radio0) {
                 op21 = "No sabe / No contestó";
+                lay22 .setVisibility(View.GONE);	rdPregunta22.clearCheck();	op22="sin datos";
+                lay23 .setVisibility(View.GONE);	rdPregunta23.clearCheck();	op23="sin datos";
+                lay24 .setVisibility(View.GONE);	rdPregunta24.clearCheck();	op24="sin datos";
             }
         }
     });
@@ -4073,10 +4066,10 @@ public void valores() {
     }
 
     String strText8f;
-    if(editPregunta8f.getText().toString().trim().length()==0){
+    if(spinner8f.getSelectedItem().toString().equals("Selecciona")){
         strText8f=op8f;
     }else{
-        strText8f=editPregunta8f.getText().toString().trim();
+        strText8f=spinner8f.getSelectedItem().toString();
         rdPregunta8f.clearCheck();
     }
 
@@ -4789,7 +4782,7 @@ public void guardar(View v) {
             else if (lay8c.getVisibility() == View.VISIBLE && op8c.matches("sin datos") && editPregunta8c.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8c,Toast.LENGTH_LONG).show();}
             else if (lay8d.getVisibility() == View.VISIBLE && op8d.matches("sin datos") && editPregunta8d.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8d,Toast.LENGTH_LONG).show();}
             else if (lay8e.getVisibility() == View.VISIBLE && op8e.matches("sin datos") && editPregunta8e.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8e,Toast.LENGTH_LONG).show();}
-            else if (lay8f.getVisibility() == View.VISIBLE && op8f.matches("sin datos") && editPregunta8f.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8f,Toast.LENGTH_LONG).show();}
+            else if (lay8f.getVisibility() == View.VISIBLE && op8f.matches("sin datos") && spinner8f.getSelectedItem().toString().equals("Selecciona")  ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura8f,Toast.LENGTH_LONG).show();}
             else if (lay9.getVisibility() == View.VISIBLE && op9.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura9,Toast.LENGTH_LONG).show();}
             else if (lay10.getVisibility() == View.VISIBLE && op10.matches("sin datos") && editPregunta10.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura10,Toast.LENGTH_LONG).show();}
             else if (lay11.getVisibility() == View.VISIBLE && op11.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura11,Toast.LENGTH_LONG).show();}
@@ -5037,6 +5030,27 @@ public void CargaSpinnerSemana() {
 }
 
 /////////////// SPINNER /////////////////
+public void CargaSpinnerAlcaldia8f() {
+    String var = "Selecciona";
+    if (var == null) {
+        var = "";
+    }
+    final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
+            "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
+            "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
+            "XOCHIMILCO", "No sabe / No contestó"};
+    ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
+    adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    spinner8f.setAdapter(adaptador);
+    spinner8f.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+        }
+
+        public void onNothingSelected(AdapterView<?> parent) {
+        }
+    });
+}
+
 public void CargaSpinnerAlcaldia13e() {
     String var = "Selecciona";
     if (var == null) {
