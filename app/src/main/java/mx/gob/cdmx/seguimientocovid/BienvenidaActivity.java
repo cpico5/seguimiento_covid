@@ -332,7 +332,7 @@ public class BienvenidaActivity extends Activity {
 
                 @Override
                 public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
-                    Log.e(TAG, "existe un error en la conexión");
+                    Log.e(TAG, "existe un error en la conexión on Failure ");
                     if(responseBody != null){
                         Log.d(TAG, "cea -----------> " + new String(responseBody));
                     }
