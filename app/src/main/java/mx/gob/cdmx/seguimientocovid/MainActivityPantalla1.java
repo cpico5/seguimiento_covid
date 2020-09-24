@@ -165,6 +165,11 @@ public class MainActivityPantalla1 extends Activity {
     private Spinner spinnerDelegaciones;
     private Spinner spinner8f;
     private Spinner spinner13e;
+    private Spinner spinner19es;
+    private Spinner spinner19em;
+    private Spinner spinner19et;
+    private Spinner spinner19eca;
+    private Spinner spinner19ecc;
     private Spinner spinner19e;
     private Spinner spinnerMeses;
     private Spinner spinnerSemana;
@@ -268,14 +273,6 @@ public class MainActivityPantalla1 extends Activity {
     EditText editPregunta17d;
     public String captura17;	LinearLayout lay17;
     public String op18="sin datos";	public RadioGroup rdPregunta18;	public EditText editPregunta18;	public String captura18;	LinearLayout lay18;
-    public String op18a="sin datos";	public RadioGroup rdPregunta18a;	public EditText editPregunta18a;	public String captura18a;	LinearLayout lay18a;
-    public String op18b="sin datos";	public RadioGroup rdPregunta18b;	public EditText editPregunta18b;	public String captura18b;	LinearLayout lay18b;
-    public String op18c="sin datos";	public RadioGroup rdPregunta18c;	public EditText editPregunta18c;	public String captura18c;	LinearLayout lay18c;
-    public String op18cm="sin datos";	public RadioGroup rdPregunta18cm;	public EditText editPregunta18cm;	public String captura18cm;	LinearLayout lay18cm;
-    public String op18cl="sin datos";	public RadioGroup rdPregunta18cl;	public EditText editPregunta18cl;	public String captura18cl;	LinearLayout lay18cl;
-    public String op18d="sin datos";	public RadioGroup rdPregunta18d;	public EditText editPregunta18d;	public String captura18d;	LinearLayout lay18d;
-    public String op18e="sin datos";	public RadioGroup rdPregunta18e;	public EditText editPregunta18e;	public String captura18e;	LinearLayout lay18e;
-    public String op18f="sin datos";	public RadioGroup rdPregunta18f;	public EditText editPregunta18f;	public String captura18f;	LinearLayout lay18f;
     public String op19="sin datos";	public RadioGroup rdPregunta19;	public EditText editPregunta19;	public String captura19;	LinearLayout lay19;
     public String op19a="sin datos";	public RadioGroup rdPregunta19a;	public EditText editPregunta19a;	public String captura19a;	LinearLayout lay19a;
     public String op19b="sin datos";	public RadioGroup rdPregunta19b;	public EditText editPregunta19b;	public String captura19b;	LinearLayout lay19b;
@@ -287,6 +284,44 @@ public class MainActivityPantalla1 extends Activity {
     public String op22="sin datos";	public RadioGroup rdPregunta22;	public EditText editPregunta22;	public String captura22;	LinearLayout lay22;
     public String op23="sin datos";	public RadioGroup rdPregunta23;	public EditText editPregunta23;	public String captura23;	LinearLayout lay23;
     public String op24="sin datos";	public RadioGroup rdPregunta24;	public EditText editPregunta24;	public String captura24;	LinearLayout lay24;
+
+    public String op18a="sin datos";	public RadioGroup rdPregunta18a;	public EditText editPregunta18a;	public String captura18a;	LinearLayout lay18a;
+    public String op19s="sin datos";	public RadioGroup rdPregunta19s;	public EditText editPregunta19s;	public String captura19s;	LinearLayout lay19s;
+    public String op19as="sin datos";	public RadioGroup rdPregunta19as;	public EditText editPregunta19as;	public String captura19as;	LinearLayout lay19as;
+    public String op19bs="sin datos";	public RadioGroup rdPregunta19bs;	public EditText editPregunta19bs;	public String captura19bs;	LinearLayout lay19bs;
+    public String op19cs="sin datos";	public RadioGroup rdPregunta19cs;	public EditText editPregunta19cs;	public String captura19cs;	LinearLayout lay19cs;
+    public String op19ds="sin datos";	public RadioGroup rdPregunta19ds;	public EditText editPregunta19ds;	public String captura19ds;	LinearLayout lay19ds;
+    public String op19es="sin datos";	public RadioGroup rdPregunta19es;	public EditText editPregunta19es;	public String captura19es;	LinearLayout lay19es;
+    public String op18b="sin datos";	public RadioGroup rdPregunta18b;	public EditText editPregunta18b;	public String captura18b;	LinearLayout lay18b;
+    public String op19m="sin datos";	public RadioGroup rdPregunta19m;	public EditText editPregunta19m;	public String captura19m;	LinearLayout lay19m;
+    public String op19am="sin datos";	public RadioGroup rdPregunta19am;	public EditText editPregunta19am;	public String captura19am;	LinearLayout lay19am;
+    public String op19bm="sin datos";	public RadioGroup rdPregunta19bm;	public EditText editPregunta19bm;	public String captura19bm;	LinearLayout lay19bm;
+    public String op19cm="sin datos";	public RadioGroup rdPregunta19cm;	public EditText editPregunta19cm;	public String captura19cm;	LinearLayout lay19cm;
+    public String op19dm="sin datos";	public RadioGroup rdPregunta19dm;	public EditText editPregunta19dm;	public String captura19dm;	LinearLayout lay19dm;
+    public String op19em="sin datos";	public RadioGroup rdPregunta19em;	public EditText editPregunta19em;	public String captura19em;	LinearLayout lay19em;
+    public String op18c="sin datos";	public RadioGroup rdPregunta18c;	public EditText editPregunta18c;	public String captura18c;	LinearLayout lay18c;
+    public String op19t="sin datos";	public RadioGroup rdPregunta19t;	public EditText editPregunta19t;	public String captura19t;	LinearLayout lay19t;
+    public String op19at="sin datos";	public RadioGroup rdPregunta19at;	public EditText editPregunta19at;	public String captura19at;	LinearLayout lay19at;
+    public String op19bt="sin datos";	public RadioGroup rdPregunta19bt;	public EditText editPregunta19bt;	public String captura19bt;	LinearLayout lay19bt;
+    public String op19ct="sin datos";	public RadioGroup rdPregunta19ct;	public EditText editPregunta19ct;	public String captura19ct;	LinearLayout lay19ct;
+    public String op19dt="sin datos";	public RadioGroup rdPregunta19dt;	public EditText editPregunta19dt;	public String captura19dt;	LinearLayout lay19dt;
+    public String op19et="sin datos";	public RadioGroup rdPregunta19et;	public EditText editPregunta19et;	public String captura19et;	LinearLayout lay19et;
+    public String op18d="sin datos";	public RadioGroup rdPregunta18d;	public EditText editPregunta18d;	public String captura18d;	LinearLayout lay18d;
+    public String op19ca="sin datos";	public RadioGroup rdPregunta19ca;	public EditText editPregunta19ca;	public String captura19ca;	LinearLayout lay19ca;
+    public String op19aca="sin datos";	public RadioGroup rdPregunta19aca;	public EditText editPregunta19aca;	public String captura19aca;	LinearLayout lay19aca;
+    public String op19bca="sin datos";	public RadioGroup rdPregunta19bca;	public EditText editPregunta19bca;	public String captura19bca;	LinearLayout lay19bca;
+    public String op19cca="sin datos";	public RadioGroup rdPregunta19cca;	public EditText editPregunta19cca;	public String captura19cca;	LinearLayout lay19cca;
+    public String op19dca="sin datos";	public RadioGroup rdPregunta19dca;	public EditText editPregunta19dca;	public String captura19dca;	LinearLayout lay19dca;
+    public String op19eca="sin datos";	public RadioGroup rdPregunta19eca;	public EditText editPregunta19eca;	public String captura19eca;	LinearLayout lay19eca;
+    public String op18e="sin datos";	public RadioGroup rdPregunta18e;	public EditText editPregunta18e;	public String captura18e;	LinearLayout lay18e;
+    public String op19cc="sin datos";	public RadioGroup rdPregunta19cc;	public EditText editPregunta19cc;	public String captura19cc;	LinearLayout lay19cc;
+    public String op19acc="sin datos";	public RadioGroup rdPregunta19acc;	public EditText editPregunta19acc;	public String captura19acc;	LinearLayout lay19acc;
+    public String op19bcc="sin datos";	public RadioGroup rdPregunta19bcc;	public EditText editPregunta19bcc;	public String captura19bcc;	LinearLayout lay19bcc;
+    public String op19ccc="sin datos";	public RadioGroup rdPregunta19ccc;	public EditText editPregunta19ccc;	public String captura19ccc;	LinearLayout lay19ccc;
+    public String op19dcc="sin datos";	public RadioGroup rdPregunta19dcc;	public EditText editPregunta19dcc;	public String captura19dcc;	LinearLayout lay19dcc;
+    public String op19ecc="sin datos";	public RadioGroup rdPregunta19ecc;	public EditText editPregunta19ecc;	public String captura19ecc;	LinearLayout lay19ecc;
+    public String op18f="sin datos";	public RadioGroup rdPregunta18f;	public EditText editPregunta18f;	public String captura18f;	LinearLayout lay18f;
+
 
     LinearLayout laySocioE;
     LinearLayout layEst;
@@ -818,12 +853,6 @@ mProgressView = findViewById(R.id.login_progressMain);
     rdPregunta16k = (RadioGroup)findViewById(R.id.rdPregunta16k);	captura16k =res.getString(R.string.PREGUNTA16k);	lay16k = (LinearLayout) findViewById(R.id.lay16k);
     rdPregunta17 = (RadioGroup)findViewById(R.id.rdPregunta17);	captura17 =res.getString(R.string.PREGUNTA17);	lay17 = (LinearLayout) findViewById(R.id.lay17);
     rdPregunta18 = (RadioGroup)findViewById(R.id.rdPregunta18);	captura18 =res.getString(R.string.PREGUNTA18);	lay18 = (LinearLayout) findViewById(R.id.lay18);
-    rdPregunta18a = (RadioGroup)findViewById(R.id.rdPregunta18a);	captura18a =res.getString(R.string.PREGUNTA18a);	lay18a = (LinearLayout) findViewById(R.id.lay18a);
-    rdPregunta18b = (RadioGroup)findViewById(R.id.rdPregunta18b);	captura18b =res.getString(R.string.PREGUNTA18b);	lay18b = (LinearLayout) findViewById(R.id.lay18b);
-    rdPregunta18c = (RadioGroup)findViewById(R.id.rdPregunta18c);	captura18c =res.getString(R.string.PREGUNTA18c);	lay18c = (LinearLayout) findViewById(R.id.lay18c);
-    rdPregunta18d = (RadioGroup)findViewById(R.id.rdPregunta18d);	captura18d =res.getString(R.string.PREGUNTA18d);	lay18d = (LinearLayout) findViewById(R.id.lay18d);
-    rdPregunta18e = (RadioGroup)findViewById(R.id.rdPregunta18e);	captura18e =res.getString(R.string.PREGUNTA18e);	lay18e = (LinearLayout) findViewById(R.id.lay18e);
-    rdPregunta18f = (RadioGroup)findViewById(R.id.rdPregunta18f);	captura18f =res.getString(R.string.PREGUNTA18f);	lay18f = (LinearLayout) findViewById(R.id.lay18f);
     rdPregunta19 = (RadioGroup)findViewById(R.id.rdPregunta19);	captura19 =res.getString(R.string.PREGUNTA19);	lay19 = (LinearLayout) findViewById(R.id.lay19);
     rdPregunta19a = (RadioGroup)findViewById(R.id.rdPregunta19a);	captura19a =res.getString(R.string.PREGUNTA19a);	lay19a = (LinearLayout) findViewById(R.id.lay19a);
     rdPregunta19b = (RadioGroup)findViewById(R.id.rdPregunta19b);	captura19b =res.getString(R.string.PREGUNTA19b);	lay19b = (LinearLayout) findViewById(R.id.lay19b);
@@ -835,6 +864,44 @@ mProgressView = findViewById(R.id.login_progressMain);
     rdPregunta22 = (RadioGroup)findViewById(R.id.rdPregunta22);	captura22 =res.getString(R.string.PREGUNTA22);	lay22 = (LinearLayout) findViewById(R.id.lay22);
     rdPregunta23 = (RadioGroup)findViewById(R.id.rdPregunta23);	captura23 =res.getString(R.string.PREGUNTA23);	lay23 = (LinearLayout) findViewById(R.id.lay23);
     rdPregunta24 = (RadioGroup)findViewById(R.id.rdPregunta24);	captura24 =res.getString(R.string.PREGUNTA24);	lay24 = (LinearLayout) findViewById(R.id.lay24);
+
+    rdPregunta18a = (RadioGroup)findViewById(R.id.rdPregunta18a);	captura18a =res.getString(R.string.PREGUNTA18a);	lay18a = (LinearLayout) findViewById(R.id.lay18a);
+    rdPregunta19s = (RadioGroup)findViewById(R.id.rdPregunta19s);	captura19s =res.getString(R.string.PREGUNTA19s);	lay19s = (LinearLayout) findViewById(R.id.lay19s);
+    rdPregunta19as = (RadioGroup)findViewById(R.id.rdPregunta19as);	captura19as =res.getString(R.string.PREGUNTA19as);	lay19as = (LinearLayout) findViewById(R.id.lay19as);
+    rdPregunta19bs = (RadioGroup)findViewById(R.id.rdPregunta19bs);	captura19bs =res.getString(R.string.PREGUNTA19bs);	lay19bs = (LinearLayout) findViewById(R.id.lay19bs);
+    rdPregunta19cs = (RadioGroup)findViewById(R.id.rdPregunta19cs);	captura19cs =res.getString(R.string.PREGUNTA19cs);	lay19cs = (LinearLayout) findViewById(R.id.lay19cs);
+    rdPregunta19ds = (RadioGroup)findViewById(R.id.rdPregunta19ds);	captura19ds =res.getString(R.string.PREGUNTA19ds);	lay19ds = (LinearLayout) findViewById(R.id.lay19ds);
+    rdPregunta19es = (RadioGroup)findViewById(R.id.rdPregunta19es);	captura19es =res.getString(R.string.PREGUNTA19es);	lay19es = (LinearLayout) findViewById(R.id.lay19es);
+    rdPregunta18b = (RadioGroup)findViewById(R.id.rdPregunta18b);	captura18b =res.getString(R.string.PREGUNTA18b);	lay18b = (LinearLayout) findViewById(R.id.lay18b);
+    rdPregunta19m = (RadioGroup)findViewById(R.id.rdPregunta19m);	captura19m =res.getString(R.string.PREGUNTA19m);	lay19m = (LinearLayout) findViewById(R.id.lay19m);
+    rdPregunta19am = (RadioGroup)findViewById(R.id.rdPregunta19am);	captura19am =res.getString(R.string.PREGUNTA19am);	lay19am = (LinearLayout) findViewById(R.id.lay19am);
+    rdPregunta19bm = (RadioGroup)findViewById(R.id.rdPregunta19bm);	captura19bm =res.getString(R.string.PREGUNTA19bm);	lay19bm = (LinearLayout) findViewById(R.id.lay19bm);
+    rdPregunta19cm = (RadioGroup)findViewById(R.id.rdPregunta19cm);	captura19cm =res.getString(R.string.PREGUNTA19cm);	lay19cm = (LinearLayout) findViewById(R.id.lay19cm);
+    rdPregunta19dm = (RadioGroup)findViewById(R.id.rdPregunta19dm);	captura19dm =res.getString(R.string.PREGUNTA19dm);	lay19dm = (LinearLayout) findViewById(R.id.lay19dm);
+    rdPregunta19em = (RadioGroup)findViewById(R.id.rdPregunta19em);	captura19em =res.getString(R.string.PREGUNTA19em);	lay19em = (LinearLayout) findViewById(R.id.lay19em);
+    rdPregunta18c = (RadioGroup)findViewById(R.id.rdPregunta18c);	captura18c =res.getString(R.string.PREGUNTA18c);	lay18c = (LinearLayout) findViewById(R.id.lay18c);
+    rdPregunta19t = (RadioGroup)findViewById(R.id.rdPregunta19t);	captura19t =res.getString(R.string.PREGUNTA19t);	lay19t = (LinearLayout) findViewById(R.id.lay19t);
+    rdPregunta19at = (RadioGroup)findViewById(R.id.rdPregunta19at);	captura19at =res.getString(R.string.PREGUNTA19at);	lay19at = (LinearLayout) findViewById(R.id.lay19at);
+    rdPregunta19bt = (RadioGroup)findViewById(R.id.rdPregunta19bt);	captura19bt =res.getString(R.string.PREGUNTA19bt);	lay19bt = (LinearLayout) findViewById(R.id.lay19bt);
+    rdPregunta19ct = (RadioGroup)findViewById(R.id.rdPregunta19ct);	captura19ct =res.getString(R.string.PREGUNTA19ct);	lay19ct = (LinearLayout) findViewById(R.id.lay19ct);
+    rdPregunta19dt = (RadioGroup)findViewById(R.id.rdPregunta19dt);	captura19dt =res.getString(R.string.PREGUNTA19dt);	lay19dt = (LinearLayout) findViewById(R.id.lay19dt);
+    rdPregunta19et = (RadioGroup)findViewById(R.id.rdPregunta19et);	captura19et =res.getString(R.string.PREGUNTA19et);	lay19et = (LinearLayout) findViewById(R.id.lay19et);
+    rdPregunta18d = (RadioGroup)findViewById(R.id.rdPregunta18d);	captura18d =res.getString(R.string.PREGUNTA18d);	lay18d = (LinearLayout) findViewById(R.id.lay18d);
+    rdPregunta19ca = (RadioGroup)findViewById(R.id.rdPregunta19ca);	captura19ca =res.getString(R.string.PREGUNTA19ca);	lay19ca = (LinearLayout) findViewById(R.id.lay19ca);
+    rdPregunta19aca = (RadioGroup)findViewById(R.id.rdPregunta19aca);	captura19aca =res.getString(R.string.PREGUNTA19aca);	lay19aca = (LinearLayout) findViewById(R.id.lay19aca);
+    rdPregunta19bca = (RadioGroup)findViewById(R.id.rdPregunta19bca);	captura19bca =res.getString(R.string.PREGUNTA19bca);	lay19bca = (LinearLayout) findViewById(R.id.lay19bca);
+    rdPregunta19cca = (RadioGroup)findViewById(R.id.rdPregunta19cca);	captura19cca =res.getString(R.string.PREGUNTA19cca);	lay19cca = (LinearLayout) findViewById(R.id.lay19cca);
+    rdPregunta19dca = (RadioGroup)findViewById(R.id.rdPregunta19dca);	captura19dca =res.getString(R.string.PREGUNTA19dca);	lay19dca = (LinearLayout) findViewById(R.id.lay19dca);
+    rdPregunta19eca = (RadioGroup)findViewById(R.id.rdPregunta19eca);	captura19eca =res.getString(R.string.PREGUNTA19eca);	lay19eca = (LinearLayout) findViewById(R.id.lay19eca);
+    rdPregunta18e = (RadioGroup)findViewById(R.id.rdPregunta18e);	captura18e =res.getString(R.string.PREGUNTA18e);	lay18e = (LinearLayout) findViewById(R.id.lay18e);
+    rdPregunta19cc = (RadioGroup)findViewById(R.id.rdPregunta19cc);	captura19cc =res.getString(R.string.PREGUNTA19cc);	lay19cc = (LinearLayout) findViewById(R.id.lay19cc);
+    rdPregunta19acc = (RadioGroup)findViewById(R.id.rdPregunta19acc);	captura19acc =res.getString(R.string.PREGUNTA19acc);	lay19acc = (LinearLayout) findViewById(R.id.lay19acc);
+    rdPregunta19bcc = (RadioGroup)findViewById(R.id.rdPregunta19bcc);	captura19bcc =res.getString(R.string.PREGUNTA19bcc);	lay19bcc = (LinearLayout) findViewById(R.id.lay19bcc);
+    rdPregunta19ccc = (RadioGroup)findViewById(R.id.rdPregunta19ccc);	captura19ccc =res.getString(R.string.PREGUNTA19ccc);	lay19ccc = (LinearLayout) findViewById(R.id.lay19ccc);
+    rdPregunta19dcc = (RadioGroup)findViewById(R.id.rdPregunta19dcc);	captura19dcc =res.getString(R.string.PREGUNTA19dcc);	lay19dcc = (LinearLayout) findViewById(R.id.lay19dcc);
+    rdPregunta19ecc = (RadioGroup)findViewById(R.id.rdPregunta19ecc);	captura19ecc =res.getString(R.string.PREGUNTA19ecc);	lay19ecc = (LinearLayout) findViewById(R.id.lay19ecc);
+    rdPregunta18f = (RadioGroup)findViewById(R.id.rdPregunta18f);	captura18f =res.getString(R.string.PREGUNTA18f);	lay18f = (LinearLayout) findViewById(R.id.lay18f);
+
 
     editPregunta1= (EditText)findViewById(R.id.editPregunta1);
     editPregunta2= (EditText)findViewById(R.id.editPregunta2);
@@ -867,14 +934,49 @@ mProgressView = findViewById(R.id.login_progressMain);
     editPregunta23= (EditText)findViewById(R.id.editPregunta23);
     editPregunta24= (EditText)findViewById(R.id.editPregunta24);
 
+    editPregunta19as= (EditText)findViewById(R.id.editPregunta19as);
+    editPregunta19bs= (EditText)findViewById(R.id.editPregunta19bs);
+    editPregunta19cs= (EditText)findViewById(R.id.editPregunta19cs);
+    editPregunta19ds= (EditText)findViewById(R.id.editPregunta19ds);
+    editPregunta19am= (EditText)findViewById(R.id.editPregunta19am);
+    editPregunta19bm= (EditText)findViewById(R.id.editPregunta19bm);
+    editPregunta19cm= (EditText)findViewById(R.id.editPregunta19cm);
+    editPregunta19dm= (EditText)findViewById(R.id.editPregunta19dm);
+    editPregunta19at= (EditText)findViewById(R.id.editPregunta19at);
+    editPregunta19bt= (EditText)findViewById(R.id.editPregunta19bt);
+    editPregunta19ct= (EditText)findViewById(R.id.editPregunta19ct);
+    editPregunta19dt= (EditText)findViewById(R.id.editPregunta19dt);
+    editPregunta19aca= (EditText)findViewById(R.id.editPregunta19aca);
+    editPregunta19bca= (EditText)findViewById(R.id.editPregunta19bca);
+    editPregunta19cca= (EditText)findViewById(R.id.editPregunta19cca);
+    editPregunta19dca= (EditText)findViewById(R.id.editPregunta19dca);
+    editPregunta19acc= (EditText)findViewById(R.id.editPregunta19acc);
+    editPregunta19bcc= (EditText)findViewById(R.id.editPregunta19bcc);
+    editPregunta19ccc= (EditText)findViewById(R.id.editPregunta19ccc);
+    editPregunta19dcc= (EditText)findViewById(R.id.editPregunta19dcc);
+
+
     spinner8f= (Spinner)findViewById(R.id.spinner8f);
     spinner13e= (Spinner)findViewById(R.id.spinner13e);
+    spinner19es= (Spinner)findViewById(R.id.spinner19es);
+    spinner19em= (Spinner)findViewById(R.id.spinner19em);
+    spinner19et= (Spinner)findViewById(R.id.spinner19et);
+    spinner19eca= (Spinner)findViewById(R.id.spinner19eca);
+    spinner19ecc= (Spinner)findViewById(R.id.spinner19ecc);
     spinner19e= (Spinner)findViewById(R.id.spinner19e);
 
 
     CargaSpinnerAlcaldia8f();
     CargaSpinnerAlcaldia13e();
+
     CargaSpinnerAlcaldia19e();
+    CargaSpinnerAlcaldia19es();
+    CargaSpinnerAlcaldia19em();
+    CargaSpinnerAlcaldia19et();
+    CargaSpinnerAlcaldia19eca();
+    CargaSpinnerAlcaldia19ecc();
+
+
 
 
 
@@ -983,11 +1085,42 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
                 lay18 .setVisibility(View.GONE);	rdPregunta18.clearCheck();	op18="No aplica";
                 lay18a .setVisibility(View.GONE);	rdPregunta18a.clearCheck();	op18a="No aplica";
+                lay19s .setVisibility(View.GONE);	rdPregunta19s.clearCheck();	op19s="No aplica";
+                lay19as .setVisibility(View.GONE);	rdPregunta19as.clearCheck();	op19as="No aplica";
+                lay19bs .setVisibility(View.GONE);	rdPregunta19bs.clearCheck();	op19bs="No aplica";
+                lay19cs .setVisibility(View.GONE);	rdPregunta19cs.clearCheck();	op19cs="No aplica";
+                lay19ds .setVisibility(View.GONE);	rdPregunta19ds.clearCheck();	op19ds="No aplica";
+                lay19es .setVisibility(View.GONE);	rdPregunta19es.clearCheck();	op19es="No aplica";
                 lay18b .setVisibility(View.GONE);	rdPregunta18b.clearCheck();	op18b="No aplica";
+                lay19m .setVisibility(View.GONE);	rdPregunta19m.clearCheck();	op19m="No aplica";
+                lay19am .setVisibility(View.GONE);	rdPregunta19am.clearCheck();	op19am="No aplica";
+                lay19bm .setVisibility(View.GONE);	rdPregunta19bm.clearCheck();	op19bm="No aplica";
+                lay19cm .setVisibility(View.GONE);	rdPregunta19cm.clearCheck();	op19cm="No aplica";
+                lay19dm .setVisibility(View.GONE);	rdPregunta19dm.clearCheck();	op19dm="No aplica";
+                lay19em .setVisibility(View.GONE);	rdPregunta19em.clearCheck();	op19em="No aplica";
                 lay18c .setVisibility(View.GONE);	rdPregunta18c.clearCheck();	op18c="No aplica";
+                lay19t .setVisibility(View.GONE);	rdPregunta19t.clearCheck();	op19t="No aplica";
+                lay19at .setVisibility(View.GONE);	rdPregunta19at.clearCheck();	op19at="No aplica";
+                lay19bt .setVisibility(View.GONE);	rdPregunta19bt.clearCheck();	op19bt="No aplica";
+                lay19ct .setVisibility(View.GONE);	rdPregunta19ct.clearCheck();	op19ct="No aplica";
+                lay19dt .setVisibility(View.GONE);	rdPregunta19dt.clearCheck();	op19dt="No aplica";
+                lay19et .setVisibility(View.GONE);	rdPregunta19et.clearCheck();	op19et="No aplica";
                 lay18d .setVisibility(View.GONE);	rdPregunta18d.clearCheck();	op18d="No aplica";
+                lay19ca .setVisibility(View.GONE);	rdPregunta19ca.clearCheck();	op19ca="No aplica";
+                lay19aca .setVisibility(View.GONE);	rdPregunta19aca.clearCheck();	op19aca="No aplica";
+                lay19bca .setVisibility(View.GONE);	rdPregunta19bca.clearCheck();	op19bca="No aplica";
+                lay19cca .setVisibility(View.GONE);	rdPregunta19cca.clearCheck();	op19cca="No aplica";
+                lay19dca .setVisibility(View.GONE);	rdPregunta19dca.clearCheck();	op19dca="No aplica";
+                lay19eca .setVisibility(View.GONE);	rdPregunta19eca.clearCheck();	op19eca="No aplica";
                 lay18e .setVisibility(View.GONE);	rdPregunta18e.clearCheck();	op18e="No aplica";
+                lay19cc .setVisibility(View.GONE);	rdPregunta19cc.clearCheck();	op19cc="No aplica";
+                lay19acc .setVisibility(View.GONE);	rdPregunta19acc.clearCheck();	op19acc="No aplica";
+                lay19bcc .setVisibility(View.GONE);	rdPregunta19bcc.clearCheck();	op19bcc="No aplica";
+                lay19ccc .setVisibility(View.GONE);	rdPregunta19ccc.clearCheck();	op19ccc="No aplica";
+                lay19dcc .setVisibility(View.GONE);	rdPregunta19dcc.clearCheck();	op19dcc="No aplica";
+                lay19ecc .setVisibility(View.GONE);	rdPregunta19ecc.clearCheck();	op19ecc="No aplica";
                 lay18f .setVisibility(View.GONE);	rdPregunta18f.clearCheck();	op18f="No aplica";
+
                 lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="No aplica";
                 lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="No aplica";
                 lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="No aplica";
@@ -1059,11 +1192,42 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="sin datos";
                 lay18 .setVisibility(View.VISIBLE);	rdPregunta18.clearCheck();	op18="sin datos";
                 lay18a .setVisibility(View.VISIBLE);	rdPregunta18a.clearCheck();	op18a="sin datos";
+                lay19s .setVisibility(View.VISIBLE);	rdPregunta19s.clearCheck();	op19s="sin datos";
+                lay19as .setVisibility(View.VISIBLE);	rdPregunta19as.clearCheck();	op19as="sin datos";
+                lay19bs .setVisibility(View.VISIBLE);	rdPregunta19bs.clearCheck();	op19bs="sin datos";
+                lay19cs .setVisibility(View.VISIBLE);	rdPregunta19cs.clearCheck();	op19cs="sin datos";
+                lay19ds .setVisibility(View.VISIBLE);	rdPregunta19ds.clearCheck();	op19ds="sin datos";
+                lay19es .setVisibility(View.VISIBLE);	rdPregunta19es.clearCheck();	op19es="sin datos";
                 lay18b .setVisibility(View.VISIBLE);	rdPregunta18b.clearCheck();	op18b="sin datos";
+                lay19m .setVisibility(View.VISIBLE);	rdPregunta19m.clearCheck();	op19m="sin datos";
+                lay19am .setVisibility(View.VISIBLE);	rdPregunta19am.clearCheck();	op19am="sin datos";
+                lay19bm .setVisibility(View.VISIBLE);	rdPregunta19bm.clearCheck();	op19bm="sin datos";
+                lay19cm .setVisibility(View.VISIBLE);	rdPregunta19cm.clearCheck();	op19cm="sin datos";
+                lay19dm .setVisibility(View.VISIBLE);	rdPregunta19dm.clearCheck();	op19dm="sin datos";
+                lay19em .setVisibility(View.VISIBLE);	rdPregunta19em.clearCheck();	op19em="sin datos";
                 lay18c .setVisibility(View.VISIBLE);	rdPregunta18c.clearCheck();	op18c="sin datos";
+                lay19t .setVisibility(View.VISIBLE);	rdPregunta19t.clearCheck();	op19t="sin datos";
+                lay19at .setVisibility(View.VISIBLE);	rdPregunta19at.clearCheck();	op19at="sin datos";
+                lay19bt .setVisibility(View.VISIBLE);	rdPregunta19bt.clearCheck();	op19bt="sin datos";
+                lay19ct .setVisibility(View.VISIBLE);	rdPregunta19ct.clearCheck();	op19ct="sin datos";
+                lay19dt .setVisibility(View.VISIBLE);	rdPregunta19dt.clearCheck();	op19dt="sin datos";
+                lay19et .setVisibility(View.VISIBLE);	rdPregunta19et.clearCheck();	op19et="sin datos";
                 lay18d .setVisibility(View.VISIBLE);	rdPregunta18d.clearCheck();	op18d="sin datos";
+                lay19ca .setVisibility(View.VISIBLE);	rdPregunta19ca.clearCheck();	op19ca="sin datos";
+                lay19aca .setVisibility(View.VISIBLE);	rdPregunta19aca.clearCheck();	op19aca="sin datos";
+                lay19bca .setVisibility(View.VISIBLE);	rdPregunta19bca.clearCheck();	op19bca="sin datos";
+                lay19cca .setVisibility(View.VISIBLE);	rdPregunta19cca.clearCheck();	op19cca="sin datos";
+                lay19dca .setVisibility(View.VISIBLE);	rdPregunta19dca.clearCheck();	op19dca="sin datos";
+                lay19eca .setVisibility(View.VISIBLE);	rdPregunta19eca.clearCheck();	op19eca="sin datos";
                 lay18e .setVisibility(View.VISIBLE);	rdPregunta18e.clearCheck();	op18e="sin datos";
+                lay19cc .setVisibility(View.VISIBLE);	rdPregunta19cc.clearCheck();	op19cc="sin datos";
+                lay19acc .setVisibility(View.VISIBLE);	rdPregunta19acc.clearCheck();	op19acc="sin datos";
+                lay19bcc .setVisibility(View.VISIBLE);	rdPregunta19bcc.clearCheck();	op19bcc="sin datos";
+                lay19ccc .setVisibility(View.VISIBLE);	rdPregunta19ccc.clearCheck();	op19ccc="sin datos";
+                lay19dcc .setVisibility(View.VISIBLE);	rdPregunta19dcc.clearCheck();	op19dcc="sin datos";
+                lay19ecc .setVisibility(View.VISIBLE);	rdPregunta19ecc.clearCheck();	op19ecc="sin datos";
                 lay18f .setVisibility(View.VISIBLE);	rdPregunta18f.clearCheck();	op18f="sin datos";
+
                 lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
                 lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
                 lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
@@ -1134,11 +1298,42 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
                 lay18 .setVisibility(View.GONE);	rdPregunta18.clearCheck();	op18="No aplica";
                 lay18a .setVisibility(View.GONE);	rdPregunta18a.clearCheck();	op18a="No aplica";
+                lay19s .setVisibility(View.GONE);	rdPregunta19s.clearCheck();	op19s="No aplica";
+                lay19as .setVisibility(View.GONE);	rdPregunta19as.clearCheck();	op19as="No aplica";
+                lay19bs .setVisibility(View.GONE);	rdPregunta19bs.clearCheck();	op19bs="No aplica";
+                lay19cs .setVisibility(View.GONE);	rdPregunta19cs.clearCheck();	op19cs="No aplica";
+                lay19ds .setVisibility(View.GONE);	rdPregunta19ds.clearCheck();	op19ds="No aplica";
+                lay19es .setVisibility(View.GONE);	rdPregunta19es.clearCheck();	op19es="No aplica";
                 lay18b .setVisibility(View.GONE);	rdPregunta18b.clearCheck();	op18b="No aplica";
+                lay19m .setVisibility(View.GONE);	rdPregunta19m.clearCheck();	op19m="No aplica";
+                lay19am .setVisibility(View.GONE);	rdPregunta19am.clearCheck();	op19am="No aplica";
+                lay19bm .setVisibility(View.GONE);	rdPregunta19bm.clearCheck();	op19bm="No aplica";
+                lay19cm .setVisibility(View.GONE);	rdPregunta19cm.clearCheck();	op19cm="No aplica";
+                lay19dm .setVisibility(View.GONE);	rdPregunta19dm.clearCheck();	op19dm="No aplica";
+                lay19em .setVisibility(View.GONE);	rdPregunta19em.clearCheck();	op19em="No aplica";
                 lay18c .setVisibility(View.GONE);	rdPregunta18c.clearCheck();	op18c="No aplica";
+                lay19t .setVisibility(View.GONE);	rdPregunta19t.clearCheck();	op19t="No aplica";
+                lay19at .setVisibility(View.GONE);	rdPregunta19at.clearCheck();	op19at="No aplica";
+                lay19bt .setVisibility(View.GONE);	rdPregunta19bt.clearCheck();	op19bt="No aplica";
+                lay19ct .setVisibility(View.GONE);	rdPregunta19ct.clearCheck();	op19ct="No aplica";
+                lay19dt .setVisibility(View.GONE);	rdPregunta19dt.clearCheck();	op19dt="No aplica";
+                lay19et .setVisibility(View.GONE);	rdPregunta19et.clearCheck();	op19et="No aplica";
                 lay18d .setVisibility(View.GONE);	rdPregunta18d.clearCheck();	op18d="No aplica";
+                lay19ca .setVisibility(View.GONE);	rdPregunta19ca.clearCheck();	op19ca="No aplica";
+                lay19aca .setVisibility(View.GONE);	rdPregunta19aca.clearCheck();	op19aca="No aplica";
+                lay19bca .setVisibility(View.GONE);	rdPregunta19bca.clearCheck();	op19bca="No aplica";
+                lay19cca .setVisibility(View.GONE);	rdPregunta19cca.clearCheck();	op19cca="No aplica";
+                lay19dca .setVisibility(View.GONE);	rdPregunta19dca.clearCheck();	op19dca="No aplica";
+                lay19eca .setVisibility(View.GONE);	rdPregunta19eca.clearCheck();	op19eca="No aplica";
                 lay18e .setVisibility(View.GONE);	rdPregunta18e.clearCheck();	op18e="No aplica";
+                lay19cc .setVisibility(View.GONE);	rdPregunta19cc.clearCheck();	op19cc="No aplica";
+                lay19acc .setVisibility(View.GONE);	rdPregunta19acc.clearCheck();	op19acc="No aplica";
+                lay19bcc .setVisibility(View.GONE);	rdPregunta19bcc.clearCheck();	op19bcc="No aplica";
+                lay19ccc .setVisibility(View.GONE);	rdPregunta19ccc.clearCheck();	op19ccc="No aplica";
+                lay19dcc .setVisibility(View.GONE);	rdPregunta19dcc.clearCheck();	op19dcc="No aplica";
+                lay19ecc .setVisibility(View.GONE);	rdPregunta19ecc.clearCheck();	op19ecc="No aplica";
                 lay18f .setVisibility(View.GONE);	rdPregunta18f.clearCheck();	op18f="No aplica";
+
                 lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="No aplica";
                 lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="No aplica";
                 lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="No aplica";
@@ -1208,11 +1403,42 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
                 lay18 .setVisibility(View.GONE);	rdPregunta18.clearCheck();	op18="No aplica";
                 lay18a .setVisibility(View.GONE);	rdPregunta18a.clearCheck();	op18a="No aplica";
+                lay19s .setVisibility(View.GONE);	rdPregunta19s.clearCheck();	op19s="No aplica";
+                lay19as .setVisibility(View.GONE);	rdPregunta19as.clearCheck();	op19as="No aplica";
+                lay19bs .setVisibility(View.GONE);	rdPregunta19bs.clearCheck();	op19bs="No aplica";
+                lay19cs .setVisibility(View.GONE);	rdPregunta19cs.clearCheck();	op19cs="No aplica";
+                lay19ds .setVisibility(View.GONE);	rdPregunta19ds.clearCheck();	op19ds="No aplica";
+                lay19es .setVisibility(View.GONE);	rdPregunta19es.clearCheck();	op19es="No aplica";
                 lay18b .setVisibility(View.GONE);	rdPregunta18b.clearCheck();	op18b="No aplica";
+                lay19m .setVisibility(View.GONE);	rdPregunta19m.clearCheck();	op19m="No aplica";
+                lay19am .setVisibility(View.GONE);	rdPregunta19am.clearCheck();	op19am="No aplica";
+                lay19bm .setVisibility(View.GONE);	rdPregunta19bm.clearCheck();	op19bm="No aplica";
+                lay19cm .setVisibility(View.GONE);	rdPregunta19cm.clearCheck();	op19cm="No aplica";
+                lay19dm .setVisibility(View.GONE);	rdPregunta19dm.clearCheck();	op19dm="No aplica";
+                lay19em .setVisibility(View.GONE);	rdPregunta19em.clearCheck();	op19em="No aplica";
                 lay18c .setVisibility(View.GONE);	rdPregunta18c.clearCheck();	op18c="No aplica";
+                lay19t .setVisibility(View.GONE);	rdPregunta19t.clearCheck();	op19t="No aplica";
+                lay19at .setVisibility(View.GONE);	rdPregunta19at.clearCheck();	op19at="No aplica";
+                lay19bt .setVisibility(View.GONE);	rdPregunta19bt.clearCheck();	op19bt="No aplica";
+                lay19ct .setVisibility(View.GONE);	rdPregunta19ct.clearCheck();	op19ct="No aplica";
+                lay19dt .setVisibility(View.GONE);	rdPregunta19dt.clearCheck();	op19dt="No aplica";
+                lay19et .setVisibility(View.GONE);	rdPregunta19et.clearCheck();	op19et="No aplica";
                 lay18d .setVisibility(View.GONE);	rdPregunta18d.clearCheck();	op18d="No aplica";
+                lay19ca .setVisibility(View.GONE);	rdPregunta19ca.clearCheck();	op19ca="No aplica";
+                lay19aca .setVisibility(View.GONE);	rdPregunta19aca.clearCheck();	op19aca="No aplica";
+                lay19bca .setVisibility(View.GONE);	rdPregunta19bca.clearCheck();	op19bca="No aplica";
+                lay19cca .setVisibility(View.GONE);	rdPregunta19cca.clearCheck();	op19cca="No aplica";
+                lay19dca .setVisibility(View.GONE);	rdPregunta19dca.clearCheck();	op19dca="No aplica";
+                lay19eca .setVisibility(View.GONE);	rdPregunta19eca.clearCheck();	op19eca="No aplica";
                 lay18e .setVisibility(View.GONE);	rdPregunta18e.clearCheck();	op18e="No aplica";
+                lay19cc .setVisibility(View.GONE);	rdPregunta19cc.clearCheck();	op19cc="No aplica";
+                lay19acc .setVisibility(View.GONE);	rdPregunta19acc.clearCheck();	op19acc="No aplica";
+                lay19bcc .setVisibility(View.GONE);	rdPregunta19bcc.clearCheck();	op19bcc="No aplica";
+                lay19ccc .setVisibility(View.GONE);	rdPregunta19ccc.clearCheck();	op19ccc="No aplica";
+                lay19dcc .setVisibility(View.GONE);	rdPregunta19dcc.clearCheck();	op19dcc="No aplica";
+                lay19ecc .setVisibility(View.GONE);	rdPregunta19ecc.clearCheck();	op19ecc="No aplica";
                 lay18f .setVisibility(View.GONE);	rdPregunta18f.clearCheck();	op18f="No aplica";
+
                 lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="No aplica";
                 lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="No aplica";
                 lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="No aplica";
@@ -1282,11 +1508,42 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
                 lay18 .setVisibility(View.GONE);	rdPregunta18.clearCheck();	op18="No aplica";
                 lay18a .setVisibility(View.GONE);	rdPregunta18a.clearCheck();	op18a="No aplica";
+                lay19s .setVisibility(View.GONE);	rdPregunta19s.clearCheck();	op19s="No aplica";
+                lay19as .setVisibility(View.GONE);	rdPregunta19as.clearCheck();	op19as="No aplica";
+                lay19bs .setVisibility(View.GONE);	rdPregunta19bs.clearCheck();	op19bs="No aplica";
+                lay19cs .setVisibility(View.GONE);	rdPregunta19cs.clearCheck();	op19cs="No aplica";
+                lay19ds .setVisibility(View.GONE);	rdPregunta19ds.clearCheck();	op19ds="No aplica";
+                lay19es .setVisibility(View.GONE);	rdPregunta19es.clearCheck();	op19es="No aplica";
                 lay18b .setVisibility(View.GONE);	rdPregunta18b.clearCheck();	op18b="No aplica";
+                lay19m .setVisibility(View.GONE);	rdPregunta19m.clearCheck();	op19m="No aplica";
+                lay19am .setVisibility(View.GONE);	rdPregunta19am.clearCheck();	op19am="No aplica";
+                lay19bm .setVisibility(View.GONE);	rdPregunta19bm.clearCheck();	op19bm="No aplica";
+                lay19cm .setVisibility(View.GONE);	rdPregunta19cm.clearCheck();	op19cm="No aplica";
+                lay19dm .setVisibility(View.GONE);	rdPregunta19dm.clearCheck();	op19dm="No aplica";
+                lay19em .setVisibility(View.GONE);	rdPregunta19em.clearCheck();	op19em="No aplica";
                 lay18c .setVisibility(View.GONE);	rdPregunta18c.clearCheck();	op18c="No aplica";
+                lay19t .setVisibility(View.GONE);	rdPregunta19t.clearCheck();	op19t="No aplica";
+                lay19at .setVisibility(View.GONE);	rdPregunta19at.clearCheck();	op19at="No aplica";
+                lay19bt .setVisibility(View.GONE);	rdPregunta19bt.clearCheck();	op19bt="No aplica";
+                lay19ct .setVisibility(View.GONE);	rdPregunta19ct.clearCheck();	op19ct="No aplica";
+                lay19dt .setVisibility(View.GONE);	rdPregunta19dt.clearCheck();	op19dt="No aplica";
+                lay19et .setVisibility(View.GONE);	rdPregunta19et.clearCheck();	op19et="No aplica";
                 lay18d .setVisibility(View.GONE);	rdPregunta18d.clearCheck();	op18d="No aplica";
+                lay19ca .setVisibility(View.GONE);	rdPregunta19ca.clearCheck();	op19ca="No aplica";
+                lay19aca .setVisibility(View.GONE);	rdPregunta19aca.clearCheck();	op19aca="No aplica";
+                lay19bca .setVisibility(View.GONE);	rdPregunta19bca.clearCheck();	op19bca="No aplica";
+                lay19cca .setVisibility(View.GONE);	rdPregunta19cca.clearCheck();	op19cca="No aplica";
+                lay19dca .setVisibility(View.GONE);	rdPregunta19dca.clearCheck();	op19dca="No aplica";
+                lay19eca .setVisibility(View.GONE);	rdPregunta19eca.clearCheck();	op19eca="No aplica";
                 lay18e .setVisibility(View.GONE);	rdPregunta18e.clearCheck();	op18e="No aplica";
+                lay19cc .setVisibility(View.GONE);	rdPregunta19cc.clearCheck();	op19cc="No aplica";
+                lay19acc .setVisibility(View.GONE);	rdPregunta19acc.clearCheck();	op19acc="No aplica";
+                lay19bcc .setVisibility(View.GONE);	rdPregunta19bcc.clearCheck();	op19bcc="No aplica";
+                lay19ccc .setVisibility(View.GONE);	rdPregunta19ccc.clearCheck();	op19ccc="No aplica";
+                lay19dcc .setVisibility(View.GONE);	rdPregunta19dcc.clearCheck();	op19dcc="No aplica";
+                lay19ecc .setVisibility(View.GONE);	rdPregunta19ecc.clearCheck();	op19ecc="No aplica";
                 lay18f .setVisibility(View.GONE);	rdPregunta18f.clearCheck();	op18f="No aplica";
+
                 lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="No aplica";
                 lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="No aplica";
                 lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="No aplica";
@@ -1368,11 +1625,42 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay17 .setVisibility(View.VISIBLE);	rdPregunta17.clearCheck();	op17="sin datos";
                 lay18 .setVisibility(View.VISIBLE);	rdPregunta18.clearCheck();	op18="sin datos";
                 lay18a .setVisibility(View.VISIBLE);	rdPregunta18a.clearCheck();	op18a="sin datos";
+                lay19s .setVisibility(View.VISIBLE);	rdPregunta19s.clearCheck();	op19s="sin datos";
+                lay19as .setVisibility(View.VISIBLE);	rdPregunta19as.clearCheck();	op19as="sin datos";
+                lay19bs .setVisibility(View.VISIBLE);	rdPregunta19bs.clearCheck();	op19bs="sin datos";
+                lay19cs .setVisibility(View.VISIBLE);	rdPregunta19cs.clearCheck();	op19cs="sin datos";
+                lay19ds .setVisibility(View.VISIBLE);	rdPregunta19ds.clearCheck();	op19ds="sin datos";
+                lay19es .setVisibility(View.VISIBLE);	rdPregunta19es.clearCheck();	op19es="sin datos";
                 lay18b .setVisibility(View.VISIBLE);	rdPregunta18b.clearCheck();	op18b="sin datos";
+                lay19m .setVisibility(View.VISIBLE);	rdPregunta19m.clearCheck();	op19m="sin datos";
+                lay19am .setVisibility(View.VISIBLE);	rdPregunta19am.clearCheck();	op19am="sin datos";
+                lay19bm .setVisibility(View.VISIBLE);	rdPregunta19bm.clearCheck();	op19bm="sin datos";
+                lay19cm .setVisibility(View.VISIBLE);	rdPregunta19cm.clearCheck();	op19cm="sin datos";
+                lay19dm .setVisibility(View.VISIBLE);	rdPregunta19dm.clearCheck();	op19dm="sin datos";
+                lay19em .setVisibility(View.VISIBLE);	rdPregunta19em.clearCheck();	op19em="sin datos";
                 lay18c .setVisibility(View.VISIBLE);	rdPregunta18c.clearCheck();	op18c="sin datos";
+                lay19t .setVisibility(View.VISIBLE);	rdPregunta19t.clearCheck();	op19t="sin datos";
+                lay19at .setVisibility(View.VISIBLE);	rdPregunta19at.clearCheck();	op19at="sin datos";
+                lay19bt .setVisibility(View.VISIBLE);	rdPregunta19bt.clearCheck();	op19bt="sin datos";
+                lay19ct .setVisibility(View.VISIBLE);	rdPregunta19ct.clearCheck();	op19ct="sin datos";
+                lay19dt .setVisibility(View.VISIBLE);	rdPregunta19dt.clearCheck();	op19dt="sin datos";
+                lay19et .setVisibility(View.VISIBLE);	rdPregunta19et.clearCheck();	op19et="sin datos";
                 lay18d .setVisibility(View.VISIBLE);	rdPregunta18d.clearCheck();	op18d="sin datos";
+                lay19ca .setVisibility(View.VISIBLE);	rdPregunta19ca.clearCheck();	op19ca="sin datos";
+                lay19aca .setVisibility(View.VISIBLE);	rdPregunta19aca.clearCheck();	op19aca="sin datos";
+                lay19bca .setVisibility(View.VISIBLE);	rdPregunta19bca.clearCheck();	op19bca="sin datos";
+                lay19cca .setVisibility(View.VISIBLE);	rdPregunta19cca.clearCheck();	op19cca="sin datos";
+                lay19dca .setVisibility(View.VISIBLE);	rdPregunta19dca.clearCheck();	op19dca="sin datos";
+                lay19eca .setVisibility(View.VISIBLE);	rdPregunta19eca.clearCheck();	op19eca="sin datos";
                 lay18e .setVisibility(View.VISIBLE);	rdPregunta18e.clearCheck();	op18e="sin datos";
+                lay19cc .setVisibility(View.VISIBLE);	rdPregunta19cc.clearCheck();	op19cc="sin datos";
+                lay19acc .setVisibility(View.VISIBLE);	rdPregunta19acc.clearCheck();	op19acc="sin datos";
+                lay19bcc .setVisibility(View.VISIBLE);	rdPregunta19bcc.clearCheck();	op19bcc="sin datos";
+                lay19ccc .setVisibility(View.VISIBLE);	rdPregunta19ccc.clearCheck();	op19ccc="sin datos";
+                lay19dcc .setVisibility(View.VISIBLE);	rdPregunta19dcc.clearCheck();	op19dcc="sin datos";
+                lay19ecc .setVisibility(View.VISIBLE);	rdPregunta19ecc.clearCheck();	op19ecc="sin datos";
                 lay18f .setVisibility(View.VISIBLE);	rdPregunta18f.clearCheck();	op18f="sin datos";
+
                 lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
                 lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
                 lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
@@ -1443,11 +1731,42 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
                 lay18 .setVisibility(View.GONE);	rdPregunta18.clearCheck();	op18="No aplica";
                 lay18a .setVisibility(View.GONE);	rdPregunta18a.clearCheck();	op18a="No aplica";
+                lay19s .setVisibility(View.GONE);	rdPregunta19s.clearCheck();	op19s="No aplica";
+                lay19as .setVisibility(View.GONE);	rdPregunta19as.clearCheck();	op19as="No aplica";
+                lay19bs .setVisibility(View.GONE);	rdPregunta19bs.clearCheck();	op19bs="No aplica";
+                lay19cs .setVisibility(View.GONE);	rdPregunta19cs.clearCheck();	op19cs="No aplica";
+                lay19ds .setVisibility(View.GONE);	rdPregunta19ds.clearCheck();	op19ds="No aplica";
+                lay19es .setVisibility(View.GONE);	rdPregunta19es.clearCheck();	op19es="No aplica";
                 lay18b .setVisibility(View.GONE);	rdPregunta18b.clearCheck();	op18b="No aplica";
+                lay19m .setVisibility(View.GONE);	rdPregunta19m.clearCheck();	op19m="No aplica";
+                lay19am .setVisibility(View.GONE);	rdPregunta19am.clearCheck();	op19am="No aplica";
+                lay19bm .setVisibility(View.GONE);	rdPregunta19bm.clearCheck();	op19bm="No aplica";
+                lay19cm .setVisibility(View.GONE);	rdPregunta19cm.clearCheck();	op19cm="No aplica";
+                lay19dm .setVisibility(View.GONE);	rdPregunta19dm.clearCheck();	op19dm="No aplica";
+                lay19em .setVisibility(View.GONE);	rdPregunta19em.clearCheck();	op19em="No aplica";
                 lay18c .setVisibility(View.GONE);	rdPregunta18c.clearCheck();	op18c="No aplica";
+                lay19t .setVisibility(View.GONE);	rdPregunta19t.clearCheck();	op19t="No aplica";
+                lay19at .setVisibility(View.GONE);	rdPregunta19at.clearCheck();	op19at="No aplica";
+                lay19bt .setVisibility(View.GONE);	rdPregunta19bt.clearCheck();	op19bt="No aplica";
+                lay19ct .setVisibility(View.GONE);	rdPregunta19ct.clearCheck();	op19ct="No aplica";
+                lay19dt .setVisibility(View.GONE);	rdPregunta19dt.clearCheck();	op19dt="No aplica";
+                lay19et .setVisibility(View.GONE);	rdPregunta19et.clearCheck();	op19et="No aplica";
                 lay18d .setVisibility(View.GONE);	rdPregunta18d.clearCheck();	op18d="No aplica";
+                lay19ca .setVisibility(View.GONE);	rdPregunta19ca.clearCheck();	op19ca="No aplica";
+                lay19aca .setVisibility(View.GONE);	rdPregunta19aca.clearCheck();	op19aca="No aplica";
+                lay19bca .setVisibility(View.GONE);	rdPregunta19bca.clearCheck();	op19bca="No aplica";
+                lay19cca .setVisibility(View.GONE);	rdPregunta19cca.clearCheck();	op19cca="No aplica";
+                lay19dca .setVisibility(View.GONE);	rdPregunta19dca.clearCheck();	op19dca="No aplica";
+                lay19eca .setVisibility(View.GONE);	rdPregunta19eca.clearCheck();	op19eca="No aplica";
                 lay18e .setVisibility(View.GONE);	rdPregunta18e.clearCheck();	op18e="No aplica";
+                lay19cc .setVisibility(View.GONE);	rdPregunta19cc.clearCheck();	op19cc="No aplica";
+                lay19acc .setVisibility(View.GONE);	rdPregunta19acc.clearCheck();	op19acc="No aplica";
+                lay19bcc .setVisibility(View.GONE);	rdPregunta19bcc.clearCheck();	op19bcc="No aplica";
+                lay19ccc .setVisibility(View.GONE);	rdPregunta19ccc.clearCheck();	op19ccc="No aplica";
+                lay19dcc .setVisibility(View.GONE);	rdPregunta19dcc.clearCheck();	op19dcc="No aplica";
+                lay19ecc .setVisibility(View.GONE);	rdPregunta19ecc.clearCheck();	op19ecc="No aplica";
                 lay18f .setVisibility(View.GONE);	rdPregunta18f.clearCheck();	op18f="No aplica";
+
                 lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="No aplica";
                 lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="No aplica";
                 lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="No aplica";
@@ -1516,11 +1835,42 @@ mProgressView = findViewById(R.id.login_progressMain);
                 lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
                 lay18 .setVisibility(View.GONE);	rdPregunta18.clearCheck();	op18="No aplica";
                 lay18a .setVisibility(View.GONE);	rdPregunta18a.clearCheck();	op18a="No aplica";
+                lay19s .setVisibility(View.GONE);	rdPregunta19s.clearCheck();	op19s="No aplica";
+                lay19as .setVisibility(View.GONE);	rdPregunta19as.clearCheck();	op19as="No aplica";
+                lay19bs .setVisibility(View.GONE);	rdPregunta19bs.clearCheck();	op19bs="No aplica";
+                lay19cs .setVisibility(View.GONE);	rdPregunta19cs.clearCheck();	op19cs="No aplica";
+                lay19ds .setVisibility(View.GONE);	rdPregunta19ds.clearCheck();	op19ds="No aplica";
+                lay19es .setVisibility(View.GONE);	rdPregunta19es.clearCheck();	op19es="No aplica";
                 lay18b .setVisibility(View.GONE);	rdPregunta18b.clearCheck();	op18b="No aplica";
+                lay19m .setVisibility(View.GONE);	rdPregunta19m.clearCheck();	op19m="No aplica";
+                lay19am .setVisibility(View.GONE);	rdPregunta19am.clearCheck();	op19am="No aplica";
+                lay19bm .setVisibility(View.GONE);	rdPregunta19bm.clearCheck();	op19bm="No aplica";
+                lay19cm .setVisibility(View.GONE);	rdPregunta19cm.clearCheck();	op19cm="No aplica";
+                lay19dm .setVisibility(View.GONE);	rdPregunta19dm.clearCheck();	op19dm="No aplica";
+                lay19em .setVisibility(View.GONE);	rdPregunta19em.clearCheck();	op19em="No aplica";
                 lay18c .setVisibility(View.GONE);	rdPregunta18c.clearCheck();	op18c="No aplica";
+                lay19t .setVisibility(View.GONE);	rdPregunta19t.clearCheck();	op19t="No aplica";
+                lay19at .setVisibility(View.GONE);	rdPregunta19at.clearCheck();	op19at="No aplica";
+                lay19bt .setVisibility(View.GONE);	rdPregunta19bt.clearCheck();	op19bt="No aplica";
+                lay19ct .setVisibility(View.GONE);	rdPregunta19ct.clearCheck();	op19ct="No aplica";
+                lay19dt .setVisibility(View.GONE);	rdPregunta19dt.clearCheck();	op19dt="No aplica";
+                lay19et .setVisibility(View.GONE);	rdPregunta19et.clearCheck();	op19et="No aplica";
                 lay18d .setVisibility(View.GONE);	rdPregunta18d.clearCheck();	op18d="No aplica";
+                lay19ca .setVisibility(View.GONE);	rdPregunta19ca.clearCheck();	op19ca="No aplica";
+                lay19aca .setVisibility(View.GONE);	rdPregunta19aca.clearCheck();	op19aca="No aplica";
+                lay19bca .setVisibility(View.GONE);	rdPregunta19bca.clearCheck();	op19bca="No aplica";
+                lay19cca .setVisibility(View.GONE);	rdPregunta19cca.clearCheck();	op19cca="No aplica";
+                lay19dca .setVisibility(View.GONE);	rdPregunta19dca.clearCheck();	op19dca="No aplica";
+                lay19eca .setVisibility(View.GONE);	rdPregunta19eca.clearCheck();	op19eca="No aplica";
                 lay18e .setVisibility(View.GONE);	rdPregunta18e.clearCheck();	op18e="No aplica";
+                lay19cc .setVisibility(View.GONE);	rdPregunta19cc.clearCheck();	op19cc="No aplica";
+                lay19acc .setVisibility(View.GONE);	rdPregunta19acc.clearCheck();	op19acc="No aplica";
+                lay19bcc .setVisibility(View.GONE);	rdPregunta19bcc.clearCheck();	op19bcc="No aplica";
+                lay19ccc .setVisibility(View.GONE);	rdPregunta19ccc.clearCheck();	op19ccc="No aplica";
+                lay19dcc .setVisibility(View.GONE);	rdPregunta19dcc.clearCheck();	op19dcc="No aplica";
+                lay19ecc .setVisibility(View.GONE);	rdPregunta19ecc.clearCheck();	op19ecc="No aplica";
                 lay18f .setVisibility(View.GONE);	rdPregunta18f.clearCheck();	op18f="No aplica";
+
                 lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="No aplica";
                 lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="No aplica";
                 lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="No aplica";
@@ -2490,6 +2840,28 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio0) {
                 op11 = "No sabe / No contestó";
+                lay12 .setVisibility(View.GONE);	rdPregunta12.clearCheck();	op12="No aplica";
+                lay13 .setVisibility(View.GONE);	rdPregunta13.clearCheck();	op13="No aplica";
+                lay13a .setVisibility(View.GONE);	rdPregunta13a.clearCheck();	op13a="No aplica";
+                lay13b .setVisibility(View.GONE);	rdPregunta13b.clearCheck();	op13b="No aplica";
+                lay13c .setVisibility(View.GONE);	rdPregunta13c.clearCheck();	op13c="No aplica";
+                lay13d .setVisibility(View.GONE);	rdPregunta13d.clearCheck();	op13d="No aplica";
+                lay13e .setVisibility(View.GONE);	rdPregunta13e.clearCheck();	op13e="No aplica";
+                lay14 .setVisibility(View.GONE);	rdPregunta14.clearCheck();	op14="No aplica";
+                lay15 .setVisibility(View.GONE);	rdPregunta15.clearCheck();	op15="No aplica";
+                lay16 .setVisibility(View.GONE);	rdPregunta16.clearCheck();	op16="No aplica";
+                lay16a .setVisibility(View.GONE);	rdPregunta16a.clearCheck();	op16a="No aplica";
+                lay16b .setVisibility(View.GONE);	rdPregunta16b.clearCheck();	op16b="No aplica";
+                lay16c .setVisibility(View.GONE);	rdPregunta16c.clearCheck();	op16c="No aplica";
+                lay16d .setVisibility(View.GONE);	rdPregunta16d.clearCheck();	op16d="No aplica";
+                lay16e .setVisibility(View.GONE);	rdPregunta16e.clearCheck();	op16e="No aplica";
+                lay16f .setVisibility(View.GONE);	rdPregunta16f.clearCheck();	op16f="No aplica";
+                lay16g .setVisibility(View.GONE);	rdPregunta16g.clearCheck();	op16g="No aplica";
+                lay16h .setVisibility(View.GONE);	rdPregunta16h.clearCheck();	op16h="No aplica";
+                lay16i .setVisibility(View.GONE);	rdPregunta16i.clearCheck();	op16i="No aplica";
+                lay16j .setVisibility(View.GONE);	rdPregunta16j.clearCheck();	op16j="No aplica";
+                lay16k .setVisibility(View.GONE);	rdPregunta16k.clearCheck();	op16k="No aplica";
+                lay17 .setVisibility(View.GONE);	rdPregunta17.clearCheck();	op17="No aplica";
             }
         }
     });
@@ -3261,34 +3633,34 @@ mProgressView = findViewById(R.id.login_progressMain);
                 op18a = "SI";
 
 
-                lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
+                lay19s .setVisibility(View.VISIBLE);	rdPregunta19s.clearCheck();	op19s="sin datos";
+                lay19as .setVisibility(View.VISIBLE);	rdPregunta19as.clearCheck();	op19as="sin datos";
+                lay19bs .setVisibility(View.VISIBLE);	rdPregunta19bs.clearCheck();	op19bs="sin datos";
+                lay19cs .setVisibility(View.VISIBLE);	rdPregunta19cs.clearCheck();	op19cs="sin datos";
+                lay19ds .setVisibility(View.VISIBLE);	rdPregunta19ds.clearCheck();	op19ds="sin datos";
+                lay19es .setVisibility(View.VISIBLE);	rdPregunta19es.clearCheck();	op19es="sin datos";
 
             }
             else if (checkedId == R.id.radio4) {
                 op18a = "NO";
 
-                lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="sin datos";
-                lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                lay19c .setVisibility(View.GONE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                lay19d .setVisibility(View.GONE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                lay19e .setVisibility(View.GONE);	rdPregunta19e.clearCheck();	op19e="sin datos";
+                lay19s .setVisibility(View.GONE);	rdPregunta19s.clearCheck();	op19s="sin datos";
+                lay19as .setVisibility(View.GONE);	rdPregunta19as.clearCheck();	op19as="sin datos";
+                lay19bs .setVisibility(View.GONE);	rdPregunta19bs.clearCheck();	op19bs="sin datos";
+                lay19cs .setVisibility(View.GONE);	rdPregunta19cs.clearCheck();	op19cs="sin datos";
+                lay19ds .setVisibility(View.GONE);	rdPregunta19ds.clearCheck();	op19ds="sin datos";
+                lay19es .setVisibility(View.GONE);	rdPregunta19es.clearCheck();	op19es="sin datos";
 
             }
             else if (checkedId == R.id.radio0) {
                 op18a = "No sabe / No contestó";
 
-                lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="sin datos";
-                lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                lay19c .setVisibility(View.GONE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                lay19d .setVisibility(View.GONE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                lay19e .setVisibility(View.GONE);	rdPregunta19e.clearCheck();	op19e="sin datos";
+                lay19s .setVisibility(View.GONE);	rdPregunta19s.clearCheck();	op19s="sin datos";
+                lay19as .setVisibility(View.GONE);	rdPregunta19as.clearCheck();	op19as="sin datos";
+                lay19bs .setVisibility(View.GONE);	rdPregunta19bs.clearCheck();	op19bs="sin datos";
+                lay19cs .setVisibility(View.GONE);	rdPregunta19cs.clearCheck();	op19cs="sin datos";
+                lay19ds .setVisibility(View.GONE);	rdPregunta19ds.clearCheck();	op19ds="sin datos";
+                lay19es .setVisibility(View.GONE);	rdPregunta19es.clearCheck();	op19es="sin datos";
 
             }
         }
@@ -3307,79 +3679,34 @@ mProgressView = findViewById(R.id.login_progressMain);
                 op18b = "SI";
 
 
-                lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
+                lay19m .setVisibility(View.VISIBLE);	rdPregunta19m.clearCheck();	op19m="sin datos";
+                lay19am .setVisibility(View.VISIBLE);	rdPregunta19am.clearCheck();	op19am="sin datos";
+                lay19bm .setVisibility(View.VISIBLE);	rdPregunta19bm.clearCheck();	op19bm="sin datos";
+                lay19cm .setVisibility(View.VISIBLE);	rdPregunta19cm.clearCheck();	op19cm="sin datos";
+                lay19dm .setVisibility(View.VISIBLE);	rdPregunta19dm.clearCheck();	op19dm="sin datos";
+                lay19em .setVisibility(View.VISIBLE);	rdPregunta19em.clearCheck();	op19em="sin datos";
             }
             else if (checkedId == R.id.radio4) {
                 op18b = "NO";
 
-                if(op18a.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
+                lay19m .setVisibility(View.GONE);	rdPregunta19m.clearCheck();	op19m="sin datos";
+                lay19am .setVisibility(View.GONE);	rdPregunta19am.clearCheck();	op19am="sin datos";
+                lay19bm .setVisibility(View.GONE);	rdPregunta19bm.clearCheck();	op19bm="sin datos";
+                lay19cm .setVisibility(View.GONE);	rdPregunta19cm.clearCheck();	op19cm="sin datos";
+                lay19dm .setVisibility(View.GONE);	rdPregunta19dm.clearCheck();	op19dm="sin datos";
+                lay19em .setVisibility(View.GONE);	rdPregunta19em.clearCheck();	op19em="sin datos";
 
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
-                }
+            }
             else if (checkedId == R.id.radio0) {
                 op18b = "No sabe / No contestó";
 
-                if(op18a.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
 
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19m .setVisibility(View.GONE);	rdPregunta19m.clearCheck();	op19m="sin datos";
+                lay19am .setVisibility(View.GONE);	rdPregunta19am.clearCheck();	op19am="sin datos";
+                lay19bm .setVisibility(View.GONE);	rdPregunta19bm.clearCheck();	op19bm="sin datos";
+                lay19cm .setVisibility(View.GONE);	rdPregunta19cm.clearCheck();	op19cm="sin datos";
+                lay19dm .setVisibility(View.GONE);	rdPregunta19dm.clearCheck();	op19dm="sin datos";
+                lay19em .setVisibility(View.GONE);	rdPregunta19em.clearCheck();	op19em="sin datos";
             }
         }
     });
@@ -3397,80 +3724,32 @@ mProgressView = findViewById(R.id.login_progressMain);
                 op18c = "SI";
 
 
-                lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
+                lay19t .setVisibility(View.VISIBLE);	rdPregunta19t.clearCheck();	op19t="sin datos";
+                lay19at .setVisibility(View.VISIBLE);	rdPregunta19at.clearCheck();	op19at="sin datos";
+                lay19bt .setVisibility(View.VISIBLE);	rdPregunta19bt.clearCheck();	op19bt="sin datos";
+                lay19ct .setVisibility(View.VISIBLE);	rdPregunta19ct.clearCheck();	op19ct="sin datos";
+                lay19dt .setVisibility(View.VISIBLE);	rdPregunta19dt.clearCheck();	op19dt="sin datos";
+                lay19et .setVisibility(View.VISIBLE);	rdPregunta19et.clearCheck();	op19et="sin datos";
             }
             else if (checkedId == R.id.radio4) {
                 op18c = "NO";
 
-                if(op18a.equals("SI")||op18b.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
-
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19t .setVisibility(View.GONE);	rdPregunta19t.clearCheck();	op19t="sin datos";
+                lay19at .setVisibility(View.GONE);	rdPregunta19at.clearCheck();	op19at="sin datos";
+                lay19bt .setVisibility(View.GONE);	rdPregunta19bt.clearCheck();	op19bt="sin datos";
+                lay19ct .setVisibility(View.GONE);	rdPregunta19ct.clearCheck();	op19ct="sin datos";
+                lay19dt .setVisibility(View.GONE);	rdPregunta19dt.clearCheck();	op19dt="sin datos";
+                lay19et .setVisibility(View.GONE);	rdPregunta19et.clearCheck();	op19et="sin datos";
             }
             else if (checkedId == R.id.radio0) {
                 op18c = "No sabe / No contestó";
 
-                if(op18a.equals("SI")||op18b.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
-
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19t .setVisibility(View.GONE);	rdPregunta19t.clearCheck();	op19t="sin datos";
+                lay19at .setVisibility(View.GONE);	rdPregunta19at.clearCheck();	op19at="sin datos";
+                lay19bt .setVisibility(View.GONE);	rdPregunta19bt.clearCheck();	op19bt="sin datos";
+                lay19ct .setVisibility(View.GONE);	rdPregunta19ct.clearCheck();	op19ct="sin datos";
+                lay19dt .setVisibility(View.GONE);	rdPregunta19dt.clearCheck();	op19dt="sin datos";
+                lay19et .setVisibility(View.GONE);	rdPregunta19et.clearCheck();	op19et="sin datos";
             }
         }
     });
@@ -3487,81 +3766,32 @@ mProgressView = findViewById(R.id.login_progressMain);
             else if (checkedId == R.id.radio3) {
                 op18d = "SI";
 
-
-                lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
+                lay19ca .setVisibility(View.VISIBLE);	rdPregunta19ca.clearCheck();	op19ca="sin datos";
+                lay19aca .setVisibility(View.VISIBLE);	rdPregunta19aca.clearCheck();	op19aca="sin datos";
+                lay19bca .setVisibility(View.VISIBLE);	rdPregunta19bca.clearCheck();	op19bca="sin datos";
+                lay19cca .setVisibility(View.VISIBLE);	rdPregunta19cca.clearCheck();	op19cca="sin datos";
+                lay19dca .setVisibility(View.VISIBLE);	rdPregunta19dca.clearCheck();	op19dca="sin datos";
+                lay19eca .setVisibility(View.VISIBLE);	rdPregunta19eca.clearCheck();	op19eca="sin datos";
             }
             else if (checkedId == R.id.radio4) {
                 op18d = "NO";
 
-                if(op18a.equals("SI")||op18b.equals("SI")||op18c.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
-
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19ca .setVisibility(View.GONE);	rdPregunta19ca.clearCheck();	op19ca="sin datos";
+                lay19aca .setVisibility(View.GONE);	rdPregunta19aca.clearCheck();	op19aca="sin datos";
+                lay19bca .setVisibility(View.GONE);	rdPregunta19bca.clearCheck();	op19bca="sin datos";
+                lay19cca .setVisibility(View.GONE);	rdPregunta19cca.clearCheck();	op19cca="sin datos";
+                lay19dca .setVisibility(View.GONE);	rdPregunta19dca.clearCheck();	op19dca="sin datos";
+                lay19eca .setVisibility(View.GONE);	rdPregunta19eca.clearCheck();	op19eca="sin datos";
             }
             else if (checkedId == R.id.radio0) {
                 op18d = "No sabe / No contestó";
 
-                if(op18a.equals("SI")||op18b.equals("SI")||op18c.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
-
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19ca .setVisibility(View.GONE);	rdPregunta19ca.clearCheck();	op19ca="sin datos";
+                lay19aca .setVisibility(View.GONE);	rdPregunta19aca.clearCheck();	op19aca="sin datos";
+                lay19bca .setVisibility(View.GONE);	rdPregunta19bca.clearCheck();	op19bca="sin datos";
+                lay19cca .setVisibility(View.GONE);	rdPregunta19cca.clearCheck();	op19cca="sin datos";
+                lay19dca .setVisibility(View.GONE);	rdPregunta19dca.clearCheck();	op19dca="sin datos";
+                lay19eca .setVisibility(View.GONE);	rdPregunta19eca.clearCheck();	op19eca="sin datos";
             }
         }
     });
@@ -3579,80 +3809,32 @@ mProgressView = findViewById(R.id.login_progressMain);
                 op18e = "SI";
 
 
-                lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
+                lay19cc .setVisibility(View.VISIBLE);	rdPregunta19cc.clearCheck();	op19cc="sin datos";
+                lay19acc .setVisibility(View.VISIBLE);	rdPregunta19acc.clearCheck();	op19acc="sin datos";
+                lay19bcc .setVisibility(View.VISIBLE);	rdPregunta19bcc.clearCheck();	op19bcc="sin datos";
+                lay19ccc .setVisibility(View.VISIBLE);	rdPregunta19ccc.clearCheck();	op19ccc="sin datos";
+                lay19dcc .setVisibility(View.VISIBLE);	rdPregunta19dcc.clearCheck();	op19dcc="sin datos";
+                lay19ecc .setVisibility(View.VISIBLE);	rdPregunta19ecc.clearCheck();	op19ecc="sin datos";
             }
             else if (checkedId == R.id.radio4) {
                 op18e = "NO";
 
-                if(op18a.equals("SI")||op18b.equals("SI")||op18c.equals("SI")||op18d.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
-
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19cc .setVisibility(View.GONE);	rdPregunta19cc.clearCheck();	op19cc="sin datos";
+                lay19acc .setVisibility(View.GONE);	rdPregunta19acc.clearCheck();	op19acc="sin datos";
+                lay19bcc .setVisibility(View.GONE);	rdPregunta19bcc.clearCheck();	op19bcc="sin datos";
+                lay19ccc .setVisibility(View.GONE);	rdPregunta19ccc.clearCheck();	op19ccc="sin datos";
+                lay19dcc .setVisibility(View.GONE);	rdPregunta19dcc.clearCheck();	op19dcc="sin datos";
+                lay19ecc .setVisibility(View.GONE);	rdPregunta19ecc.clearCheck();	op19ecc="sin datos";
             }
             else if (checkedId == R.id.radio0) {
                 op18e = "No sabe / No contestó";
 
-                if(op18a.equals("SI")||op18b.equals("SI")||op18c.equals("SI")||op18d.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
-
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19cc .setVisibility(View.GONE);	rdPregunta19cc.clearCheck();	op19cc="sin datos";
+                lay19acc .setVisibility(View.GONE);	rdPregunta19acc.clearCheck();	op19acc="sin datos";
+                lay19bcc .setVisibility(View.GONE);	rdPregunta19bcc.clearCheck();	op19bcc="sin datos";
+                lay19ccc .setVisibility(View.GONE);	rdPregunta19ccc.clearCheck();	op19ccc="sin datos";
+                lay19dcc .setVisibility(View.GONE);	rdPregunta19dcc.clearCheck();	op19dcc="sin datos";
+                lay19ecc .setVisibility(View.GONE);	rdPregunta19ecc.clearCheck();	op19ecc="sin datos";
             }
         }
     });
@@ -3677,73 +3859,1397 @@ mProgressView = findViewById(R.id.login_progressMain);
             }
             else if (checkedId == R.id.radio4) {
                 op18f = "NO";
-                if(op18a.equals("SI")||op18b.equals("SI")||op18c.equals("SI")||op18d.equals("SI")||op18e.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
-
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="sin datos";
+                lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="sin datos";
+                lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="sin datos";
+                lay19c .setVisibility(View.GONE);	rdPregunta19c.clearCheck();	op19c="sin datos";
+                lay19d .setVisibility(View.GONE);	rdPregunta19d.clearCheck();	op19d="sin datos";
+                lay19e .setVisibility(View.GONE);	rdPregunta19e.clearCheck();	op19e="sin datos";
             }
             else if (checkedId == R.id.radio0) {
                 op18f = "No sabe / No contestó";
-                if(op18a.equals("SI")||op18b.equals("SI")||op18c.equals("SI")||op18d.equals("SI")||op18e.equals("SI")){
-                    lay19 .setVisibility(View.VISIBLE);	rdPregunta19.clearCheck();	op19="sin datos";
-                    lay19a .setVisibility(View.VISIBLE);	rdPregunta19a.clearCheck();	op19a="sin datos";
-                    lay19b .setVisibility(View.VISIBLE);	rdPregunta19b.clearCheck();	op19b="sin datos";
-                    lay19c .setVisibility(View.VISIBLE);	rdPregunta19c.clearCheck();	op19c="sin datos";
-                    lay19d .setVisibility(View.VISIBLE);	rdPregunta19d.clearCheck();	op19d="sin datos";
-                    lay19e .setVisibility(View.VISIBLE);	rdPregunta19e.clearCheck();	op19e="sin datos";
-
-
-                }else {
-
-                    lay19.setVisibility(View.GONE);
-                    rdPregunta19.clearCheck();
-                    op19 = "sin datos";
-                    lay19a.setVisibility(View.GONE);
-                    rdPregunta19a.clearCheck();
-                    op19a = "sin datos";
-                    lay19b.setVisibility(View.GONE);
-                    rdPregunta19b.clearCheck();
-                    op19b = "sin datos";
-                    lay19c.setVisibility(View.GONE);
-                    rdPregunta19c.clearCheck();
-                    op19c = "sin datos";
-                    lay19d.setVisibility(View.GONE);
-                    rdPregunta19d.clearCheck();
-                    op19d = "sin datos";
-                    lay19e.setVisibility(View.GONE);
-                    rdPregunta19e.clearCheck();
-                    op19e = "sin datos";
-                }
+                lay19 .setVisibility(View.GONE);	rdPregunta19.clearCheck();	op19="sin datos";
+                lay19a .setVisibility(View.GONE);	rdPregunta19a.clearCheck();	op19a="sin datos";
+                lay19b .setVisibility(View.GONE);	rdPregunta19b.clearCheck();	op19b="sin datos";
+                lay19c .setVisibility(View.GONE);	rdPregunta19c.clearCheck();	op19c="sin datos";
+                lay19d .setVisibility(View.GONE);	rdPregunta19d.clearCheck();	op19d="sin datos";
+                lay19e .setVisibility(View.GONE);	rdPregunta19e.clearCheck();	op19e="sin datos";
             }
         }
     });
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    rdPregunta19s.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19s = "?0";
+                editPregunta19s.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19s = "19s";
+                editPregunta19s.setText("");
+            }
+
+        }
+
+    });
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19as.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19as = "1";
+                editPregunta19as.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19as = "19as";
+                editPregunta19as.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19as = "No sabe / No contestó";
+                editPregunta19as.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19as.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19as.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19as.clearCheck();
+            }
+        }
+    });
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19bs.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19bs = "1";
+                editPregunta19bs.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19bs = "19bs";
+                editPregunta19bs.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19bs = "No sabe / No contestó";
+                editPregunta19bs.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19bs.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19bs.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19bs.clearCheck();
+            }
+        }
+    });
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19cs.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19cs = "1";
+                editPregunta19cs.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19cs = "19cs";
+                editPregunta19cs.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19cs = "No sabe / No contestó";
+                editPregunta19cs.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19cs.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19cs.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19cs.clearCheck();
+            }
+        }
+    });
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19ds.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19ds = "1";
+                editPregunta19ds.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19ds = "19ds";
+                editPregunta19ds.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19ds = "No sabe / No contestó";
+                editPregunta19ds.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19ds.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19ds.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19ds.clearCheck();
+            }
+        }
+    });
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19es.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19es = "2";
+               spinner19es.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19es = "19es";
+               spinner19es.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19es = "No sabe / No contestó";
+               spinner19es.setSelection(0);
+            }
+
+        }
+
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19m.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19m = "0";
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19m = "19m";
+            }
+
+        }
+    });
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19am.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19am = "1";
+                editPregunta19am.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19am = "19am";
+                editPregunta19am.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19am = "No sabe / No contestó";
+                editPregunta19am.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19am.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19am.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19am.clearCheck();
+            }
+        }
+    });
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19bm.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19bm = "1";
+                editPregunta19bm.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19bm = "19bm";
+                editPregunta19bm.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19bm = "No sabe / No contestó";
+                editPregunta19bm.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19bm.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19bm.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19bm.clearCheck();
+            }
+        }
+    });
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19cm.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19cm = "1";
+                editPregunta19cm.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19cm = "19cm";
+                editPregunta19cm.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19cm = "No sabe / No contestó";
+                editPregunta19cm.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19cm.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19cm.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19cm.clearCheck();
+            }
+        }
+    });
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19dm.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19dm = "1";
+                editPregunta19dm.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19dm = "19dm";
+                editPregunta19dm.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19dm = "No sabe / No contestó";
+                editPregunta19dm.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19dm.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19dm.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19dm.clearCheck();
+            }
+        }
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19em.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19em = "2";
+               spinner19em.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19em = "19em";
+                spinner19em.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19em = "No sabe / No contestó";
+               spinner19em.setSelection(0);
+            }
+
+        }
+
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19t.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19t = "0";
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19t = "19t";
+            }
+
+        }
+    });
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19at.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19at = "1";
+                editPregunta19at.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19at = "19at";
+                editPregunta19at.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19at = "No sabe / No contestó";
+                editPregunta19at.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19at.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19at.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19at.clearCheck();
+            }
+        }
+    });
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19bt.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19bt = "1";
+                editPregunta19bt.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19bt = "19bt";
+                editPregunta19bt.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19bt = "No sabe / No contestó";
+                editPregunta19bt.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19bt.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19bt.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19bt.clearCheck();
+            }
+        }
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19ct.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19ct = "1";
+                editPregunta19ct.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19ct = "19ct";
+                editPregunta19ct.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19ct = "No sabe / No contestó";
+                editPregunta19ct.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19ct.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19ct.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19ct.clearCheck();
+            }
+        }
+    });
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19dt.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19dt = "1";
+                editPregunta19dt.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19dt = "19dt";
+                editPregunta19dt.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19dt = "No sabe / No contestó";
+                editPregunta19dt.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19dt.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19dt.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19dt.clearCheck();
+            }
+        }
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19et.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19et = "2";
+                spinner19et.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19et = "19et";
+                spinner19et.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19et = "No sabe / No contestó";
+               spinner19et.setSelection(0);
+            }
+
+        }
+
+    });
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19ca.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19ca = "0";
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19ca = "19ca";
+            }
+
+        }
+    });
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19aca.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19aca = "1";
+                editPregunta19aca.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19aca = "19aca";
+                editPregunta19aca.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19aca = "No sabe / No contestó";
+                editPregunta19aca.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19aca.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19aca.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19aca.clearCheck();
+            }
+        }
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19bca.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19bca = "1";
+                editPregunta19bca.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19bca = "19bca";
+                editPregunta19bca.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19bca = "No sabe / No contestó";
+                editPregunta19bca.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19bca.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19bca.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19bca.clearCheck();
+            }
+        }
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19cca.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19cca = "1";
+                editPregunta19cca.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19cca = "19cca";
+                editPregunta19cca.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19cca = "No sabe / No contestó";
+                editPregunta19cca.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19cca.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19cca.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19cca.clearCheck();
+            }
+        }
+    });
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19dca.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19dca = "1";
+                editPregunta19dca.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19dca = "19dca";
+                editPregunta19dca.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19dca = "No sabe / No contestó";
+                editPregunta19dca.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19dca.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19dca.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19dca.clearCheck();
+            }
+        }
+    });
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19eca.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19eca = "2";
+                spinner19eca.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19eca = "19eca";
+               spinner19eca.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19eca = "No sabe / No contestó";
+               spinner19eca.setSelection(0);
+            }
+
+        }
+
+    });
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19cc.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19cc = "0";
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19cc = "19cc";
+            }
+
+        }
+    });
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19acc.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19acc = "1";
+                editPregunta19acc.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19acc = "19acc";
+                editPregunta19acc.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19acc = "No sabe / No contestó";
+                editPregunta19acc.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19acc.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19acc.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19acc.clearCheck();
+            }
+        }
+    });
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19bcc.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19bcc = "1";
+                editPregunta19bcc.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19bcc = "19bcc";
+                editPregunta19bcc.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19bcc = "No sabe / No contestó";
+                editPregunta19bcc.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19bcc.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19bcc.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19bcc.clearCheck();
+            }
+        }
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19ccc.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19ccc = "1";
+                editPregunta19ccc.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19ccc = "19ccc";
+                editPregunta19ccc.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19ccc = "No sabe / No contestó";
+                editPregunta19ccc.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19ccc.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19ccc.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19ccc.clearCheck();
+            }
+        }
+    });
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+    rdPregunta19dcc.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19dcc = "1";
+                editPregunta19dcc.setText("");
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19dcc = "19dcc";
+                editPregunta19dcc.setText("");
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19dcc = "No sabe / No contestó";
+                editPregunta19dcc.setText("");
+            }
+
+        }
+    });
+
+
+    editPregunta19dcc.setOnTouchListener(new View.OnTouchListener() {
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+            v.setFocusable(true);
+            v.setFocusableInTouchMode(true);
+            return false;
+        }
+    });
+
+
+    editPregunta19dcc.addTextChangedListener(new TextWatcher() {
+        @Override
+        public void afterTextChanged(Editable s) {}
+        @Override
+        public void beforeTextChanged(CharSequence s, int start,int count, int after) {
+        }
+        @Override
+        public void onTextChanged(CharSequence s, int start,int before, int count) {
+            if(s.length() != 0){
+                rdPregunta19dcc.clearCheck();
+            }
+        }
+    });
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+    rdPregunta19ecc.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+        @Override
+        public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+            if (checkedId == R.id.radio1) {
+                op19ecc = "2";
+               spinner19ecc.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio2) {
+                op19ecc = "19ecc";
+                spinner19ecc.setSelection(0);
+            }
+
+            else if (checkedId == R.id.radio0) {
+                op19ecc = "No sabe / No contestó";
+                spinner19ecc.setSelection(0);
+            }
+
+        }
+
+    });
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     rdPregunta19.setOnCheckedChangeListener(new OnCheckedChangeListener() {
         @Override
         public void onCheckedChanged(RadioGroup group, int checkedId) {
@@ -4406,6 +5912,46 @@ public void valores() {
         rdPregunta19a.clearCheck();
     }
 
+    String strText19as;
+    if(editPregunta19as.getText().toString().trim().length()==0){
+        strText19as=op19as;
+    }else{
+        strText19as=editPregunta19as.getText().toString().trim();
+        rdPregunta19as.clearCheck();
+    }
+
+    String strText19am;
+    if(editPregunta19am.getText().toString().trim().length()==0){
+        strText19am=op19am;
+    }else{
+        strText19am=editPregunta19am.getText().toString().trim();
+        rdPregunta19am.clearCheck();
+    }
+
+    String strText19at;
+    if(editPregunta19at.getText().toString().trim().length()==0){
+        strText19at=op19at;
+    }else{
+        strText19at=editPregunta19at.getText().toString().trim();
+        rdPregunta19at.clearCheck();
+    }
+
+    String strText19aca;
+    if(editPregunta19aca.getText().toString().trim().length()==0){
+        strText19aca=op19aca;
+    }else{
+        strText19aca=editPregunta19aca.getText().toString().trim();
+        rdPregunta19aca.clearCheck();
+    }
+
+    String strText19acc;
+    if(editPregunta19acc.getText().toString().trim().length()==0){
+        strText19acc=op19acc;
+    }else{
+        strText19acc=editPregunta19acc.getText().toString().trim();
+        rdPregunta19acc.clearCheck();
+    }
+
     String strText19b;
     if(editPregunta19b.getText().toString().trim().length()==0){
         strText19b=op19b;
@@ -4413,6 +5959,48 @@ public void valores() {
         strText19b=editPregunta19b.getText().toString().trim();
         rdPregunta19b.clearCheck();
     }
+
+    String strText19bs;
+    if(editPregunta19bs.getText().toString().trim().length()==0){
+        strText19bs=op19bs;
+    }else{
+        strText19bs=editPregunta19bs.getText().toString().trim();
+        rdPregunta19bs.clearCheck();
+    }
+
+    String strText19bm;
+    if(editPregunta19bm.getText().toString().trim().length()==0){
+        strText19bm=op19bm;
+    }else{
+        strText19bm=editPregunta19bm.getText().toString().trim();
+        rdPregunta19bm.clearCheck();
+    }
+
+    String strText19bt;
+    if(editPregunta19bt.getText().toString().trim().length()==0){
+        strText19bt=op19bt;
+    }else{
+        strText19bt=editPregunta19bt.getText().toString().trim();
+        rdPregunta19bt.clearCheck();
+    }
+
+    String strText19bca;
+    if(editPregunta19bca.getText().toString().trim().length()==0){
+        strText19bca=op19bca;
+    }else{
+        strText19bca=editPregunta19bca.getText().toString().trim();
+        rdPregunta19bca.clearCheck();
+    }
+
+    String strText19bcc;
+    if(editPregunta19bcc.getText().toString().trim().length()==0){
+        strText19bcc=op19bcc;
+    }else{
+        strText19bcc=editPregunta19bcc.getText().toString().trim();
+        rdPregunta19bcc.clearCheck();
+    }
+
+
 
     String strText19c;
     if(editPregunta19c.getText().toString().trim().length()==0){
@@ -4422,12 +6010,133 @@ public void valores() {
         rdPregunta19c.clearCheck();
     }
 
+    String strText19cs;
+    if(editPregunta19cs.getText().toString().trim().length()==0){
+        strText19cs=op19cs;
+    }else{
+        strText19cs=editPregunta19cs.getText().toString().trim();
+        rdPregunta19cs.clearCheck();
+    }
+
+    String strText19cm;
+    if(editPregunta19cm.getText().toString().trim().length()==0){
+        strText19cm=op19cm;
+    }else{
+        strText19cm=editPregunta19cm.getText().toString().trim();
+        rdPregunta19cm.clearCheck();
+    }
+
+    String strText19ct;
+    if(editPregunta19ct.getText().toString().trim().length()==0){
+        strText19ct=op19ct;
+    }else{
+        strText19ct=editPregunta19ct.getText().toString().trim();
+        rdPregunta19ct.clearCheck();
+    }
+
+    String strText19cca;
+    if(editPregunta19cca.getText().toString().trim().length()==0){
+        strText19cca=op19cca;
+    }else{
+        strText19cca=editPregunta19cca.getText().toString().trim();
+        rdPregunta19cca.clearCheck();
+    }
+
+    String strText19ccc;
+    if(editPregunta19ccc.getText().toString().trim().length()==0){
+        strText19ccc=op19ccc;
+    }else{
+        strText19ccc=editPregunta19ccc.getText().toString().trim();
+        rdPregunta19ccc.clearCheck();
+    }
+
     String strText19d;
     if(editPregunta19d.getText().toString().trim().length()==0){
         strText19d=op19d;
     }else{
         strText19d=editPregunta19d.getText().toString().trim();
         rdPregunta19d.clearCheck();
+    }
+
+    String strText19ds;
+    if(editPregunta19ds.getText().toString().trim().length()==0){
+        strText19ds=op19ds;
+    }else{
+        strText19ds=editPregunta19ds.getText().toString().trim();
+        rdPregunta19ds.clearCheck();
+    }
+
+    String strText19dm;
+    if(editPregunta19dm.getText().toString().trim().length()==0){
+        strText19dm=op19dm;
+    }else{
+        strText19dm=editPregunta19dm.getText().toString().trim();
+        rdPregunta19dm.clearCheck();
+    }
+
+    String strText19dt;
+    if(editPregunta19dt.getText().toString().trim().length()==0){
+        strText19dt=op19dt;
+    }else{
+        strText19dt=editPregunta19dt.getText().toString().trim();
+        rdPregunta19dt.clearCheck();
+    }
+
+    String strText19dca;
+    if(editPregunta19dca.getText().toString().trim().length()==0){
+        strText19dca=op19dca;
+    }else{
+        strText19dca=editPregunta19dca.getText().toString().trim();
+        rdPregunta19dca.clearCheck();
+    }
+
+    String strText19dcc;
+    if(editPregunta19dcc.getText().toString().trim().length()==0){
+        strText19dcc=op19dcc;
+    }else{
+        strText19dcc=editPregunta19dcc.getText().toString().trim();
+        rdPregunta19dcc.clearCheck();
+    }
+
+
+    String strText19es;
+    if(spinner19es.getSelectedItem().toString().equals("Selecciona")){
+        strText19es=op19es;
+    }else{
+        strText19es=spinner19es.getSelectedItem().toString();
+        rdPregunta19es.clearCheck();
+    }
+
+    String strText19em;
+    if(spinner19em.getSelectedItem().toString().equals("Selecciona")){
+        strText19em=op19em;
+    }else{
+        strText19em=spinner19em.getSelectedItem().toString();
+        rdPregunta19em.clearCheck();
+    }
+
+    String strText19et;
+    if(spinner19et.getSelectedItem().toString().equals("Selecciona")){
+        strText19et=op19et;
+    }else{
+        strText19et=spinner19et.getSelectedItem().toString();
+        rdPregunta19et.clearCheck();
+    }
+
+    String strText19eca;
+    if(spinner19eca.getSelectedItem().toString().equals("Selecciona")){
+        strText19eca=op19eca;
+    }else{
+        strText19eca=spinner19eca.getSelectedItem().toString();
+        rdPregunta19eca.clearCheck();
+    }
+
+    String strText19ecc;
+    if(spinner19ecc.getSelectedItem().toString().equals("Selecciona")){
+        strText19ecc=op19ecc;
+    }else{
+        strText19ecc=spinner19ecc.getSelectedItem().toString();
+        rdPregunta19ecc.clearCheck();
     }
 
     String strText19e;
@@ -4523,10 +6232,40 @@ public void valores() {
     String str17d = strText17d;
     String str18 = op18;
     String str18a = op18a;
+    String str19s = op19s;
+    String str19as = strText19as;
+    String str19bs = strText19bs;
+    String str19cs = strText19cs;
+    String str19ds = strText19ds;
+    String str19es = strText19es;
     String str18b = op18b;
+    String str19m = op19m;
+    String str19am = strText19am;
+    String str19bm = strText19bm;
+    String str19cm = strText19cm;
+    String str19dm = strText19dm;
+    String str19em = strText19em;
     String str18c = op18c;
+    String str19t = op19t;
+    String str19at = strText19at;
+    String str19bt = strText19bt;
+    String str19ct = strText19ct;
+    String str19dt = strText19dt;
+    String str19et = strText19et;
     String str18d = op18d;
+    String str19ca = op19ca;
+    String str19aca = strText19aca;
+    String str19bca = strText19bca;
+    String str19cca = strText19cca;
+    String str19dca = strText19dca;
+    String str19eca = strText19eca;
     String str18e = op18e;
+    String str19cc = op19cc;
+    String str19acc = strText19acc;
+    String str19bcc = strText19bcc;
+    String str19ccc = strText19ccc;
+    String str19dcc = strText19dcc;
+    String str19ecc = strText19ecc;
     String str18f = op18f;
     String str19 = op19;
     String str19a = strText19a;
@@ -4711,10 +6450,40 @@ public void valores() {
             values.put("pregunta_17d",str17d);
             values.put("pregunta_18",str18);
             values.put("pregunta_18a",str18a);
+            values.put("pregunta_19s",str19s);
+            values.put("pregunta_19as",str19as);
+            values.put("pregunta_19bs",str19bs);
+            values.put("pregunta_19cs",str19cs);
+            values.put("pregunta_19ds",str19ds);
+            values.put("pregunta_19es",str19es);
             values.put("pregunta_18b",str18b);
+            values.put("pregunta_19m",str19m);
+            values.put("pregunta_19am",str19am);
+            values.put("pregunta_19bm",str19bm);
+            values.put("pregunta_19cm",str19cm);
+            values.put("pregunta_19dm",str19dm);
+            values.put("pregunta_19em",str19em);
             values.put("pregunta_18c",str18c);
+            values.put("pregunta_19t",str19t);
+            values.put("pregunta_19at",str19at);
+            values.put("pregunta_19bt",str19bt);
+            values.put("pregunta_19ct",str19ct);
+            values.put("pregunta_19dt",str19dt);
+            values.put("pregunta_19et",str19et);
             values.put("pregunta_18d",str18d);
+            values.put("pregunta_19ca",str19ca);
+            values.put("pregunta_19aca",str19aca);
+            values.put("pregunta_19bca",str19bca);
+            values.put("pregunta_19cca",str19cca);
+            values.put("pregunta_19dca",str19dca);
+            values.put("pregunta_19eca",str19eca);
             values.put("pregunta_18e",str18e);
+            values.put("pregunta_19cc",str19cc);
+            values.put("pregunta_19acc",str19acc);
+            values.put("pregunta_19bcc",str19bcc);
+            values.put("pregunta_19ccc",str19ccc);
+            values.put("pregunta_19dcc",str19dcc);
+            values.put("pregunta_19ecc",str19ecc);
             values.put("pregunta_18f",str18f);
             values.put("pregunta_19",str19);
             values.put("pregunta_19a",str19a);
@@ -4818,11 +6587,42 @@ public void valores() {
         System.out.println("pregunta_17d  " +   str17d);
         System.out.println("pregunta_18  " +   str18);
         System.out.println("pregunta_18a  " +   str18a);
+        System.out.println("pregunta_19s  " +   str19s);
+        System.out.println("pregunta_19as  " +   str19as);
+        System.out.println("pregunta_19bs  " +   str19bs);
+        System.out.println("pregunta_19cs  " +   str19cs);
+        System.out.println("pregunta_19ds  " +   str19ds);
+        System.out.println("pregunta_19es  " +   str19es);
         System.out.println("pregunta_18b  " +   str18b);
+        System.out.println("pregunta_19m  " +   str19m);
+        System.out.println("pregunta_19am  " +   str19am);
+        System.out.println("pregunta_19bm  " +   str19bm);
+        System.out.println("pregunta_19cm  " +   str19cm);
+        System.out.println("pregunta_19dm  " +   str19dm);
+        System.out.println("pregunta_19em  " +   str19em);
         System.out.println("pregunta_18c  " +   str18c);
+        System.out.println("pregunta_19t  " +   str19t);
+        System.out.println("pregunta_19at  " +   str19at);
+        System.out.println("pregunta_19bt  " +   str19bt);
+        System.out.println("pregunta_19ct  " +   str19ct);
+        System.out.println("pregunta_19dt  " +   str19dt);
+        System.out.println("pregunta_19et  " +   str19et);
         System.out.println("pregunta_18d  " +   str18d);
+        System.out.println("pregunta_19ca  " +   str19ca);
+        System.out.println("pregunta_19aca  " +   str19aca);
+        System.out.println("pregunta_19bca  " +   str19bca);
+        System.out.println("pregunta_19cca  " +   str19cca);
+        System.out.println("pregunta_19dca  " +   str19dca);
+        System.out.println("pregunta_19eca  " +   str19eca);
         System.out.println("pregunta_18e  " +   str18e);
+        System.out.println("pregunta_19cc  " +   str19cc);
+        System.out.println("pregunta_19acc  " +   str19acc);
+        System.out.println("pregunta_19bcc  " +   str19bcc);
+        System.out.println("pregunta_19ccc  " +   str19ccc);
+        System.out.println("pregunta_19dcc  " +   str19dcc);
+        System.out.println("pregunta_19ecc  " +   str19ecc);
         System.out.println("pregunta_18f  " +   str18f);
+
         System.out.println("pregunta_19  " +   str19);
         System.out.println("pregunta_19a  " +   str19a);
         System.out.println("pregunta_19b  " +   str19b);
@@ -4928,9 +6728,24 @@ startActivity(intent);
 finish();*/
 
                         Log.i(TAG, "cqs -----------> con cuantos vive " + strText10);
-                        if(strText10.equals("0")||strText10.equals("No sabe / No contestó")||strText10.equals("sin datos")||strText10.equals("")||strText10.equals("No abren/ no hay nadie")){
+                        Log.i(TAG, "cqs -----------> comparte vivienda " + op9);
+                        if(op9.equals("No aplica")&&strText10.equals("No aplica")) {
+
+                            if (opA.equals("SI vive ahí y no esta")) {
+                                dialogoAdicionales();
+                            } else {
+                                dialogo();
+                            }
+
+                            if(opB.equals("NO")){
+                                dialogoAdicionales();
+                            }
+
+                        }else if(op9.equals("NO")){
                             dialogo();
-                        }else{
+                        }else if(strText10.equals("0")||strText10.equals("No sabe / No contestó")||strText10.equals("sin datos")||strText10.equals("")||strText10.equals("No abren/ no hay nadie")){
+                            dialogo();
+                        }else {
                             dialogoAdicionales();
                         }
 
@@ -4969,12 +6784,29 @@ public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Thr
     Toast.makeText(MainActivityPantalla1.this, "Error de conexion, Se guarda en la base interna", Toast.LENGTH_SHORT).show();
     btnGuardar.setEnabled(true);
 
-    Log.i(TAG, "cqs -----------> con cuantos vive: " + strText10);
-    if(strText10.equals("0")||strText10.equals("No sabe / No contestó")||strText10.equals("sin datos")||strText10.equals("")||strText10.equals("No abren/ no hay nadie")){
+    Log.i(TAG, "cqs -----------> con cuantos vive " + strText10);
+    Log.i(TAG, "cqs -----------> comparte vivienda " + op9);
+
+    if(op9.equals("No aplica")&&strText10.equals("No aplica")) {
+
+        if (opA.equals("SI vive ahí y no esta")) {
+            dialogoAdicionales();
+        } else {
+            dialogo();
+        }
+
+        if(opB.equals("NO")){
+            dialogoAdicionales();
+        }
+
+    }else if(op9.equals("NO")){
         dialogo();
-    }else{
+    }else if(strText10.equals("0")||strText10.equals("No sabe / No contestó")||strText10.equals("sin datos")||strText10.equals("")||strText10.equals("No abren/ no hay nadie")){
+        dialogo();
+    }else {
         dialogoAdicionales();
     }
+
 
 
 }
@@ -5060,10 +6892,40 @@ public void guardar(View v) {
             ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura17,Toast.LENGTH_LONG).show();}
 //            else if (lay18.getVisibility() == View.VISIBLE && op18.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura18,Toast.LENGTH_LONG).show();}
             else if (lay18a.getVisibility() == View.VISIBLE && op18a.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura18a,Toast.LENGTH_LONG).show();}
+            else if (lay19as.getVisibility() == View.VISIBLE && op19as.matches("sin datos") && editPregunta19as.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19as,Toast.LENGTH_LONG).show();}
+            else if (lay19bs.getVisibility() == View.VISIBLE && op19bs.matches("sin datos") && editPregunta19bs.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19bs,Toast.LENGTH_LONG).show();}
+            else if (lay19cs.getVisibility() == View.VISIBLE && op19cs.matches("sin datos") && editPregunta19cs.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19cs,Toast.LENGTH_LONG).show();}
+            else if (lay19ds.getVisibility() == View.VISIBLE && op19ds.matches("sin datos") && editPregunta19ds.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19ds,Toast.LENGTH_LONG).show();}
+            else if (lay19es.getVisibility() == View.VISIBLE && op19es.matches("sin datos") && spinner19es.getSelectedItem().toString().equals("Selecciona") ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19es,Toast.LENGTH_LONG).show();}
+
             else if (lay18b.getVisibility() == View.VISIBLE && op18b.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura18b,Toast.LENGTH_LONG).show();}
+            else if (lay19am.getVisibility() == View.VISIBLE && op19am.matches("sin datos") && editPregunta19am.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19am,Toast.LENGTH_LONG).show();}
+            else if (lay19bm.getVisibility() == View.VISIBLE && op19bm.matches("sin datos") && editPregunta19bm.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19bm,Toast.LENGTH_LONG).show();}
+            else if (lay19cm.getVisibility() == View.VISIBLE && op19cm.matches("sin datos") && editPregunta19cm.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19cm,Toast.LENGTH_LONG).show();}
+            else if (lay19dm.getVisibility() == View.VISIBLE && op19dm.matches("sin datos") && editPregunta19dm.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19dm,Toast.LENGTH_LONG).show();}
+            else if (lay19em.getVisibility() == View.VISIBLE && op19em.matches("sin datos") && spinner19em.getSelectedItem().toString().equals("Selecciona") ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19em,Toast.LENGTH_LONG).show();}
+
             else if (lay18c.getVisibility() == View.VISIBLE && op18c.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura18c,Toast.LENGTH_LONG).show();}
+            else if (lay19at.getVisibility() == View.VISIBLE && op19at.matches("sin datos") && editPregunta19at.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19at,Toast.LENGTH_LONG).show();}
+            else if (lay19bt.getVisibility() == View.VISIBLE && op19bt.matches("sin datos") && editPregunta19bt.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19bt,Toast.LENGTH_LONG).show();}
+            else if (lay19ct.getVisibility() == View.VISIBLE && op19ct.matches("sin datos") && editPregunta19ct.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19ct,Toast.LENGTH_LONG).show();}
+            else if (lay19dt.getVisibility() == View.VISIBLE && op19dt.matches("sin datos") && editPregunta19dt.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19dt,Toast.LENGTH_LONG).show();}
+            else if (lay19et.getVisibility() == View.VISIBLE && op19et.matches("sin datos") && spinner19et.getSelectedItem().toString().equals("Selecciona") ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19et,Toast.LENGTH_LONG).show();}
+
             else if (lay18d.getVisibility() == View.VISIBLE && op18d.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura18d,Toast.LENGTH_LONG).show();}
+            else if (lay19aca.getVisibility() == View.VISIBLE && op19aca.matches("sin datos") && editPregunta19aca.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19aca,Toast.LENGTH_LONG).show();}
+            else if (lay19bca.getVisibility() == View.VISIBLE && op19bca.matches("sin datos") && editPregunta19bca.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19bca,Toast.LENGTH_LONG).show();}
+            else if (lay19cca.getVisibility() == View.VISIBLE && op19cca.matches("sin datos") && editPregunta19cca.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19cca,Toast.LENGTH_LONG).show();}
+            else if (lay19dca.getVisibility() == View.VISIBLE && op19dca.matches("sin datos") && editPregunta19dca.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19dca,Toast.LENGTH_LONG).show();}
+            else if (lay19eca.getVisibility() == View.VISIBLE && op19eca.matches("sin datos") && spinner19eca.getSelectedItem().toString().equals("Selecciona") ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19eca,Toast.LENGTH_LONG).show();}
+
             else if (lay18e.getVisibility() == View.VISIBLE && op18e.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura18e,Toast.LENGTH_LONG).show();}
+            else if (lay19acc.getVisibility() == View.VISIBLE && op19acc.matches("sin datos") && editPregunta19acc.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19acc,Toast.LENGTH_LONG).show();}
+            else if (lay19bcc.getVisibility() == View.VISIBLE && op19bcc.matches("sin datos") && editPregunta19bcc.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19bcc,Toast.LENGTH_LONG).show();}
+            else if (lay19ccc.getVisibility() == View.VISIBLE && op19ccc.matches("sin datos") && editPregunta19ccc.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19ccc,Toast.LENGTH_LONG).show();}
+            else if (lay19dcc.getVisibility() == View.VISIBLE && op19dcc.matches("sin datos") && editPregunta19dcc.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19dcc,Toast.LENGTH_LONG).show();}
+            else if (lay19ecc.getVisibility() == View.VISIBLE && op19ecc.matches("sin datos") && spinner19ecc.getSelectedItem().toString().equals("Selecciona") ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19ecc,Toast.LENGTH_LONG).show();}
+
             else if (lay18f.getVisibility() == View.VISIBLE && op18f.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura18f,Toast.LENGTH_LONG).show();}
 //            else if (lay19.getVisibility() == View.VISIBLE && op19.matches("sin datos")){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19,Toast.LENGTH_LONG).show();}
             else if (lay19a.getVisibility() == View.VISIBLE && op19a.matches("sin datos") && editPregunta19a.getText().toString().trim().length() == 0 ){Toast.makeText(getBaseContext(),"CAPTURA:  " +  captura19a,Toast.LENGTH_LONG).show();}
@@ -5289,6 +7151,7 @@ public void CargaSpinnerAlcaldia8f() {
     spinner8f.setAdapter(adaptador);
     spinner8f.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
         public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+            rdPregunta8f.clearCheck();
         }
 
         public void onNothingSelected(AdapterView<?> parent) {
@@ -5310,6 +7173,7 @@ public void CargaSpinnerAlcaldia13e() {
     spinner13e.setAdapter(adaptador);
     spinner13e.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
         public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+            rdPregunta13e.clearCheck();
         }
 
         public void onNothingSelected(AdapterView<?> parent) {
@@ -5331,6 +7195,118 @@ public void CargaSpinnerAlcaldia13e() {
         spinner19e.setAdapter(adaptador);
         spinner19e.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+                rdPregunta19e.clearCheck();
+            }
+
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+    }
+
+
+    public void CargaSpinnerAlcaldia19es() {
+        String var = "Selecciona";
+        if (var == null) {
+            var = "";
+        }
+        final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
+                "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
+                "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
+                "XOCHIMILCO"};
+        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
+        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner19es.setAdapter(adaptador);
+        spinner19es.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+                rdPregunta19es.clearCheck();
+            }
+
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+    }
+
+    public void CargaSpinnerAlcaldia19em() {
+        String var = "Selecciona";
+        if (var == null) {
+            var = "";
+        }
+        final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
+                "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
+                "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
+                "XOCHIMILCO"};
+        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
+        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner19em.setAdapter(adaptador);
+        spinner19em.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+                rdPregunta19em.clearCheck();
+            }
+
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+    }
+
+    public void CargaSpinnerAlcaldia19et() {
+        String var = "Selecciona";
+        if (var == null) {
+            var = "";
+        }
+        final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
+                "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
+                "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
+                "XOCHIMILCO"};
+        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
+        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner19et.setAdapter(adaptador);
+        spinner19et.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+                rdPregunta19et.clearCheck();
+            }
+
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+    }
+
+    public void CargaSpinnerAlcaldia19eca() {
+        String var = "Selecciona";
+        if (var == null) {
+            var = "";
+        }
+        final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
+                "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
+                "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
+                "XOCHIMILCO"};
+        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
+        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner19eca.setAdapter(adaptador);
+        spinner19eca.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+                rdPregunta19eca.clearCheck();
+            }
+
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+    }
+
+    public void CargaSpinnerAlcaldia19ecc() {
+        String var = "Selecciona";
+        if (var == null) {
+            var = "";
+        }
+        final String[] datos = new String[]{"" + var + "", "ALVARO OBREGON", "AZCAPOTZALCO", "BENITO JUAREZ",
+                "COYOACAN", "CUAJIMALPA DE MORELOS", "CUAUHTEMOC", "GUSTAVO A. MADERO", "IZTACALCO", "IZTAPALAPA",
+                "MAGDALENA CONTRERAS", "MIGUEL HIDALGO", "MILPA ALTA", "TLAHUAC", "TLALPAN", "VENUSTIANO CARRANZA",
+                "XOCHIMILCO"};
+        ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
+        adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner19ecc.setAdapter(adaptador);
+        spinner19ecc.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView<?> parent, android.view.View v, int position, long id) {
+                rdPregunta19ecc.clearCheck();
             }
 
             public void onNothingSelected(AdapterView<?> parent) {

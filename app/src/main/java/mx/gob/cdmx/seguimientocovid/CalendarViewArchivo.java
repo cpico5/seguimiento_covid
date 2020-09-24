@@ -676,7 +676,7 @@ public String dameTotal(String fecha) {
 	usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 	String cuantosNormal;
 	db = usdbh.getWritableDatabase();
-	String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "'";
+	String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "'";
 	Cursor c = db.rawQuery(selectQuery1, null);
 	if (c.getCount() > 0) {
 // Recorremos el cursor hasta que no haya más registros
@@ -697,7 +697,7 @@ public String dameNormal(String fecha) {
 	usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 	String cuantosNormal;
 	db = usdbh.getWritableDatabase();
-	String selectQuery1 = "select count(*) as total from encuestas where tipo_captura='NORMAL' and  fecha='" + fecha + "' and usuario<>'1'";
+	String selectQuery1 = "select count(*) as total from contactos where tipo_captura='NORMAL' and  fecha='" + fecha + "' and usuario<>'1'";
 	Cursor c = db.rawQuery(selectQuery1, null);
 	if (c.getCount() > 0) {
 // Recorremos el cursor hasta que no haya más registros
@@ -718,7 +718,7 @@ public int dameAbandono(String fecha) {
 	usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 	int cuantosAbandonos;
 	db = usdbh.getWritableDatabase();
-	String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "' and usuario<>'1' and tipo_captura='ABANDONO'";
+	String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "' and usuario<>'1' and tipo_captura='ABANDONO'";
 	Cursor c = db.rawQuery(selectQuery1, null);
 	if (c.getCount() > 0) {
 // Recorremos el cursor hasta que no haya más registros
@@ -739,7 +739,7 @@ public String dameRechazo(String fecha) {
 	usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 	String cuantosRechazos;
 	db = usdbh.getWritableDatabase();
-	String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "' and usuario<>'1' and tipo_captura='RECHAZO'";
+	String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "' and usuario<>'1' and tipo_captura='RECHAZO'";
 	Cursor c = db.rawQuery(selectQuery1, null);
 	if (c.getCount() > 0) {
 // Recorremos el cursor hasta que no haya más registros
@@ -760,7 +760,7 @@ public String dameRechazo(String fecha) {
 		usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 		String cuantosRechazos;
 		db = usdbh.getWritableDatabase();
-		String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "' and usuario<>'1' and tipo_captura='RECHAZO TEMOR A CONTAGIO'";
+		String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "' and usuario<>'1' and tipo_captura='RECHAZO TEMOR A CONTAGIO'";
 		Cursor c = db.rawQuery(selectQuery1, null);
 		if (c.getCount() > 0) {
 // Recorremos el cursor hasta que no haya más registros
@@ -781,7 +781,7 @@ public String dameFiltro(String fecha) {
 	usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 	String cuantosFiltros;
 	db = usdbh.getWritableDatabase();
-	String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "' and usuario<>'1' and tipo_captura='FILTRO'";
+	String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "' and usuario<>'1' and tipo_captura='FILTRO'";
 	Cursor c = db.rawQuery(selectQuery1, null);
 	if (c.getCount() > 0) {
 // Recorremos el cursor hasta que no haya más registros
@@ -802,7 +802,7 @@ public String damePruebas(String fecha) {
 	usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 	String cuantosRechazos;
 	db = usdbh.getWritableDatabase();
-	String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "' and usuario='1'";
+	String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "' and usuario='1'";
 	Log.i(TAG, "======= > DamePruebas: "+selectQuery1);
 	Cursor c = db.rawQuery(selectQuery1, null);
 	if (c.getCount() > 0) {

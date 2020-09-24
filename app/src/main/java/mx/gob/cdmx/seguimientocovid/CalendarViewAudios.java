@@ -635,7 +635,7 @@ Calendar c = Calendar.getInstance();
 		usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 		String cuantosNormal;
 		db = usdbh.getWritableDatabase();
-		String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "'";
+		String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "'";
 		Cursor c = db.rawQuery(selectQuery1, null);
 		if (c.getCount() > 0) {
 			// Recorremos el cursor hasta que no haya más registros
@@ -656,7 +656,7 @@ Calendar c = Calendar.getInstance();
 		usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 		int cuantosAbandonos;
 		db = usdbh.getWritableDatabase();
-		String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "' and tipocaptura='ABANDONO'";
+		String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "' and tipocaptura='ABANDONO'";
 		Cursor c = db.rawQuery(selectQuery1, null);
 		if (c.getCount() > 0) {
 			// Recorremos el cursor hasta que no haya más registros
@@ -677,7 +677,7 @@ Calendar c = Calendar.getInstance();
 		usdbh = new UsuariosSQLiteHelper(this, "F", null, 1,DATABASE_NAME);
 		String cuantosRechazos;
 		db = usdbh.getWritableDatabase();
-		String selectQuery1 = "select count(*) as total from encuestas where fecha='" + fecha + "' and tipocaptura='RECHAZO'";
+		String selectQuery1 = "select count(*) as total from contactos where fecha='" + fecha + "' and tipocaptura='RECHAZO'";
 		Cursor c = db.rawQuery(selectQuery1, null);
 		if (c.getCount() > 0) {
 			// Recorremos el cursor hasta que no haya más registros

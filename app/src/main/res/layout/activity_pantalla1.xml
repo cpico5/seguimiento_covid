@@ -139,17 +139,59 @@
             <include layout="@layout/preg17"/>
             <include layout="@layout/preg18"/>
             <include layout="@layout/preg18a"/>
+
+            <include layout="@layout/preg19s"/>
+            <include layout="@layout/preg19as"/>
+            <include layout="@layout/preg19bs"/>
+            <include layout="@layout/preg19cs"/>
+            <include layout="@layout/preg19ds"/>
+            <include layout="@layout/preg19es"/>
+
             <include layout="@layout/preg18b"/>
+
+            <include layout="@layout/preg19m"/>
+            <include layout="@layout/preg19am"/>
+            <include layout="@layout/preg19bm"/>
+            <include layout="@layout/preg19cm"/>
+            <include layout="@layout/preg19dm"/>
+            <include layout="@layout/preg19em"/>
+
             <include layout="@layout/preg18c"/>
+
+            <include layout="@layout/preg19t"/>
+            <include layout="@layout/preg19at"/>
+            <include layout="@layout/preg19bt"/>
+            <include layout="@layout/preg19ct"/>
+            <include layout="@layout/preg19dt"/>
+            <include layout="@layout/preg19et"/>
+
             <include layout="@layout/preg18d"/>
+
+            <include layout="@layout/preg19ca"/>
+            <include layout="@layout/preg19aca"/>
+            <include layout="@layout/preg19bca"/>
+            <include layout="@layout/preg19cca"/>
+            <include layout="@layout/preg19dca"/>
+            <include layout="@layout/preg19eca"/>
+
             <include layout="@layout/preg18e"/>
+
+            <include layout="@layout/preg19cc"/>
+            <include layout="@layout/preg19acc"/>
+            <include layout="@layout/preg19bcc"/>
+            <include layout="@layout/preg19ccc"/>
+            <include layout="@layout/preg19dcc"/>
+            <include layout="@layout/preg19ecc"/>
+
             <include layout="@layout/preg18f"/>
+
             <include layout="@layout/preg19"/>
             <include layout="@layout/preg19a"/>
             <include layout="@layout/preg19b"/>
             <include layout="@layout/preg19c"/>
             <include layout="@layout/preg19d"/>
             <include layout="@layout/preg19e"/>
+
             <include layout="@layout/preg20"/>
             <include layout="@layout/preg21"/>
             <include layout="@layout/preg22"/>

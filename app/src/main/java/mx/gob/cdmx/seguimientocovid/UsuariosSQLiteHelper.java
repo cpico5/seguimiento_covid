@@ -40,7 +40,7 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
     static String prefix = ID;
 
     // private static final String DATABASE_NAME = Environment.getExternalStorageDirectory() +"/Mis_archivos/" +nombreE+"_"+prefix+"";
-    private static final int DATABASE_VERSION = 20;
+    private static final int DATABASE_VERSION = 21;
 
 
     public UsuariosSQLiteHelper(Context context, String name, CursorFactory factory, int version, String DATABASE_NAME) {
@@ -131,11 +131,42 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
         public static String COLUMNA_pregunta_17d="pregunta_17d";
         public static String COLUMNA_pregunta_18="pregunta_18";
         public static String COLUMNA_pregunta_18a="pregunta_18a";
+        public static String COLUMNA_pregunta_19s="pregunta_19s";
+        public static String COLUMNA_pregunta_19as="pregunta_19as";
+        public static String COLUMNA_pregunta_19bs="pregunta_19bs";
+        public static String COLUMNA_pregunta_19cs="pregunta_19cs";
+        public static String COLUMNA_pregunta_19ds="pregunta_19ds";
+        public static String COLUMNA_pregunta_19es="pregunta_19es";
         public static String COLUMNA_pregunta_18b="pregunta_18b";
+        public static String COLUMNA_pregunta_19m="pregunta_19m";
+        public static String COLUMNA_pregunta_19am="pregunta_19am";
+        public static String COLUMNA_pregunta_19bm="pregunta_19bm";
+        public static String COLUMNA_pregunta_19cm="pregunta_19cm";
+        public static String COLUMNA_pregunta_19dm="pregunta_19dm";
+        public static String COLUMNA_pregunta_19em="pregunta_19em";
         public static String COLUMNA_pregunta_18c="pregunta_18c";
+        public static String COLUMNA_pregunta_19t="pregunta_19t";
+        public static String COLUMNA_pregunta_19at="pregunta_19at";
+        public static String COLUMNA_pregunta_19bt="pregunta_19bt";
+        public static String COLUMNA_pregunta_19ct="pregunta_19ct";
+        public static String COLUMNA_pregunta_19dt="pregunta_19dt";
+        public static String COLUMNA_pregunta_19et="pregunta_19et";
         public static String COLUMNA_pregunta_18d="pregunta_18d";
+        public static String COLUMNA_pregunta_19ca="pregunta_19ca";
+        public static String COLUMNA_pregunta_19aca="pregunta_19aca";
+        public static String COLUMNA_pregunta_19bca="pregunta_19bca";
+        public static String COLUMNA_pregunta_19cca="pregunta_19cca";
+        public static String COLUMNA_pregunta_19dca="pregunta_19dca";
+        public static String COLUMNA_pregunta_19eca="pregunta_19eca";
         public static String COLUMNA_pregunta_18e="pregunta_18e";
+        public static String COLUMNA_pregunta_19cc="pregunta_19cc";
+        public static String COLUMNA_pregunta_19acc="pregunta_19acc";
+        public static String COLUMNA_pregunta_19bcc="pregunta_19bcc";
+        public static String COLUMNA_pregunta_19ccc="pregunta_19ccc";
+        public static String COLUMNA_pregunta_19dcc="pregunta_19dcc";
+        public static String COLUMNA_pregunta_19ecc="pregunta_19ecc";
         public static String COLUMNA_pregunta_18f="pregunta_18f";
+
         public static String COLUMNA_pregunta_19="pregunta_19";
         public static String COLUMNA_pregunta_19a="pregunta_19a";
         public static String COLUMNA_pregunta_19b="pregunta_19b";
@@ -230,11 +261,42 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
             + TablaContactos.COLUMNA_pregunta_17d +  " text, "
             + TablaContactos.COLUMNA_pregunta_18 +  " text, "
             + TablaContactos.COLUMNA_pregunta_18a +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19s +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19as +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19bs +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19cs +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19ds +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19es +  " text, "
             + TablaContactos.COLUMNA_pregunta_18b +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19m +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19am +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19bm +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19cm +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19dm +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19em +  " text, "
             + TablaContactos.COLUMNA_pregunta_18c +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19t +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19at +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19bt +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19ct +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19dt +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19et +  " text, "
             + TablaContactos.COLUMNA_pregunta_18d +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19ca +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19aca +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19bca +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19cca +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19dca +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19eca +  " text, "
             + TablaContactos.COLUMNA_pregunta_18e +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19cc +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19acc +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19bcc +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19ccc +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19dcc +  " text, "
+            + TablaContactos.COLUMNA_pregunta_19ecc +  " text, "
             + TablaContactos.COLUMNA_pregunta_18f +  " text, "
+
             + TablaContactos.COLUMNA_pregunta_19 +  " text, "
             + TablaContactos.COLUMNA_pregunta_19a +  " text, "
             + TablaContactos.COLUMNA_pregunta_19b +  " text, "
@@ -256,7 +318,7 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
 
     public static class TablaAdicionales {
         public static String TABLA_Adicionales = "adicionales";
-        public static String COLUMNA_id_contacto = "id_contacto";
+        public static String COLUMNA_id_consecutivo_contacto = "id_consecutivo_contacto";
         public static String COLUMNA_CONSECUTIVO_DIARIO = "consecutivo_diario";
         public static String COLUMNA_EQUIPO = "equipo";
         public static String COLUMNA_USUARIO = "usuario";
@@ -325,11 +387,42 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
         public static String COLUMNA_pregunta_c_16d="pregunta_c_16d";
         public static String COLUMNA_pregunta_c_17="pregunta_c_17";
         public static String COLUMNA_pregunta_c_17a="pregunta_c_17a";
+        public static String COLUMNA_pregunta_c_18s="pregunta_c_18s";
+        public static String COLUMNA_pregunta_c_18as="pregunta_c_18as";
+        public static String COLUMNA_pregunta_c_18bs="pregunta_c_18bs";
+        public static String COLUMNA_pregunta_c_18cs="pregunta_c_18cs";
+        public static String COLUMNA_pregunta_c_18ds="pregunta_c_18ds";
+        public static String COLUMNA_pregunta_c_18es="pregunta_c_18es";
         public static String COLUMNA_pregunta_c_17b="pregunta_c_17b";
+        public static String COLUMNA_pregunta_c_18m="pregunta_c_18m";
+        public static String COLUMNA_pregunta_c_18am="pregunta_c_18am";
+        public static String COLUMNA_pregunta_c_18bm="pregunta_c_18bm";
+        public static String COLUMNA_pregunta_c_18cm="pregunta_c_18cm";
+        public static String COLUMNA_pregunta_c_18dm="pregunta_c_18dm";
+        public static String COLUMNA_pregunta_c_18em="pregunta_c_18em";
         public static String COLUMNA_pregunta_c_17c="pregunta_c_17c";
+        public static String COLUMNA_pregunta_c_18t="pregunta_c_18t";
+        public static String COLUMNA_pregunta_c_18at="pregunta_c_18at";
+        public static String COLUMNA_pregunta_c_18bt="pregunta_c_18bt";
+        public static String COLUMNA_pregunta_c_18ct="pregunta_c_18ct";
+        public static String COLUMNA_pregunta_c_18dt="pregunta_c_18dt";
+        public static String COLUMNA_pregunta_c_18et="pregunta_c_18et";
         public static String COLUMNA_pregunta_c_17d="pregunta_c_17d";
+        public static String COLUMNA_pregunta_c_18ca="pregunta_c_18ca";
+        public static String COLUMNA_pregunta_c_18aca="pregunta_c_18aca";
+        public static String COLUMNA_pregunta_c_18bca="pregunta_c_18bca";
+        public static String COLUMNA_pregunta_c_18cca="pregunta_c_18cca";
+        public static String COLUMNA_pregunta_c_18dca="pregunta_c_18dca";
+        public static String COLUMNA_pregunta_c_18eca="pregunta_c_18eca";
         public static String COLUMNA_pregunta_c_17e="pregunta_c_17e";
+        public static String COLUMNA_pregunta_c_18cc="pregunta_c_18cc";
+        public static String COLUMNA_pregunta_c_18acc="pregunta_c_18acc";
+        public static String COLUMNA_pregunta_c_18bcc="pregunta_c_18bcc";
+        public static String COLUMNA_pregunta_c_18ccc="pregunta_c_18ccc";
+        public static String COLUMNA_pregunta_c_18dcc="pregunta_c_18dcc";
+        public static String COLUMNA_pregunta_c_18ecc="pregunta_c_18ecc";
         public static String COLUMNA_pregunta_c_17f="pregunta_c_17f";
+
         public static String COLUMNA_pregunta_c_18="pregunta_c_18";
         public static String COLUMNA_pregunta_c_18a="pregunta_c_18a";
         public static String COLUMNA_pregunta_c_18b="pregunta_c_18b";
@@ -354,7 +447,7 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
     private static final String DATABASE_Adicionales = "create table "
             + TablaAdicionales.TABLA_Adicionales + "("
             + "id integer primary key autoincrement,"
-            + TablaAdicionales.COLUMNA_id_contacto + " text, "
+            + TablaAdicionales.COLUMNA_id_consecutivo_contacto + " text, "
             + TablaAdicionales.COLUMNA_CONSECUTIVO_DIARIO + " text not null, "
             + TablaAdicionales.COLUMNA_EQUIPO + " text not null, "
             + TablaAdicionales.COLUMNA_USUARIO + " text not null, "
@@ -423,11 +516,42 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
             + TablaAdicionales.COLUMNA_pregunta_c_16d +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_17 +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_17a +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18s +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18as +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18bs +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18cs +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18ds +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18es +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_17b +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18m +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18am +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18bm +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18cm +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18dm +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18em +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_17c +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18t +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18at +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18bt +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18ct +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18dt +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18et +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_17d +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18ca +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18aca +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18bca +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18cca +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18dca +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18eca +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_17e +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18cc +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18acc +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18bcc +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18ccc +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18dcc +  " text, "
+            + TablaAdicionales.COLUMNA_pregunta_c_18ecc +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_17f +  " text, "
+
             + TablaAdicionales.COLUMNA_pregunta_c_18 +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_18a +  " text, "
             + TablaAdicionales.COLUMNA_pregunta_c_18b +  " text, "

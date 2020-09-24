@@ -8,7 +8,7 @@ android {
         targetSdkVersion 27
         versionCode 1
         multiDexEnabled true
-        versionName "1.0.2"
+        versionName "1.0.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         compileOptions.encoding = 'iso-8859-1' // write your encoding here
 
