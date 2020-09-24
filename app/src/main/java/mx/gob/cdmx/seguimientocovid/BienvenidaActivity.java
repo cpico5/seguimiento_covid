@@ -259,7 +259,7 @@ public class BienvenidaActivity extends Activity {
                 @Override
                 public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                     Log.d(TAG, "Realizo la conexión");
-                    Log.d(TAG, "cea -----------> " + new String(responseBody));
+                    Log.d(TAG, "cqs conexión 1 -----------> " + new String(responseBody));
                     try {
 
                         String json = new String(responseBody);
@@ -334,7 +334,7 @@ public class BienvenidaActivity extends Activity {
                 public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
                     Log.e(TAG, "existe un error en la conexión on Failure ");
                     if(responseBody != null){
-                        Log.d(TAG, "cea -----------> " + new String(responseBody));
+                        Log.d(TAG, "cqs conexion on failure -----------> " + new String(responseBody));
                     }
 
                     String dato=sacaMaximo();
